@@ -24,14 +24,20 @@ plugins {
 }
 
 repositories {
+    maven("https://harleyoconnor.com/maven")
+    maven("https://squiddev.cc/maven/")
     maven("https://ldtteam.jfrog.io/ldtteam/modding/")
+    maven("https://maven.parchmentmc.org")
+    maven("https://maven.minecraftforge.net/")
+    maven("https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/").content { includeGroup("software.bernie.geckolib") }
+    maven("https://maven.jt-dev.tech/releases")
+    maven("https://maven.jt-dev.tech/snapshots")
     maven("https://www.cursemaven.com") {
         content {
             includeGroup("curse.maven")
         }
     }
-    maven("https://harleyoconnor.com/maven")
-    maven("https://squiddev.cc/maven/")
+    mavenCentral()
     mavenLocal()
     flatDir {
         dir("libs")
@@ -48,7 +54,8 @@ version = "$mcVersion-$modVersion"
 group = property("group")
 
 minecraft {
-    mappings("parchment", "${property("mappingsVersion")}-$mcVersion")
+    mappings("official", mcVersion)
+    //mappings("parchment", "${property("mappingsVersion")}-$mcVersion")
     accessTransformer(file("src/main/resources/META-INF/accesstransformer.cfg"))
 
     runs {
@@ -95,20 +102,21 @@ dependencies {
     minecraft("net.minecraftforge:forge:${mcVersion}-${property("forgeVersion")}")
 
     implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:$dtVersion"))
-
     implementation(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
 
-    implementation(fg.deobf("curse.maven:corgilib-693313:5643186"))
-    implementation(fg.deobf("curse.maven:geckolib-388172:5460309"))
-    implementation(fg.deobf("curse.maven:terrablender-563928:5378180"))
-    implementation(fg.deobf("curse.maven:oh-the-trees-youll-grow-962544:5540975"))
-    implementation(fg.deobf("curse.maven:oh-the-biomes-weve-gone-1070751:5651529"))
+    runtimeOnly(fg.deobf("com.github.glitchfiend:TerraBlender-forge:1.20.1-3.0.1.7"))
+    runtimeOnly(fg.deobf("corgitaco.corgilib:Corgilib-Forge:1.20.1-4.0.3.3"))
+    runtimeOnly(fg.deobf("dev.corgitaco:Oh-The-Trees-Youll-Grow-forge:1.20.1-1.3.4"))
+    runtimeOnly(fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.7"))
+    implementation(fg.deobf("curse.maven:oh-the-biomes-weve-gone-1070751:6099955"))
 
     runtimeOnly(fg.deobf("curse.maven:jade-324717:5072729"))
     runtimeOnly(fg.deobf("curse.maven:jei-238222:5101366"))
     runtimeOnly(fg.deobf("curse.maven:cc-tweaked-282001:5118388"))
     runtimeOnly(fg.deobf("curse.maven:suggestion-provider-fix-469647:4591193"))
     runtimeOnly(fg.deobf("vazkii.patchouli:Patchouli:${property("patchouliVersion")}"))
+
+    annotationProcessor("org.spongepowered:mixin:0.8.5:processor")
 }
 
 tasks.jar {
