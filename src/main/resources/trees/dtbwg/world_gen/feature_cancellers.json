@@ -1,0 +1,10 @@
+[
+  {
+    "__comment": "Cancel standard tree features from bwg biomes.",
+    "select": { "name": "biomeswevegone.*" },
+    "cancellers": {
+      "types": [ "dtbwg:tree", "tree" ],
+      "namespaces": ["biomeswevegone", "corgilib", "minecraft"]
+    }
+  }
+]

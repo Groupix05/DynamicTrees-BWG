@@ -273,23 +273,6 @@
   },
   {
     "select": {
-      "name": "biomeswevegone:coconino_meadow"
-    },
-    "apply": {
-      "species": {
-        "random": {
-          "dtbwg:canopy_oak": 1,
-          "dtbwg:caonpy_dark_oak": 1,
-          "dtbwg:dark_oak_twiglet": 4,
-          "oak_undergrowth": 8
-        }
-      },
-      "density": [ 2 ],
-      "chance": 0.5
-    }
-  },
-  {
-    "select": {
       "name": "biomeswevegone:temperate_grove"
     },
     "apply": {

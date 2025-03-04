@@ -1,0 +1,19 @@
+[
+  {
+    "select": {
+      "name": "biomeswevegone:coconino_meadow"
+    },
+    "apply": {
+      "species": {
+        "random": {
+          "dtbwg:canopy_oak": 1,
+          "dtbwg:canopy_dark_oak": 1,
+          "dtbwg:bushy_oak": 12,
+          "dtbwg:dark_oak_twiglet": 1
+        }
+      },
+      "density": [ 2 ],
+      "chance": 0.5
+    }
+  }
+]
