@@ -5,18 +5,18 @@
   "up_probability": 8,
   "growth_rate": 0.8,
   "lowest_branch_height": 12,
-  "leaves_properties": "dtbyg:orchard",
-  "use_seed_of_other_species": "dtbyg:orchard",
+  "leaves_properties": "dtbwg:orchard",
+  "use_seed_of_other_species": "dtbwg:orchard",
   "environment_factors" : {
     "cold": 0.75,
     "hot": 0.5,
     "dry": 0.5
   },
   "perfect_biomes": {
-    "name": "byg:.*orchard.*"
+    "name": "biomeswevegone:.*orchard.*"
   },
-  "primitive_sapling": "byg:orchard_sapling",
-  "mega_species": "dtbyg:mega_orchard",
+  "primitive_sapling": "biomeswevegone:orchard_sapling",
+  "mega_species": "dtbwg:mega_orchard",
   "fruits": [
     "apple"
   ],
@@ -41,7 +41,7 @@
     {
       "name": "alt_leaves",
       "properties": {
-        "alternative_leaves": "dtbyg:flowering_orchard",
+        "alternative_leaves": "dtbwg:flowering_orchard",
         "place_chance": 0.33
       }
     },

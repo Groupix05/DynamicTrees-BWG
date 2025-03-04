@@ -1,7 +1,0 @@
-{
-  "parent": "dynamictrees:item/branch",
-  "textures": {
-    "bark": "byg:block/imparius/log",
-    "rings": "byg:block/imparius/log_top"
-  }
-}

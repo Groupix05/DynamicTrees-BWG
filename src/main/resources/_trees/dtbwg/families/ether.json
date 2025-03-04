@@ -1,14 +1,14 @@
 {
-  "common_leaves": "dtbyg:ether",
-  "common_species": "dtbyg:ether",
-  "primitive_log": "byg:ether_log",
-  "primitive_stripped_log": "byg:stripped_ether_log",
+  "common_leaves": "dtbwg:ether",
+  "common_species": "dtbwg:ether",
+  "primitive_log": "biomeswevegone:ether_log",
+  "primitive_stripped_log": "biomeswevegone:stripped_ether_log",
   "max_branch_radius": 24,
   "max_signal_depth": 64,
   "texture_overrides": {
-    "branch": "byg:block/ether/log",
-    "branch_top": "byg:block/ether/log_top",
-    "stripped_branch": "byg:block/ether/stripped_log",
-    "stripped_branch_top": "byg:block/ether/stripped_log_top"
+    "branch": "biomeswevegone:block/ether/log",
+    "branch_top": "biomeswevegone:block/ether/log_top",
+    "stripped_branch": "biomeswevegone:block/ether/stripped_log",
+    "stripped_branch_top": "biomeswevegone:block/ether/stripped_log_top"
   }
 }

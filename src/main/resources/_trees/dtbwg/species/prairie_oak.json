@@ -4,19 +4,19 @@
   "signal_energy": 14.0,
   "growth_rate": 0.8,
   "lowest_branch_height": 4,
-  "leaves_properties": "dtbyg:prairie_oak",
+  "leaves_properties": "dtbwg:prairie_oak",
   "environment_factors" : {
     "cold": 0.75,
     "hot": 0.5,
     "dry": 0.5
   },
   "perfect_biomes": {
-    "name": "byg:prairie.*"
+    "name": "biomeswevegone:prairie.*"
   },
   "common_override": {
-    "name": "byg:prairie.*"
+    "name": "biomeswevegone:prairie.*"
   },
-  "mega_species": "dtbyg:mega_prairie_oak",
+  "mega_species": "dtbwg:mega_prairie_oak",
   "features" : [
     {
       "name": "rot_soil",

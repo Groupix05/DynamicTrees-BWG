@@ -1,6 +1,6 @@
 {
-  "type": "dtbyg:generates_underwater",
-  "family": "dtbyg:cypress",
+  "type": "dtbwg:generates_underwater",
+  "family": "dtbwg:cypress",
   "tapering": 0.2,
   "signal_energy": 32.0,
   "up_probability": 3,
@@ -9,19 +9,19 @@
   "soil_longevity": 12,
   "max_branch_radius": 9,
   "world_gen_leaf_map_height": 64,
-  "growth_logic_kit": "dtbyg:cypress",
-  "leaves_properties": "dtbyg:cypress",
+  "growth_logic_kit": "dtbwg:cypress",
+  "leaves_properties": "dtbwg:cypress",
   "environment_factors" : {
     "hot": 0.7,
     "dry": 0.5
   },
   "perfect_biomes": { "types": [ "swamp", "overworld" ] },
-  "primitive_sapling": "byg:cypress_sapling",
+  "primitive_sapling": "biomeswevegone:cypress_sapling",
   "acceptable_soils": [ "water_like", "dirt_like" ],
   "world_gen_acceptable_soils": [ "mud_like" ],
-  "mega_species": "dtbyg:mega_cypress",
+  "mega_species": "dtbwg:mega_cypress",
   "features": [
-    "dtbyg:extra_bottom_flare",
+    "dtbwg:extra_bottom_flare",
     {
       "name": "mound",
       "properties": {

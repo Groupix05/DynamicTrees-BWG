@@ -5,9 +5,9 @@
   "up_probability": 6,
   "lowest_branch_height": 6,
   "growth_rate": 0.9,
-  "growth_logic_kit": "dtbyg:tapered",
-  "leaves_properties": "dtbyg:brown_tapered_oak",
-  "use_seed_of_other_species": "dtbyg:brown_oak",
+  "growth_logic_kit": "dtbwg:tapered",
+  "leaves_properties": "dtbwg:brown_tapered_oak",
+  "use_seed_of_other_species": "dtbwg:brown_oak",
   "environment_factors" : {
     "hot": 0.75,
     "dry": 0.50

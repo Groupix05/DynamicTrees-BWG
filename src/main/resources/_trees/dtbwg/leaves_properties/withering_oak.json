@@ -2,8 +2,8 @@
   "type": "scruffy",
   "scruffy_leaf_chance": 0.75,
   "scruffy_max_hydro": 4,
-  "primitive_leaves": "byg:withering_oak_leaves",
-  "cell_kit": "dtbyg:willow",
+  "primitive_leaves": "biomeswevegone:withering_oak_leaves",
+  "cell_kit": "dtbwg:willow",
   "light_requirement": 0,
   "fire_spread": 0,
   "flammability": 0

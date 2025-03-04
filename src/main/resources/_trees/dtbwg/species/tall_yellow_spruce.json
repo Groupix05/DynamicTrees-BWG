@@ -12,8 +12,8 @@
       "energy_divisor": 4
     }
   },
-  "leaves_properties": "dtbyg:yellow_spruce",
-  "use_seed_of_other_species": "dtbyg:yellow_spruce",
+  "leaves_properties": "dtbwg:yellow_spruce",
+  "use_seed_of_other_species": "dtbwg:yellow_spruce",
   "environment_factors": {
     "cold": 1.1,
     "hot": 0.2,
@@ -21,7 +21,7 @@
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "byg:.*taiga.*"
+    "name": "biomeswevegone:.*taiga.*"
   },
   "features" : [
     "conifer_topper",

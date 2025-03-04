@@ -1,5 +1,5 @@
 {
   "type": "aerial_roots",
-  "primitive_soil": "byg:white_mangrove_log",
+  "primitive_soil": "biomeswevegone:white_mangrove_log",
   "acceptable_soils": [ ]
 }

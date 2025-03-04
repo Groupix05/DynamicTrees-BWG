@@ -7,8 +7,8 @@
   "growth_rate": 1.2,
   "soil_longevity": 16,
   "max_branch_radius": 24,
-  "leaves_properties": "dtbyg:orchard",
-  "use_seed_of_other_species": "dtbyg:orchard",
+  "leaves_properties": "dtbwg:orchard",
+  "use_seed_of_other_species": "dtbwg:orchard",
   "environment_factors" : {
     "cold": 0.75,
     "hot": 0.5,
@@ -16,7 +16,7 @@
   },
   "world_gen_leaf_map_height": 60,
   "perfect_biomes": {
-    "name": "byg:.*orchard.*"
+    "name": "biomeswevegone:.*orchard.*"
   },
   "fruits": [
     "apple"
@@ -37,7 +37,7 @@
     {
       "name": "alt_leaves",
       "properties": {
-        "alternative_leaves": "dtbyg:flowering_orchard",
+        "alternative_leaves": "dtbwg:flowering_orchard",
         "place_chance": 0.33
       }
     },

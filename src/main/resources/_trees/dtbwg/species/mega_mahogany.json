@@ -1,5 +1,5 @@
 {
-  "family": "dtbyg:mahogany",
+  "family": "dtbwg:mahogany",
   "tapering": 0.45,
   "signal_energy": 32.0,
   "up_probability": 5,
@@ -7,7 +7,7 @@
   "growth_rate": 1.2,
   "soil_longevity": 20,
   "max_branch_radius": 22,
-  "leaves_properties": "dtbyg:mahogany",
+  "leaves_properties": "dtbwg:mahogany",
   "environment_factors" : {
     "cold": 0.75,
     "dry": 0.5

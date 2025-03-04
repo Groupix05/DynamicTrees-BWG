@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "biomeswevegone:overgrown_stone",
+  "acceptable_soils": [ "dirt_like", "stone_like" ]
+}

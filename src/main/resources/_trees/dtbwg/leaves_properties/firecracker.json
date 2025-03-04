@@ -1,6 +1,6 @@
 {
   "type": "scruffy",
-  "primitive_leaves": "byg:firecracker_leaves",
+  "primitive_leaves": "biomeswevegone:firecracker_leaves",
   "cell_kit": "dynamictrees:acacia",
   "light_requirement": 4,
   "can_grow_on_ground": true

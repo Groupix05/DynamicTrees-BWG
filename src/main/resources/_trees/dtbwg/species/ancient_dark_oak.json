@@ -8,7 +8,7 @@
   "soil_longevity": 6,
   "max_branch_radius": 16,
   "leaves_properties": "dark_oak",
-  "growth_logic_kit": "dtbyg:ancient",
+  "growth_logic_kit": "dtbwg:ancient",
   "environment_factors": {
     "cold": 0.9,
     "hot": 0.9,
@@ -29,7 +29,7 @@
       }
     },
     {
-      "name": "dtbyg:huge_mushrooms",
+      "name": "dtbwg:huge_mushrooms",
       "properties": {
         "place_chance": 0.8,
         "max_count": 2,
@@ -43,7 +43,7 @@
         "gen_feature": {
           "name": "shroomlight",
           "properties": {
-            "shroomlight": "byg:pollen_block",
+            "shroomlight": "biomeswevegone:pollen_block",
             "vanilla_grow_chance": 0
           }
         },

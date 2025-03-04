@@ -1,0 +1,13 @@
+{
+  "common_leaves": "dtbwg:ironwood",
+  "common_species": "dtbwg:ironwood",
+  "primitive_log": "biomeswevegone:ironwood_log",
+  "primitive_stripped_log": "biomeswevegone:stripped_ironwood_log",
+  "max_branch_radius": 24,
+  "texture_overrides": {
+    "branch": "biomeswevegone:block/ironwood/log",
+    "branch_top": "biomeswevegone:block/ironwood/log_top",
+    "stripped_branch": "biomeswevegone:block/ironwood/stripped_log",
+    "stripped_branch_top": "biomeswevegone:block/ironwood/stripped_log_top"
+  }
+}

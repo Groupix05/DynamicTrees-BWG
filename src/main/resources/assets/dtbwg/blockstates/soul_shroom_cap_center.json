@@ -5,7 +5,7 @@
         "age": "0"
       },
       "apply": {
-        "model": "dtbyg:block/soul_shroom_cap_center_age0"
+        "model": "dtbwg:block/soul_shroom_cap_center_age0"
       }
     },
     {
@@ -13,7 +13,7 @@
         "age": "1|2|3|4|5|6|7|8"
       },
       "apply": {
-        "model": "byg:block/soul_shroom_block"
+        "model": "biomeswevegone:block/soul_shroom_block"
       }
     },
     {
@@ -21,7 +21,7 @@
         "age": "1|2|3|4|5|6|7|8"
       },
       "apply": {
-        "model": "byg:block/soul_shroom_block",
+        "model": "biomeswevegone:block/soul_shroom_block",
         "y": 90,
         "uvlock": false
       }
@@ -31,7 +31,7 @@
         "age": "1|2|3|4|5|6|7|8"
       },
       "apply": {
-        "model": "byg:block/soul_shroom_block",
+        "model": "biomeswevegone:block/soul_shroom_block",
         "y": 180,
         "uvlock": false
       }
@@ -41,7 +41,7 @@
         "age": "1|2|3|4|5|6|7|8"
       },
       "apply": {
-        "model": "byg:block/soul_shroom_block",
+        "model": "biomeswevegone:block/soul_shroom_block",
         "y": 270,
         "uvlock": false
       }
@@ -51,7 +51,7 @@
         "age": "1|2|3|4|5|6|7|8"
       },
       "apply": {
-        "model": "byg:block/soul_shroom_block",
+        "model": "biomeswevegone:block/soul_shroom_block",
         "x": 270,
         "uvlock": true
       }
@@ -61,7 +61,7 @@
         "age": "1|2|3|4|5|6|7|8"
       },
       "apply": {
-        "model": "byg:block/soul_shroom_block_inside",
+        "model": "biomeswevegone:block/soul_shroom_block_inside",
         "x": 90,
         "uvlock": false
       }

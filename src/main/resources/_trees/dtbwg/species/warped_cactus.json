@@ -1,7 +1,7 @@
 {
   "only_if_loaded": "dynamictreesplus",
   "type": "dynamictreesplus:cactus",
-  "family": "dtbyg:warped_cactus",
+  "family": "dtbwg:warped_cactus",
   "signal_energy": 4,
   "up_probability": 4,
   "lowest_branch_height": 2,
@@ -9,6 +9,6 @@
   "soil_longevity": 1,
   "growth_logic_kit": "dynamictreesplus:saguaro_cactus",
   "cactus_thickness_logic": "dynamictreesplus:saguaro",
-  "perfect_biomes": { "name": "byg:warped_desert" },
+  "perfect_biomes": { "name": "biomeswevegone:warped_desert" },
   "acceptable_soils": ["warped_soul_like"]
 }

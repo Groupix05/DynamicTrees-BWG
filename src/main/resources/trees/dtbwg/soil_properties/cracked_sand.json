@@ -1,0 +1,4 @@
+{
+  "primitive_soil": "biomeswevegone:cracked_sand",
+  "acceptable_soils": [ "sand_like" ]
+}

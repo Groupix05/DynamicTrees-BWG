@@ -1,6 +1,6 @@
 {
-  "type": "dtbyg:generates_underwater",
-  "family": "dtbyg:cypress",
+  "type": "dtbwg:generates_underwater",
+  "family": "dtbwg:cypress",
   "tapering": 0.45,
   "signal_energy": 36.0,
   "up_probability": 2,
@@ -9,14 +9,14 @@
   "soil_longevity": 18,
   "max_branch_radius": 24,
   "growth_logic_kit": {
-    "name": "dtbyg:cypress",
+    "name": "dtbwg:cypress",
     "properties": {
       "canopy_energy": 18.5,
       "height_variation": 5,
       "bottom_branch_side_energy": 6.5
     }
   },
-  "leaves_properties": "dtbyg:cypress",
+  "leaves_properties": "dtbwg:cypress",
   "environment_factors" : {
     "hot": 0.7,
     "dry": 0.5
@@ -24,7 +24,7 @@
   "perfect_biomes": { "types": [ "swamp", "overworld" ] },
   "acceptable_soils": [ "water_like", "dirt_like" ],
   "features": [
-    "dtbyg:extra_bottom_flare",
+    "dtbwg:extra_bottom_flare",
     {
       "name": "mound",
       "properties": {

@@ -1,5 +1,5 @@
 {
-  "type": "dtbyg:weeping_milkcap_cap",
-  "primitive_cap": "byg:weeping_milkcap_mushroom_block",
+  "type": "dtbwg:weeping_milkcap_cap",
+  "primitive_cap": "biomeswevegone:weeping_milkcap_mushroom_block",
   "material_color": "DIRT"
 }

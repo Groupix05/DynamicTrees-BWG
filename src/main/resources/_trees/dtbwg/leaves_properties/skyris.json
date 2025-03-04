@@ -1,10 +1,10 @@
 {
-  "primitive_leaves": "byg:skyris_leaves",
-  "cell_kit": "dtbyg:skyris",
+  "primitive_leaves": "biomeswevegone:skyris_leaves",
+  "cell_kit": "dtbwg:skyris",
   "model_overrides": {
-    "leaves": "byg:block/skyris/leaves"
+    "leaves": "biomeswevegone:block/skyris/leaves"
   },
   "texture_overrides": {
-    "leaves": "byg:block/skyris/leaves"
+    "leaves": "biomeswevegone:block/skyris/leaves"
   }
 }

@@ -1,16 +1,16 @@
 {
   "type": "nether_fungus",
-  "common_leaves": "dtbyg:sythian",
-  "common_species": "dtbyg:sythian",
-  "primitive_log": "byg:sythian_stem",
-  "primitive_stripped_log": "byg:stripped_sythian_stem",
+  "common_leaves": "dtbwg:sythian",
+  "common_species": "dtbwg:sythian",
+  "primitive_log": "biomeswevegone:sythian_stem",
+  "primitive_stripped_log": "biomeswevegone:stripped_sythian_stem",
   "max_branch_radius": 8,
   "conifer_variants": true,
   "connect_any_radius": true,
   "texture_overrides": {
-    "branch": "byg:block/sythian/log",
-    "branch_top": "byg:block/sythian/log_top",
-    "stripped_branch": "byg:block/sythian/stripped_log",
-    "stripped_branch_top": "byg:block/sythian/stripped_log_top"
+    "branch": "biomeswevegone:block/sythian/log",
+    "branch_top": "biomeswevegone:block/sythian/log_top",
+    "stripped_branch": "biomeswevegone:block/sythian/stripped_log",
+    "stripped_branch_top": "biomeswevegone:block/sythian/stripped_log_top"
   }
 }

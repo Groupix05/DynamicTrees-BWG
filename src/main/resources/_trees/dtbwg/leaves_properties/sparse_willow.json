@@ -1,12 +1,12 @@
 {
   "type": "scruffy",
   "scruffy_leaf_chance": 0.33,
-  "primitive_leaves": "byg:willow_leaves",
-  "cell_kit": "dtbyg:sparse",
+  "primitive_leaves": "biomeswevegone:willow_leaves",
+  "cell_kit": "dtbwg:sparse",
   "model_overrides": {
-    "leaves": "byg:block/willow/leaves"
+    "leaves": "biomeswevegone:block/willow/leaves"
   },
   "texture_overrides": {
-    "leaves": "byg:block/willow/leaves"
+    "leaves": "biomeswevegone:block/willow/leaves"
   }
 }

@@ -1,4 +1,4 @@
 {
-  "primitive_soil": "byg:overgrown_netherrack",
+  "primitive_soil": "biomeswevegone:overgrown_netherrack",
   "acceptable_soils": [ "dirt_like", "nether_like" ]
 }

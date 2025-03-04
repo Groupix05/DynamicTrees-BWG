@@ -2,13 +2,13 @@
   "only_if_loaded": "dynamictreesplus",
   "type": "dynamictreesplus:cactus",
   "common_leaves": "bare",
-  "common_species": "dtbyg:warped_cactus",
-  "primitive_log": "byg:warped_cactus",
+  "common_species": "dtbwg:warped_cactus",
+  "primitive_log": "biomeswevegone:warped_cactus",
   "stick": "air",
   "generate_stripped_branch": false,
   "texture_overrides": {
-    "branch": "byg:block/warped_cactus_side",
-    "branch_top": "byg:block/warped_cactus_top",
-    "branch_bottom": "byg:block/warped_cactus_bottom"
+    "branch": "biomeswevegone:block/warped_cactus_side",
+    "branch_top": "biomeswevegone:block/warped_cactus_top",
+    "branch_bottom": "biomeswevegone:block/warped_cactus_bottom"
   }
 }

@@ -1,13 +1,13 @@
 {
-  "family": "dtbyg:witch_hazel",
+  "family": "dtbwg:witch_hazel",
   "tapering": 0.35,
   "signal_energy": 20.0,
   "up_probability": 2,
   "lowest_branch_height": 7,
   "growth_rate": 0.4,
   "soil_longevity": 20,
-  "leaves_properties": "dtbyg:sparse_witch_hazel",
-  "growth_logic_kit": "dtbyg:ebony",
+  "leaves_properties": "dtbwg:sparse_witch_hazel",
+  "growth_logic_kit": "dtbwg:ebony",
   "does_rot": false,
   "environment_factors": {
     "snowy": 0.75,
@@ -17,7 +17,7 @@
     "name": ".*witch.*"
   },
   "features": [
-    "dtbyg:big_bottom_flare",
+    "dtbwg:big_bottom_flare",
     {
       "name": "roots",
       "properties": {
@@ -31,14 +31,14 @@
       "properties": {
         "only_world_gen": true,
         "gen_feature": {
-          "name": "dtbyg:huge_mushrooms",
+          "name": "dtbwg:huge_mushrooms",
           "properties": {
             "place_chance": 0.6,
             "max_count": 2,
             "max_attempts": 2
           }
         },
-        "biome_predicate": { "names": ["byg:ebony_woods", "byg:.*ancient_forest"] }
+        "biome_predicate": { "names": ["biomeswevegone:ebony_woods", "biomeswevegone:.*ancient_forest"] }
       }
     }
   ]

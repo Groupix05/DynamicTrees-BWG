@@ -2,10 +2,10 @@
   "type": "scruffy",
   "scruffy_leaf_chance": 0.66,
   "scruffy_max_hydro": 1,
-  "primitive_leaves": "byg:brown_oak_leaves",
-  "cell_kit": "dtbyg:round_conifer",
+  "primitive_leaves": "biomeswevegone:brown_oak_leaves",
+  "cell_kit": "dtbwg:round_conifer",
   "smother": 9,
   "texture_overrides": {
-    "leaves": "byg:block/oak_leaves_dry_brown"
+    "leaves": "biomeswevegone:block/oak_leaves_dry_brown"
   }
 }

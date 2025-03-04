@@ -1,4 +1,4 @@
 {
-  "primitive_soil": "byg:mud_block",
+  "primitive_soil": "biomeswevegone:mud_block",
   "acceptable_soils": [ "mud_like" ]
 }

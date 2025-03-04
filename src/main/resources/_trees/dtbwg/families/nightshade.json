@@ -1,15 +1,15 @@
 {
-  "type": "dtbyg:imbued_log",
-  "common_leaves": "dtbyg:nightshade",
-  "common_species": "dtbyg:nightshade",
-  "primitive_log": "byg:nightshade_log",
-  "primitive_stripped_log": "byg:stripped_nightshade_log",
-  "primitive_imbued_log": "byg:imbued_nightshade_log",
+  "type": "dtbwg:imbued_log",
+  "common_leaves": "dtbwg:nightshade",
+  "common_species": "dtbwg:nightshade",
+  "primitive_log": "biomeswevegone:nightshade_log",
+  "primitive_stripped_log": "biomeswevegone:stripped_nightshade_log",
+  "primitive_imbued_log": "biomeswevegone:imbued_nightshade_log",
   "max_branch_radius": 24,
   "texture_overrides": {
-    "branch": "byg:block/nightshade/log",
-    "branch_top": "byg:block/nightshade/log_top",
-    "stripped_branch": "byg:block/nightshade/stripped_log",
-    "stripped_branch_top": "byg:block/nightshade/stripped_log_top"
+    "branch": "biomeswevegone:block/nightshade/log",
+    "branch_top": "biomeswevegone:block/nightshade/log_top",
+    "stripped_branch": "biomeswevegone:block/nightshade/stripped_log",
+    "stripped_branch_top": "biomeswevegone:block/nightshade/stripped_log_top"
   }
 }

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"particle": "dtbyg:block/joshua_fruit",
-		"apple": "dtbyg:block/joshua_fruit"
+		"particle": "dtbwg:block/joshua_fruit",
+		"apple": "dtbwg:block/joshua_fruit"
 	},
 	"elements": [
 		{

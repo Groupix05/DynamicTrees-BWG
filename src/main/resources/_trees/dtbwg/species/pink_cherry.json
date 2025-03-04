@@ -1,12 +1,12 @@
 {
-  "family": "dtbyg:cherry",
+  "family": "dtbwg:cherry",
   "tapering": 0.2,
   "signal_energy": 10.0,
   "up_probability": 4,
   "lowest_branch_height": 5,
   "growth_rate": 0.8,
-  "leaves_properties": "dtbyg:pink_cherry",
-  "growth_logic_kit": "dtbyg:variate_height",
+  "leaves_properties": "dtbwg:pink_cherry",
+  "growth_logic_kit": "dtbwg:variate_height",
   "environment_factors": {
     "cold": 0.75,
     "hot": 0.9,
@@ -16,8 +16,8 @@
   "perfect_biomes": {
     "name": ".*cherry.*"
   },
-  "primitive_sapling": "byg:pink_cherry_sapling",
-  "mega_species": "dtbyg:mega_pink_cherry",
+  "primitive_sapling": "biomeswevegone:pink_cherry_sapling",
+  "mega_species": "dtbwg:mega_pink_cherry",
   "features": [
     "bee_nest"
   ]

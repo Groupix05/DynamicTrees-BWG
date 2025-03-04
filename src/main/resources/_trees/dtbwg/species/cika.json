@@ -1,5 +1,5 @@
 {
-  "family": "dtbyg:cika",
+  "family": "dtbwg:cika",
   "tapering": 0.15,
   "signal_energy": 34.0,
   "up_probability": 7,
@@ -15,7 +15,7 @@
       "height_variation": 8
     }
   },
-  "leaves_properties": "dtbyg:cika",
+  "leaves_properties": "dtbwg:cika",
   "environment_factors" : {
     "hot": 0.8,
     "dry": 0.75,

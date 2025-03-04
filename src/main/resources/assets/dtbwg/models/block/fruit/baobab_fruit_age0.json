@@ -3,7 +3,7 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"apple": "dtbyg:block/baobab_fruit"
+		"apple": "dtbwg:block/baobab_fruit"
 	},
 	"elements": [
 		{

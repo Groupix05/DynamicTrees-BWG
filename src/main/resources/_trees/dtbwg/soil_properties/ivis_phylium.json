@@ -1,4 +1,4 @@
 {
-  "primitive_soil": "byg:ivis_phylium",
+  "primitive_soil": "biomeswevegone:ivis_phylium",
   "acceptable_soils": [ "fungus_like", "end_like", "end_soil_like" ]
 }

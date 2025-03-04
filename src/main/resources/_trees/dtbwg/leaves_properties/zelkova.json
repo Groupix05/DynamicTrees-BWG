@@ -1,12 +1,12 @@
 {
-  "primitive_leaves": "byg:zelkova_leaves",
+  "primitive_leaves": "biomeswevegone:zelkova_leaves",
   "cell_kit": "dynamictrees:conifer",
   "smother": 20,
   "light_requirement": 11,
   "model_overrides": {
-    "leaves": "byg:block/zelkova/leaves"
+    "leaves": "biomeswevegone:block/zelkova/leaves"
   },
   "texture_overrides": {
-    "leaves": "byg:block/zelkova/leaves"
+    "leaves": "biomeswevegone:block/zelkova/leaves"
   }
 }

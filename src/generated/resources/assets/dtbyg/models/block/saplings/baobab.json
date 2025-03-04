@@ -1,8 +1,0 @@
-{
-  "parent": "dynamictrees:block/smartmodel/sapling",
-  "render_type": "minecraft:cutout_mipped",
-  "textures": {
-    "leaves": "byg:block/baobab/leaves",
-    "log": "byg:block/baobab/log"
-  }
-}

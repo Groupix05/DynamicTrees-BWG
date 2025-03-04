@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"side": "byg:block/soul_shroom_block",
-		"bottom": "byg:block/soul_shroom_block_inside",
-		"particle": "byg:block/soul_shroom_block"
+		"side": "biomeswevegone:block/soul_shroom_block",
+		"bottom": "biomeswevegone:block/soul_shroom_block_inside",
+		"particle": "biomeswevegone:block/soul_shroom_block"
 	},
 	"elements": [
 		{

@@ -1,18 +1,18 @@
 {
-  "family": "dtbyg:zelkova",
+  "family": "dtbwg:zelkova",
   "tapering": 0.2,
   "signal_energy": 25.0,
   "up_probability": 10,
   "lowest_branch_height": 4,
   "growth_rate": 0.9,
-  "growth_logic_kit": "dtbyg:zelkova",
-  "leaves_properties": "dtbyg:zelkova",
+  "growth_logic_kit": "dtbwg:zelkova",
+  "leaves_properties": "dtbwg:zelkova",
   "environment_factors" : {
     "hot": 0.50,
     "wet": 0.75
   },
   "perfect_biomes": { "name": ".*zelkova.*" },
-  "primitive_sapling": "byg:zelkova_sapling",
+  "primitive_sapling": "biomeswevegone:zelkova_sapling",
   "features" : [
     "conifer_topper"
   ]

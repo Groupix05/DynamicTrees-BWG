@@ -6,13 +6,13 @@
       },
       "apply": [
         {
-          "model": "dtbyg:block/fungal_imparius_face"
+          "model": "dtbwg:block/fungal_imparius_face"
         },
         {
-          "model": "dtbyg:block/fungal_imparius_face2"
+          "model": "dtbwg:block/fungal_imparius_face2"
         },
         {
-          "model": "dtbyg:block/fungal_imparius_face3"
+          "model": "dtbwg:block/fungal_imparius_face3"
         }
       ]
     },
@@ -22,40 +22,18 @@
       },
       "apply": [
         {
-          "model": "dtbyg:block/fungal_imparius_face",
+          "model": "dtbwg:block/fungal_imparius_face",
           "y": 90,
           "uvlock": true
         },
         {
-          "model": "dtbyg:block/fungal_imparius_face2",
+          "model": "dtbwg:block/fungal_imparius_face2",
           "y": 90,
           "uvlock": true
         },
         {
-          "model": "dtbyg:block/fungal_imparius_face3",
+          "model": "dtbwg:block/fungal_imparius_face3",
           "y": 90,
-          "uvlock": true
-        }
-      ]
-    },
-    {
-      "when": {
-        "age": "0|1|2"
-      },
-      "apply": [
-        {
-          "model": "dtbyg:block/fungal_imparius_face",
-          "y": 180,
-          "uvlock": true
-        },
-        {
-          "model": "dtbyg:block/fungal_imparius_face2",
-          "y": 180,
-          "uvlock": true
-        },
-        {
-          "model": "dtbyg:block/fungal_imparius_face3",
-          "y": 180,
           "uvlock": true
         }
       ]
@@ -66,17 +44,39 @@
       },
       "apply": [
         {
-          "model": "dtbyg:block/fungal_imparius_face",
+          "model": "dtbwg:block/fungal_imparius_face",
+          "y": 180,
+          "uvlock": true
+        },
+        {
+          "model": "dtbwg:block/fungal_imparius_face2",
+          "y": 180,
+          "uvlock": true
+        },
+        {
+          "model": "dtbwg:block/fungal_imparius_face3",
+          "y": 180,
+          "uvlock": true
+        }
+      ]
+    },
+    {
+      "when": {
+        "age": "0|1|2"
+      },
+      "apply": [
+        {
+          "model": "dtbwg:block/fungal_imparius_face",
           "y": 270,
           "uvlock": true
         },
         {
-          "model": "dtbyg:block/fungal_imparius_face2",
+          "model": "dtbwg:block/fungal_imparius_face2",
           "y": 270,
           "uvlock": true
         },
         {
-          "model": "dtbyg:block/fungal_imparius_face3",
+          "model": "dtbwg:block/fungal_imparius_face3",
           "y": 270,
           "uvlock": true
         }
@@ -87,7 +87,7 @@
         "age": "3|4|5|6|7|8"
       },
       "apply": {
-        "model": "dtbyg:block/fungal_imparius_filament_face"
+        "model": "dtbwg:block/fungal_imparius_filament_face"
       }
     },
     {
@@ -95,7 +95,7 @@
         "age": "3|4|5|6|7|8"
       },
       "apply": {
-        "model": "dtbyg:block/fungal_imparius_filament_face",
+        "model": "dtbwg:block/fungal_imparius_filament_face",
         "y": 90,
         "uvlock": false
       }
@@ -105,7 +105,7 @@
         "age": "3|4|5|6|7|8"
       },
       "apply": {
-        "model": "dtbyg:block/fungal_imparius_filament_face",
+        "model": "dtbwg:block/fungal_imparius_filament_face",
         "y": 180,
         "uvlock": false
       }
@@ -115,7 +115,7 @@
         "age": "3|4|5|6|7|8"
       },
       "apply": {
-        "model": "dtbyg:block/fungal_imparius_filament_face",
+        "model": "dtbwg:block/fungal_imparius_filament_face",
         "y": 270,
         "uvlock": false
       }
@@ -123,17 +123,17 @@
     {
       "apply": [
         {
-          "model": "dtbyg:block/fungal_imparius_face",
+          "model": "dtbwg:block/fungal_imparius_face",
           "x": 270,
           "uvlock": true
         },
         {
-          "model": "dtbyg:block/fungal_imparius_face2",
+          "model": "dtbwg:block/fungal_imparius_face2",
           "x": 270,
           "uvlock": true
         },
         {
-          "model": "dtbyg:block/fungal_imparius_face3",
+          "model": "dtbwg:block/fungal_imparius_face3",
           "x": 270,
           "uvlock": true
         }
@@ -141,7 +141,7 @@
     },
     {
       "apply": {
-        "model": "dtbyg:block/fungal_imparius_filament_face",
+        "model": "dtbwg:block/fungal_imparius_filament_face",
         "x": 90,
         "uvlock": false
       }

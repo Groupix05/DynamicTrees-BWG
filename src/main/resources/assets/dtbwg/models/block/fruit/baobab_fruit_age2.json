@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"particle": "dtbyg:block/baobab_fruit",
-		"apple": "dtbyg:block/baobab_fruit"
+		"particle": "dtbwg:block/baobab_fruit",
+		"apple": "dtbwg:block/baobab_fruit"
 	},
 	"elements": [
 		{

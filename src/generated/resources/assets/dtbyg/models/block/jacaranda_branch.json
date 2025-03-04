@@ -1,7 +1,0 @@
-{
-  "loader": "dynamictrees:branch",
-  "textures": {
-    "bark": "byg:block/jacaranda/log",
-    "rings": "byg:block/jacaranda/log_top"
-  }
-}

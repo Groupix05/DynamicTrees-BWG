@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"particle": "dtbyg:block/stone",
-		"cap": "dtbyg:block/stone"
+		"particle": "dtbwg:block/stone",
+		"cap": "dtbwg:block/stone"
 	},
 	"elements": [
 		{

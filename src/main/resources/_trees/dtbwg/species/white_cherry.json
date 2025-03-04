@@ -1,12 +1,12 @@
 {
-  "family": "dtbyg:cherry",
+  "family": "dtbwg:cherry",
   "tapering": 0.2,
   "signal_energy": 10.0,
   "up_probability": 4,
   "lowest_branch_height": 5,
   "growth_rate": 0.8,
-  "leaves_properties": "dtbyg:white_cherry",
-  "growth_logic_kit": "dtbyg:variate_height",
+  "leaves_properties": "dtbwg:white_cherry",
+  "growth_logic_kit": "dtbwg:variate_height",
   "generate_seed": true,
   "generate_sapling": true,
   "environment_factors": {
@@ -17,8 +17,8 @@
   "perfect_biomes": {
     "name": ".*cherry.*"
   },
-  "primitive_sapling": "byg:white_cherry_sapling",
-  "mega_species": "dtbyg:mega_white_cherry",
+  "primitive_sapling": "biomeswevegone:white_cherry_sapling",
+  "mega_species": "dtbwg:mega_white_cherry",
   "features": [
     "bee_nest"
   ]

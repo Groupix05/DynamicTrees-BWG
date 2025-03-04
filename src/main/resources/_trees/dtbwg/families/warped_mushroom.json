@@ -1,8 +1,8 @@
 {
   "only_if_loaded": "dynamictreesplus",
-  "type": "dtbyg:warty_mushroom",
-  "common_cap": "dtbyg:warped_mushroom",
-  "common_species": "dtbyg:warped_mushroom",
+  "type": "dtbwg:warty_mushroom",
+  "common_cap": "dtbwg:warped_mushroom",
+  "common_species": "dtbwg:warped_mushroom",
   "primitive_log": "warped_stem",
   "primitive_stripped_log": "stripped_warped_stem",
   "max_branch_radius": 24,

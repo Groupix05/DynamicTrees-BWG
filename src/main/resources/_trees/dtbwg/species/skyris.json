@@ -1,40 +1,40 @@
 {
-  "family": "dtbyg:skyris",
+  "family": "dtbwg:skyris",
   "tapering": 0.3,
   "signal_energy": 22.0,
   "up_probability": 6,
   "lowest_branch_height": 6,
   "growth_rate": 0.7,
-  "leaves_properties": "dtbyg:skyris",
+  "leaves_properties": "dtbwg:skyris",
   "environment_factors" : {
     "hot": 0.5,
     "dry": 0.75
   },
   "perfect_biomes": {
-    "name": "byg:.*skyris.*"
+    "name": "biomeswevegone:.*skyris.*"
   },
   "primitive_saplings": [
-    "byg:skyris_sapling",
+    "biomeswevegone:skyris_sapling",
     {
-      "sapling_item": "byg:green_apple",
+      "sapling_item": "biomeswevegone:green_apple",
       "can_craft_seed_to_sapling": false
     }
   ],
   "fruits": [
-    "dtbyg:green_apple"
+    "dtbwg:green_apple"
   ],
   "features" : [
     {
       "name": "alt_leaves",
       "properties": {
-        "alternative_leaves": "dtbyg:flowering_skyris",
+        "alternative_leaves": "dtbwg:flowering_skyris",
         "place_chance": 0.25
       }
     },
     {
       "name": "fruit",
       "properties": {
-        "fruit": "dtbyg:green_apple"
+        "fruit": "dtbwg:green_apple"
       }
     },
     {
@@ -42,7 +42,7 @@
       "properties": {
         "quantity": 16,
         "max_length": 16,
-        "block": "byg:skyris_vine"
+        "block": "biomeswevegone:skyris_vine"
       }
     },
     "conifer_topper",

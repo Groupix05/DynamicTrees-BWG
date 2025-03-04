@@ -1,41 +1,41 @@
 [
   {
-    "__comment": "Cancel standard tree features from byg biomes.",
-    "select": { "name": "byg.*", "names": ["!byg:bulbis_gardens","!byg:ivis_fields"] },
+    "__comment": "Cancel standard tree features from biomeswevegone biomes.",
+    "select": { "name": "biomeswevegone.*", "names": ["!biomeswevegone:bulbis_gardens","!biomeswevegone:ivis_fields"] },
     "cancellers": {
-      "types": [ "dtbyg:tree", "tree", "dtbyg:fungus" ],
-      "namespaces": ["byg", "corgilib", "minecraft"]
+      "types": [ "dtbwg:tree", "tree", "dtbwg:fungus" ],
+      "namespaces": ["biomeswevegone", "corgilib", "minecraft"]
     }
   },
   {
     "only_if_loaded": "dynamictreesplus",
-    "__comment": "Cancel standard mushroom features from byg biomes.",
-    "select": { "name": "byg.*", "names": ["!byg:bulbis_gardens","!byg:ivis_fields"] },
+    "__comment": "Cancel standard mushroom features from biomeswevegone biomes.",
+    "select": { "name": "biomeswevegone.*", "names": ["!biomeswevegone:bulbis_gardens","!biomeswevegone:ivis_fields"] },
     "cancellers": {
-      "types": [ "dtbyg:tree", "tree", "dtbyg:fungus", "mushroom" ],
-      "namespaces": ["byg", "corgilib", "minecraft"],
+      "types": [ "dtbwg:tree", "tree", "dtbwg:fungus", "mushroom" ],
+      "namespaces": ["biomeswevegone", "corgilib", "minecraft"],
       "stages": ["UNDERGROUND_DECORATION", "VEGETAL_DECORATION"]
     }
   },
   {
     "select": {
-      "name": "byg:.*ancient_forest"
+      "name": "biomeswevegone:.*ancient_forest"
     },
     "cancellers": {
       "types": [
         "tree",
-        "dtbyg:tree",
-        "dtbyg:fungus",
-        "dtbyg:giant_flower"
+        "dtbwg:tree",
+        "dtbwg:fungus",
+        "dtbwg:giant_flower"
       ],
-      "namespaces": ["byg", "minecraft"]
+      "namespaces": ["biomeswevegone", "minecraft"]
     }
   },
 
   {
     "only_if_loaded": "dynamictreesplus",
     "select": {
-      "names_or": ["byg:warped_desert","byg:mojave_desert","byg:windswept_desert"]
+      "names_or": ["biomeswevegone:warped_desert","biomeswevegone:mojave_desert","biomeswevegone:windswept_desert"]
     },
     "cancellers": {
       "type": "dynamictreesplus:cactus",

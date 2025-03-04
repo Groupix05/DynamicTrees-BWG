@@ -6,8 +6,8 @@
   "lowest_branch_height": 7,
   "growth_rate": 1.3,
   "soil_longevity": 12,
-  "leaves_properties": "dtbyg:orange_birch",
-  "use_seed_of_other_species": "dtbyg:orange_birch",
+  "leaves_properties": "dtbwg:orange_birch",
+  "use_seed_of_other_species": "dtbwg:orange_birch",
   "environment_factors" : {
     "cold": 0.75,
     "hot": 0.5,

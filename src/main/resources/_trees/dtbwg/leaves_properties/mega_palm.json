@@ -1,12 +1,12 @@
 {
   "type": "palm",
-  "primitive_leaves": "byg:palm_leaves",
-  "cell_kit": "dtbyg:palm",
+  "primitive_leaves": "biomeswevegone:palm_leaves",
+  "cell_kit": "dtbwg:palm",
   "color": "#BBFF59",
   "model_overrides": {
-  "leaves": "byg:block/palm/leaves"
+  "leaves": "biomeswevegone:block/palm/leaves"
 },
   "texture_overrides": {
-    "leaves": "byg:block/palm/leaves"
+    "leaves": "biomeswevegone:block/palm/leaves"
   }
 }

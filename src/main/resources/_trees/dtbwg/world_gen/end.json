@@ -1,13 +1,13 @@
 [
   {
     "select": {
-      "name": "byg:nightshade_forest"
+      "name": "biomeswevegone:nightshade_forest"
     },
     "apply": {
       "species": {
         "random": {
-          "dtbyg:nightshade": 3,
-          "dtbyg:small_nightshade": 1
+          "dtbwg:nightshade": 3,
+          "dtbwg:small_nightshade": 1
         }
       },
       "density": [ 0.5 ],
@@ -17,14 +17,14 @@
   },
   {
     "select": {
-      "name": "byg:ethereal_islands"
+      "name": "biomeswevegone:ethereal_islands"
     },
     "apply": {
       "species": {
         "random": {
-          "dtbyg:ether": 3,
-          "dtbyg:small_ether": 1,
-          "dtbyg:ether_twiglet": 1
+          "dtbwg:ether": 3,
+          "dtbwg:small_ether": 1,
+          "dtbwg:ether_twiglet": 1
         }
       },
       "density": [ 0.4 ],
@@ -34,11 +34,11 @@
   },
   {
     "select": {
-      "name": "byg:.*viscal_isles"
+      "name": "biomeswevegone:.*viscal_isles"
     },
 
     "apply": {
-      "species": "dtbyg:bare_ether",
+      "species": "dtbwg:bare_ether",
       "density": [ 0.2 ],
       "chance": 1,
       "heightmap": "ocean_floor"
@@ -50,13 +50,13 @@
   {
     "only_if_loaded": "dynamictreesplus",
     "select": {
-      "name": "byg:imparius_grove"
+      "name": "biomeswevegone:imparius_grove"
     },
     "apply": {
       "species": {
         "random": {
-          "dtbyg:imparius_mushroom": 2,
-          "dtbyg:fungal_imparius": 1
+          "dtbwg:imparius_mushroom": 2,
+          "dtbwg:fungal_imparius": 1
         }
       },
       "density": [ 0.2 ],
@@ -66,10 +66,10 @@
   {
     "only_if_loaded": "dynamictreesplus",
     "select": {
-      "name": "byg:shulkren_forest"
+      "name": "biomeswevegone:shulkren_forest"
     },
     "apply": {
-      "species": "dtbyg:shulkren",
+      "species": "dtbwg:shulkren",
       "density": [ 0.2 ],
       "chance": 1.0
     }
@@ -77,14 +77,14 @@
   {
     "only_if_loaded": "dynamictreesplus",
     "select": {
-      "name": "byg:bulbis_gardens"
+      "name": "biomeswevegone:bulbis_gardens"
     },
     "cancellers": {
-      "type": "dtbyg:oddity_cactus",
+      "type": "dtbwg:oddity_cactus",
       "namespace": "minecraft"
     },
     "apply": {
-      "species": "dtbyg:oddity_cactus",
+      "species": "dtbwg:oddity_cactus",
       "density" : { "math": { "add" : [ { "mul" : [ "noise", 0.6 ] }, 0.6 ] } },
       "chance": 0.2
     }

@@ -1,27 +1,27 @@
 {
   "type": "dynamictreesplus:mushroom",
-  "family": "dtbyg:white_mushroom",
+  "family": "dtbwg:white_mushroom",
   "tapering": 0,
   "signal_energy": 20,
   "growth_rate": 1.2,
   "soil_longevity": 3,
-  "cap_properties": "dtbyg:shulkren",
+  "cap_properties": "dtbwg:shulkren",
   "generate_seed": true,
   "generate_sapling": true,
   "cap_thickness_multiplier": 0.5,
   "mushroom_shape_kit": {
-    "name": "dtbyg:linear",
+    "name": "dtbwg:linear",
     "properties": {
       "max_cap_age": 8,
       "factor": 0.5,
       "factor_variation": 0.1
     }
   },
-  "primitive_sapling": "byg:shulkren_fungus",
+  "primitive_sapling": "biomeswevegone:shulkren_fungus",
   "acceptable_soils": ["end_soil_like", "fungus_like"],
-  "acceptable_growth_blocks": ["byg:shulkren_phylium", "dtbyg:rooty_shulkren_phylium"],
+  "acceptable_growth_blocks": ["biomeswevegone:shulkren_phylium", "dtbwg:rooty_shulkren_phylium"],
   "accept_any_soil": false,
-  "sapling_shape": "dtbyg:shulkren_mushroom",
+  "sapling_shape": "dtbwg:shulkren_mushroom",
   "sapling_sound": "FUNGUS",
   "features" : [
     {
@@ -29,11 +29,11 @@
       "properties": { "min_radius": 5 }
     },
     {
-      "name": "dtbyg:mushroom_vines",
+      "name": "dtbwg:mushroom_vines",
       "properties": {
         "max_length": 6,
-        "block": "byg:shulkren_vine_plant",
-        "tip_block": "byg:shulkren_vine"
+        "block": "biomeswevegone:shulkren_vine_plant",
+        "tip_block": "biomeswevegone:shulkren_vine"
       }
     }
   ]

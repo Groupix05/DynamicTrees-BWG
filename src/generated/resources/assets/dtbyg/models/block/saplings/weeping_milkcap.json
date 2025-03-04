@@ -1,8 +1,0 @@
-{
-  "parent": "dynamictrees:block/smartmodel/mushroom_round",
-  "render_type": "minecraft:cutout_mipped",
-  "textures": {
-    "cap": "dtbyg:block/weeping_milkcap_cap",
-    "stem": "dtbyg:block/weeping_milkcap_cap"
-  }
-}

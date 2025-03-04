@@ -2,8 +2,8 @@
   "credit": "Made with Blockbench",
   "ambientocclusion": false,
   "textures": {
-    "particle": "dtbyg:block/holly_berries",
-    "apple": "dtbyg:block/holly_berries"
+    "particle": "dtbwg:block/holly_berries",
+    "apple": "dtbwg:block/holly_berries"
   },
   "elements": [
     {

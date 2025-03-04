@@ -1,5 +1,5 @@
 {
-  "family": "dtbyg:redwood",
+  "family": "dtbwg:redwood",
   "tapering": 0.45,
   "signal_energy": 17.0,
   "up_probability": 3,
@@ -7,8 +7,8 @@
   "growth_rate": 0.9,
   "soil_longevity": 2,
   "max_branch_radius": 24,
-  "growth_logic_kit": "dtbyg:small_redwood",
-  "leaves_properties": "dtbyg:redwood",
+  "growth_logic_kit": "dtbwg:small_redwood",
+  "leaves_properties": "dtbwg:redwood",
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,
@@ -18,8 +18,8 @@
   "seed_name": "redwood_seed",
   "sapling_name": "redwood_sapling",
   "perfect_biomes": { "name": ".*redwood.*" },
-  "primitive_sapling": "byg:redwood_sapling",
-  "mega_species": "dtbyg:redwood",
+  "primitive_sapling": "biomeswevegone:redwood_sapling",
+  "mega_species": "dtbwg:redwood",
   "features" : [
     "conifer_topper",
     "bottom_flare",

@@ -1,11 +1,11 @@
 {
-  "type": "dtbyg:woody_mushroom",
-  "family": "dtbyg:imparius_mushroom",
+  "type": "dtbwg:woody_mushroom",
+  "family": "dtbwg:imparius_mushroom",
   "tapering": 0,
   "signal_energy": 6,
   "growth_rate": 1.2,
   "soil_longevity": 3,
-  "cap_properties": "dtbyg:imparius_mushroom",
+  "cap_properties": "dtbwg:imparius_mushroom",
   "mushroom_shape_kit": {
     "name": "dynamictreesplus:bell",
     "properties": {
@@ -15,15 +15,15 @@
       "pointed_tip_max_age": 1
     }
   },
-  "primitive_sapling": "byg:imparius_mushroom",
+  "primitive_sapling": "biomeswevegone:imparius_mushroom",
   "acceptable_soils": ["end_soil_like", "fungus_like"],
-  "sapling_shape": "dtbyg:small_flat_mushroom",
+  "sapling_shape": "dtbwg:small_flat_mushroom",
   "features" : [
     "bottom_flare",
     {
-      "name": "dtbyg:branch_sprouts",
+      "name": "dtbwg:branch_sprouts",
       "properties": {
-        "sprout_block": "dtbyg:imparius_mushroom_side_branch"
+        "sprout_block": "dtbwg:imparius_mushroom_side_branch"
       }
     },
     {
@@ -35,11 +35,11 @@
       }
     },
     {
-      "name": "dtbyg:mushroom_vines",
+      "name": "dtbwg:mushroom_vines",
       "properties": {
         "max_length": 10,
-        "block": "byg:imparius_vine_plant",
-        "tip_block": "byg:imparius_vine"
+        "block": "biomeswevegone:imparius_vine_plant",
+        "tip_block": "biomeswevegone:imparius_vine"
       }
     }
   ]

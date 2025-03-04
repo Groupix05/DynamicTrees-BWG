@@ -1,25 +1,25 @@
 {
-  "type": "dtbyg:generates_on_extra_soil",
-  "extra_soil_for_worldgen": "byg:magmatic_stone",
-  "soil_replacement_for_worldgen": "byg:overgrown_netherrack",
-  "family": "dtbyg:withering_oak",
+  "type": "dtbwg:generates_on_extra_soil",
+  "extra_soil_for_worldgen": "biomeswevegone:magmatic_stone",
+  "soil_replacement_for_worldgen": "biomeswevegone:overgrown_netherrack",
+  "family": "dtbwg:withering_oak",
   "tapering": 0.4,
   "signal_energy": 12.0,
   "lowest_branch_height": 6,
   "growth_rate": 0.8,
-  "leaves_properties": "dtbyg:withering_oak",
+  "leaves_properties": "dtbwg:withering_oak",
   "environment_factors" : {
     "cold": 0.5,
     "wet": 0.5
   },
   "perfect_biomes": { "type": "nether" },
-  "primitive_sapling": "byg:withering_oak_sapling",
+  "primitive_sapling": "biomeswevegone:withering_oak_sapling",
   "acceptable_soils": [ "dirt_like", "nether_like" ],
   "features": [
     {
-      "name": "dtbyg:branch_sprouts",
+      "name": "dtbwg:branch_sprouts",
       "properties": {
-        "sprout_block": "dtbyg:arisian_bloom_branch"
+        "sprout_block": "dtbwg:arisian_bloom_branch"
       }
     },
     {

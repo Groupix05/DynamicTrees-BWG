@@ -1,5 +1,5 @@
 {
-  "family": "dtbyg:holly",
+  "family": "dtbwg:holly",
   "tapering": 0.3,
   "signal_energy": 22.0,
   "up_probability": 7,
@@ -14,7 +14,7 @@
       "height_variation": 8
     }
   },
-  "leaves_properties": "dtbyg:holly",
+  "leaves_properties": "dtbwg:holly",
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,
@@ -22,7 +22,7 @@
   },
   "perfect_biomes": { "name": ".*evergreen.*" },
   "fruits": [
-    "dtbyg:holly_berries"
+    "dtbwg:holly_berries"
   ],
   "features" : [
     "conifer_topper",
@@ -38,7 +38,7 @@
     {
       "name": "fruit",
       "properties": {
-        "fruit": "dtbyg:holly_berries"
+        "fruit": "dtbwg:holly_berries"
       }
     }
   ]

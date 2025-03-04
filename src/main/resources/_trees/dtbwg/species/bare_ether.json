@@ -1,13 +1,13 @@
 {
-  "type": "dtbyg:generates_on_extra_soil",
-  "extra_soil_for_worldgen": "byg:ether_stone",
-  "soil_replacement_for_worldgen": "byg:vermilion_sculk",
-  "family": "dtbyg:ether",
+  "type": "dtbwg:generates_on_extra_soil",
+  "extra_soil_for_worldgen": "biomeswevegone:ether_stone",
+  "soil_replacement_for_worldgen": "biomeswevegone:vermilion_sculk",
+  "family": "dtbwg:ether",
   "tapering": 0.125,
   "signal_energy": 24.0,
   "growth_rate": 0.8,
-  "leaves_properties": "dtbyg:bare_ether",
-  "growth_logic_kit": "dtbyg:ether",
+  "leaves_properties": "dtbwg:bare_ether",
+  "growth_logic_kit": "dtbwg:ether",
   "does_rot": false,
   "environment_factors": {
     "cold": 1.1,
@@ -16,8 +16,8 @@
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "byg:ethereal.*"
+    "name": "biomeswevegone:ethereal.*"
   },
-  "primitive_sapling": "byg:ether_sapling",
+  "primitive_sapling": "biomeswevegone:ether_sapling",
   "acceptable_soils": ["dirt_like", "end_soil_like"]
 }

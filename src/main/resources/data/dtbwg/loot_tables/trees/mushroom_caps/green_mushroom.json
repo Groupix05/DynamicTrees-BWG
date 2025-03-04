@@ -24,11 +24,11 @@
                   }
                 }
               ],
-              "name": "byg:green_mushroom_block"
+              "name": "biomeswevegone:green_mushroom_block"
             },
             {
               "type": "minecraft:item",
-              "name": "byg:green_mushroom"
+              "name": "biomeswevegone:green_mushroom"
             }
           ]
         }

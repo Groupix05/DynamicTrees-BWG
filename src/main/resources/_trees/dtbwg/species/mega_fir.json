@@ -1,5 +1,5 @@
 {
-  "family": "dtbyg:fir",
+  "family": "dtbwg:fir",
   "tapering": 0.3,
   "signal_energy": 32.0,
   "up_probability": 7,
@@ -14,7 +14,7 @@
       "height_variation": 8
     }
   },
-  "leaves_properties": "dtbyg:fir",
+  "leaves_properties": "dtbwg:fir",
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,

@@ -1,7 +1,0 @@
-{
-  "loader": "dynamictrees:roots",
-  "textures": {
-    "bark": "dtbyg:block/mossy_white_mangrove_roots_side",
-    "rings": "dtbyg:block/mossy_white_mangrove_roots_top"
-  }
-}

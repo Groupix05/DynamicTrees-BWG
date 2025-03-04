@@ -1,21 +1,21 @@
 {
-  "type": "dtbyg:generates_underwater",
-  "family": "dtbyg:willow",
+  "type": "dtbwg:generates_underwater",
+  "family": "dtbwg:willow",
   "tapering": 0.4,
   "signal_energy": 18.0,
   "lowest_branch_height": 10,
   "growth_rate": 0.8,
-  "leaves_properties": "dtbyg:sparse_willow",
-  "growth_logic_kit": "dtbyg:willow",
+  "leaves_properties": "dtbwg:sparse_willow",
+  "growth_logic_kit": "dtbwg:willow",
   "does_rot": false,
   "environment_factors" : {
     "snowy": 0.75,
     "dry": 0.5
   },
   "perfect_biomes": { "type": "swamp" },
-  "primitive_sapling": "byg:willow_sapling",
+  "primitive_sapling": "biomeswevegone:willow_sapling",
   "acceptable_soils": ["dirt_like", "water_like"],
-  "mega_species": "dtbyg:mega_willow",
+  "mega_species": "dtbwg:mega_willow",
   "features": [
     {
       "name": "roots",
@@ -30,14 +30,14 @@
       "properties": {
         "only_world_gen": true,
         "gen_feature": {
-          "name": "dtbyg:huge_mushrooms",
+          "name": "dtbwg:huge_mushrooms",
           "properties": {
             "place_chance": 0.8,
             "max_count": 2,
             "max_attempts": 3
           }
         },
-        "biome_predicate": { "name": "byg:glowshroom_bayou" }
+        "biome_predicate": { "name": "biomeswevegone:glowshroom_bayou" }
       }
     },
     "bottom_flare"

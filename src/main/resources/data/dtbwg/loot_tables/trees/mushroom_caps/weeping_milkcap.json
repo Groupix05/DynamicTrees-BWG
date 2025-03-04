@@ -24,11 +24,11 @@
                   }
                 }
               ],
-              "name": "byg:weeping_milkcap_mushroom_block"
+              "name": "biomeswevegone:weeping_milkcap_mushroom_block"
             },
             {
               "type": "minecraft:item",
-              "name": "byg:weeping_milkcap"
+              "name": "biomeswevegone:weeping_milkcap"
             }
           ]
         }

@@ -1,7 +1,0 @@
-{
-  "loader": "dynamictrees:branch",
-  "textures": {
-    "bark": "byg:block/baobab/log",
-    "rings": "byg:block/baobab/log_top"
-  }
-}

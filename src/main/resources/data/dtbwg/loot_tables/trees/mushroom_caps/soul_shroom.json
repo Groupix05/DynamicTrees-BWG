@@ -24,11 +24,11 @@
                   }
                 }
               ],
-              "name": "byg:soul_shroom_block"
+              "name": "biomeswevegone:soul_shroom_block"
             },
             {
               "type": "minecraft:item",
-              "name": "byg:soul_shroom"
+              "name": "biomeswevegone:soul_shroom"
             }
           ]
         }

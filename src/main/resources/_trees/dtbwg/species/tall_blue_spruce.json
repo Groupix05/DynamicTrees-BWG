@@ -12,8 +12,8 @@
       "energy_divisor": 4
     }
   },
-  "leaves_properties": "dtbyg:blue_spruce",
-  "use_seed_of_other_species": "dtbyg:blue_spruce",
+  "leaves_properties": "dtbwg:blue_spruce",
+  "use_seed_of_other_species": "dtbwg:blue_spruce",
   "environment_factors": {
     "cold": 1.1,
     "hot": 0.2,
@@ -21,7 +21,7 @@
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "byg:blue_taiga.*"
+    "name": "biomeswevegone:blue_taiga.*"
   },
   "features" : [
     "conifer_topper",

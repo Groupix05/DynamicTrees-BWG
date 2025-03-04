@@ -1,16 +1,16 @@
 {
-  "type": "dtbyg:woody_mushroom",
-  "family": "dtbyg:crimson_mushroom",
+  "type": "dtbwg:woody_mushroom",
+  "family": "dtbwg:crimson_mushroom",
   "tapering": 0,
   "signal_energy": 12,
   "growth_rate": 0.8,
   "soil_longevity": 2,
-  "cap_properties": "dtbyg:crimson_mushroom",
+  "cap_properties": "dtbwg:crimson_mushroom",
   "generate_seed": false,
   "generate_sapling": false,
   "always_show_on_waila": true,
   "mushroom_shape_kit": {
-    "name": "dtbyg:linear",
+    "name": "dtbwg:linear",
     "properties": {
       "max_cap_age": 8,
       "chance_to_age": 0.66,
@@ -22,6 +22,6 @@
   "accept_any_soil": false,
   "world_gen_acceptable_soils": ["nether_like", "dirt_like"],
   "features" : [
-    "dtbyg:mushroom_vines"
+    "dtbwg:mushroom_vines"
   ]
 }

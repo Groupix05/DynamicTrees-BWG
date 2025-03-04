@@ -3,9 +3,9 @@
     "__comment": "Flag nether as being subterranean.",
     "select": {
       "names_or": [
-        "byg:brimstone_caverns","byg:crimson_gardens","byg:embur_bog","byg:glowstone_gardens",
-        "byg:magma_wastes","byg:subzero_hypogeal","byg:sythian_torrids","byg:warped_desert","byg:wailing_garth",
-        "byg:withering_woods","byg:weeping_mire","byg:quartz_desert"
+        "biomeswevegone:brimstone_caverns","biomeswevegone:crimson_gardens","biomeswevegone:embur_bog","biomeswevegone:glowstone_gardens",
+        "biomeswevegone:magma_wastes","biomeswevegone:subzero_hypogeal","biomeswevegone:sythian_torrids","biomeswevegone:warped_desert","biomeswevegone:wailing_garth",
+        "biomeswevegone:withering_woods","biomeswevegone:weeping_mire","biomeswevegone:quartz_desert"
       ] },
     "apply": {
       "subterranean": true
@@ -14,35 +14,35 @@
 
   {
     "select": {
-      "name": "byg:embur_bog"
+      "name": "biomeswevegone:embur_bog"
     },
     "apply": {
-      "species": "dtbyg:embur",
+      "species": "dtbwg:embur",
       "density": [ 1.0 ],
       "chance": 1.0
     }
   },
   {
     "select": {
-      "name": "byg:sythian_torrids"
+      "name": "biomeswevegone:sythian_torrids"
     },
     "apply": {
-      "species": "dtbyg:sythian",
+      "species": "dtbwg:sythian",
       "density": [ 2.0 ],
       "chance": 1.0
     }
   },
   {
     "select": {
-      "name": "byg:arisian_undergrowth"
+      "name": "biomeswevegone:arisian_undergrowth"
     },
     "apply": {
       "species": {
         "random": {
-          "dtbyg:withering_oak": 3,
-          "dtbyg:sparse_withering_oak": 1,
-          "dtbyg:tapered_withering_oak": 2,
-          "dtbyg:sparse_tapered_withering_oak": 1
+          "dtbwg:withering_oak": 3,
+          "dtbwg:sparse_withering_oak": 1,
+          "dtbwg:tapered_withering_oak": 2,
+          "dtbwg:sparse_tapered_withering_oak": 1
         }
       },
       "density": [ 1.0 ],
@@ -52,10 +52,10 @@
   },
   {
     "select": {
-      "name": "byg:weeping_mire"
+      "name": "biomeswevegone:weeping_mire"
     },
     "apply": {
-      "species": "dtbyg:lament",
+      "species": "dtbwg:lament",
       "density": [ 1.0 ],
       "chance": 1.0,
       "forestness": 1
@@ -67,41 +67,41 @@
 
   {
     "only_if_loaded": "dynamictreesplus",
-    "select": "byg:warped_desert",
+    "select": "biomeswevegone:warped_desert",
     "apply": {
-      "species": "dtbyg:warped_cactus",
+      "species": "dtbwg:warped_cactus",
       "density" : { "math": { "add" : [ { "mul" : [ "noise", 0.6 ] }, 0.4 ] } },
       "chance": 0.6
     }
   },
   {
     "only_if_loaded": "dynamictreesplus",
-    "select": "byg:weeping_mire",
+    "select": "biomeswevegone:weeping_mire",
     "apply": {
       "species": {
         "method": "splice_before",
         "random": {
           "...": 15,
-          "dtbyg:mini_red_mushroom": 1,
-          "dtbyg:mini_brown_mushroom": 1,
-          "dtbyg:mini_green_mushroom": 1,
-          "dtbyg:mini_wood_blewit": 1,
-          "dtbyg:mini_weeping_milkcap": 1
+          "dtbwg:mini_red_mushroom": 1,
+          "dtbwg:mini_brown_mushroom": 1,
+          "dtbwg:mini_green_mushroom": 1,
+          "dtbwg:mini_wood_blewit": 1,
+          "dtbwg:mini_weeping_milkcap": 1
         }
       }
     }
   },
   {
     "only_if_loaded": "dynamictreesplus",
-    "select": "byg:wailing_garth",
+    "select": "biomeswevegone:wailing_garth",
     "apply": {
       "species": {
         "random": {
-          "dtbyg:mini_red_mushroom": 1,
-          "dtbyg:mini_brown_mushroom": 1,
-          "dtbyg:mini_green_mushroom": 1,
-          "dtbyg:mini_wood_blewit": 1,
-          "dtbyg:mini_weeping_milkcap": 1
+          "dtbwg:mini_red_mushroom": 1,
+          "dtbwg:mini_brown_mushroom": 1,
+          "dtbwg:mini_green_mushroom": 1,
+          "dtbwg:mini_wood_blewit": 1,
+          "dtbwg:mini_weeping_milkcap": 1
         }
       },
       "density": 3,
@@ -110,12 +110,12 @@
   },
   {
     "only_if_loaded": "dynamictreesplus",
-    "select": "byg:glowstone_gardens",
+    "select": "biomeswevegone:glowstone_gardens",
     "apply": {
       "species": {
         "random": {
-          "dtbyg:death_cap": 1,
-          "dtbyg:soul_shroom": 2
+          "dtbwg:death_cap": 1,
+          "dtbwg:soul_shroom": 2
         }
       },
       "density": 2,
@@ -124,12 +124,12 @@
   },
   {
     "only_if_loaded": "dynamictreesplus",
-    "select": "byg:crimson_gardens",
+    "select": "biomeswevegone:crimson_gardens",
     "apply": {
       "species": {
         "random": {
-          "dtbyg:crimson_mushroom": 1,
-          "dtbyg:warped_mushroom": 1
+          "dtbwg:crimson_mushroom": 1,
+          "dtbwg:warped_mushroom": 1
         }
       },
       "density": 0.8,

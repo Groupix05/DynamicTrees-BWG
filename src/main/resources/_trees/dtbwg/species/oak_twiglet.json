@@ -1,5 +1,5 @@
 {
-  "type": "dtbyg:twiglet",
+  "type": "dtbwg:twiglet",
   "family": "oak",
-  "leaves_properties": "dtbyg:oak_twiglet"
+  "leaves_properties": "dtbwg:oak_twiglet"
 }

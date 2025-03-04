@@ -1,14 +1,14 @@
 {
-  "common_leaves": "dtbyg:lament",
-  "common_species": "dtbyg:lament",
-  "primitive_log": "byg:lament_log",
-  "primitive_stripped_log": "byg:stripped_lament_log",
+  "common_leaves": "dtbwg:lament",
+  "common_species": "dtbwg:lament",
+  "primitive_log": "biomeswevegone:lament_log",
+  "primitive_stripped_log": "biomeswevegone:stripped_lament_log",
   "fire_proof": true,
   "max_branch_radius": 24,
   "texture_overrides": {
-    "branch": "byg:block/lament/log",
-    "branch_top": "byg:block/lament/log_top",
-    "stripped_branch": "byg:block/lament/stripped_log",
-    "stripped_branch_top": "byg:block/lament/stripped_log_top"
+    "branch": "biomeswevegone:block/lament/log",
+    "branch_top": "biomeswevegone:block/lament/log_top",
+    "stripped_branch": "biomeswevegone:block/lament/stripped_log",
+    "stripped_branch_top": "biomeswevegone:block/lament/stripped_log_top"
   }
 }

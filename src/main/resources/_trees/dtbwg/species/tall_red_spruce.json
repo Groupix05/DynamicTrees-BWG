@@ -12,8 +12,8 @@
       "energy_divisor": 4
     }
   },
-  "leaves_properties": "dtbyg:red_spruce",
-  "use_seed_of_other_species": "dtbyg:red_spruce",
+  "leaves_properties": "dtbwg:red_spruce",
+  "use_seed_of_other_species": "dtbwg:red_spruce",
   "environment_factors": {
     "cold": 1.1,
     "hot": 0.2,
@@ -21,7 +21,7 @@
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "byg:red_spruce_taiga"
+    "name": "biomeswevegone:red_spruce_taiga"
   },
   "features" : [
     "conifer_topper",

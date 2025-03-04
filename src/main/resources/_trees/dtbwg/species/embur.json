@@ -1,13 +1,13 @@
 {
-  "type": "dtbyg:woody_mushroom",
-  "family": "dtbyg:embur",
+  "type": "dtbwg:woody_mushroom",
+  "family": "dtbwg:embur",
   "tapering": 0,
   "signal_energy": 20,
   "growth_rate": 1.2,
   "soil_longevity": 3,
-  "cap_properties": "dtbyg:embur",
+  "cap_properties": "dtbwg:embur",
   "mushroom_shape_kit": {
-    "name": "dtbyg:linear",
+    "name": "dtbwg:linear",
     "properties": {
       "max_cap_age": 4,
       "chance_to_age": 0.5,
@@ -15,24 +15,24 @@
       "factor": 2
     }
   },
-  "primitive_sapling": "byg:embur_wart",
+  "primitive_sapling": "biomeswevegone:embur_wart",
   "sapling_sound": "FUNGUS",
   "acceptable_soils": ["nether_soil_like", "fungus_like", "dirt_like"],
-  "acceptable_growth_blocks": ["byg:embur_nylium", "dtbyg:rooty_embur_nylium"],
+  "acceptable_growth_blocks": ["biomeswevegone:embur_nylium", "dtbwg:rooty_embur_nylium"],
   "accept_any_soil": false,
   "features" : [
     {
-      "name": "dtbyg:branch_sprouts",
+      "name": "dtbwg:branch_sprouts",
       "properties": {
-        "sprout_block": "dtbyg:embur_gel_branch"
+        "sprout_block": "dtbwg:embur_gel_branch"
       }
     },
     {
-      "name": "dtbyg:mushroom_vines",
+      "name": "dtbwg:mushroom_vines",
       "properties": {
         "max_length": 6,
-        "block": "byg:embur_gel_vines_plant",
-        "tip_block": "byg:embur_gel_vines"
+        "block": "biomeswevegone:embur_gel_vines_plant",
+        "tip_block": "biomeswevegone:embur_gel_vines"
       }
     }
   ]

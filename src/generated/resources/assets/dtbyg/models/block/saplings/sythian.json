@@ -1,8 +1,0 @@
-{
-  "parent": "dynamictrees:block/smartmodel/sapling",
-  "render_type": "minecraft:cutout_mipped",
-  "textures": {
-    "cap": "dtbyg:block/sythian_cap",
-    "stem": "dtbyg:block/sythian_cap"
-  }
-}

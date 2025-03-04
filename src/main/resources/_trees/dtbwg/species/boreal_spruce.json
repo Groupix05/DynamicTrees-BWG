@@ -11,13 +11,13 @@
       "horizontal_limiter": 3
     }
   },
-  "leaves_properties": "dtbyg:boreal_spruce",
+  "leaves_properties": "dtbwg:boreal_spruce",
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
   },
-  "common_override": { "name": "byg:borealis_grove" },
+  "common_override": { "name": "biomeswevegone:borealis_grove" },
   "perfect_biomes": { "type": "coniferous" },
   "mega_species": "mega_spruce",
   "features" : [

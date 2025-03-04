@@ -1,12 +1,12 @@
 {
-  "family": "dtbyg:fir",
+  "family": "dtbwg:fir",
   "tapering": 0.25,
   "signal_energy": 28.0,
   "up_probability": 8,
   "lowest_branch_height": 12,
   "growth_rate": 1.1,
   "growth_logic_kit": "conifer",
-  "leaves_properties": "dtbyg:fir",
+  "leaves_properties": "dtbwg:fir",
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,

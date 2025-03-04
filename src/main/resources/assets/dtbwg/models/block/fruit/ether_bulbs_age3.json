@@ -1,7 +1,7 @@
 {
-	"parent": "dtbyg:block/fruit/generic/berry_age3",
+	"parent": "dtbwg:block/fruit/generic/berry_age3",
 	"textures": {
-		"particle": "dtbyg:block/ether_bulbs",
-		"apple": "dtbyg:block/ether_bulbs"
+		"particle": "dtbwg:block/ether_bulbs",
+		"apple": "dtbwg:block/ether_bulbs"
 	}
 }

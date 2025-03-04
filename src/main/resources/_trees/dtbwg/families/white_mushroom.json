@@ -1,14 +1,14 @@
 {
   "only_if_loaded": "dynamictreesplus",
-  "type": "dtbyg:warty_mushroom",
-  "common_cap": "dtbyg:green_mushroom",
-  "common_species": "dtbyg:green_mushroom",
-  "primitive_log": "byg:white_mushroom_stem",
+  "type": "dtbwg:warty_mushroom",
+  "common_cap": "dtbwg:green_mushroom",
+  "common_species": "dtbwg:green_mushroom",
+  "primitive_log": "biomeswevegone:white_mushroom_stem",
   "stick": "air",
   "generate_stripped_branch": false,
   "max_branch_radius": 24,
   "texture_overrides": {
-    "branch": "byg:block/white_mushroom_stem",
+    "branch": "biomeswevegone:block/white_mushroom_stem",
     "branch_top": "block/mushroom_block_inside"
   }
 }

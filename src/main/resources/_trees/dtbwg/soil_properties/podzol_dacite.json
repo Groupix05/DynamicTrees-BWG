@@ -1,4 +1,4 @@
 {
-  "primitive_soil": "byg:podzol_dacite",
+  "primitive_soil": "biomeswevegone:podzol_dacite",
   "acceptable_soils": [ "dirt_like" ]
 }

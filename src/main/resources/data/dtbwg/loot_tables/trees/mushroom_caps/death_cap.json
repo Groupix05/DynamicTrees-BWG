@@ -24,11 +24,11 @@
                   }
                 }
               ],
-              "name": "byg:death_cap_mushroom_block"
+              "name": "biomeswevegone:death_cap_mushroom_block"
             },
             {
               "type": "minecraft:item",
-              "name": "byg:death_cap"
+              "name": "biomeswevegone:death_cap"
             }
           ]
         }

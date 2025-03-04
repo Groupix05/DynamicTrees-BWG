@@ -1,6 +1,6 @@
 {
-  "primitive_leaves": "byg:yellow_birch_leaves",
-  "cell_kit": "dtbyg:poplar",
+  "primitive_leaves": "biomeswevegone:yellow_birch_leaves",
+  "cell_kit": "dtbwg:poplar",
   "smother": 9,
   "light_requirement": 13
 }

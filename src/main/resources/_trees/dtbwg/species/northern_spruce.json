@@ -12,7 +12,7 @@
       "horizontal_limiter": 2
     }
   },
-  "leaves_properties": "dtbyg:northern_spruce",
+  "leaves_properties": "dtbwg:northern_spruce",
   "environment_factors" : {
     "hot": 0.50,
     "wet": 0.75

@@ -1,6 +1,6 @@
 {
-  "type": "dtbyg:generates_underwater",
-  "family": "dtbyg:willow",
+  "type": "dtbwg:generates_underwater",
+  "family": "dtbwg:willow",
   "tapering": 0.3,
   "signal_energy": 24.0,
   "up_probability": 5,
@@ -8,7 +8,7 @@
   "growth_rate": 1.2,
   "max_branch_radius": 20,
   "growth_logic_kit": {
-    "name": "dtbyg:willow",
+    "name": "dtbwg:willow",
     "properties": {
       "canopy_depth": 6
     }
@@ -18,7 +18,7 @@
     "dry": 0.5
   },
   "perfect_biomes": { "type": "swamp" },
-  "primitive_sapling": "byg:willow_sapling",
+  "primitive_sapling": "biomeswevegone:willow_sapling",
   "acceptable_soils": ["dirt_like", "water_like"],
   "features": [
     {

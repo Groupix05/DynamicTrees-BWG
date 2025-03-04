@@ -1,30 +1,30 @@
 {
-  "type": "dtbyg:generates_on_extra_soil",
-  "extra_soil_for_worldgen": "byg:mossy_stone",
-  "soil_replacement_for_worldgen": "byg:overgrown_stone",
-  "family": "dtbyg:rainbow_eucalyptus",
+  "type": "dtbwg:generates_on_extra_soil",
+  "extra_soil_for_worldgen": "biomeswevegone:mossy_stone",
+  "soil_replacement_for_worldgen": "biomeswevegone:overgrown_stone",
+  "family": "dtbwg:rainbow_eucalyptus",
   "tapering": 0.2,
   "signal_energy": 32.0,
   "up_probability": 3,
   "lowest_branch_height": 16,
   "growth_rate": 1.4,
   "growth_logic_kit": {
-    "name": "dtbyg:variate_height",
+    "name": "dtbwg:variate_height",
     "properties": {
       "height_variation": 4
     }
   },
-  "leaves_properties": "dtbyg:rainbow_eucalyptus",
+  "leaves_properties": "dtbwg:rainbow_eucalyptus",
   "environment_factors" : {
     "snowy": 0.5,
     "dry": 0.75
   },
-  "mega_species": "dtbyg:mega_rainbow_eucalyptus",
+  "mega_species": "dtbwg:mega_rainbow_eucalyptus",
   "perfect_biomes": {
     "type": "jungle"
   },
   "primitive_saplings": [
-    "byg:rainbow_eucalyptus_sapling"
+    "biomeswevegone:rainbow_eucalyptus_sapling"
   ],
   "features": [
     "bee_nest",
@@ -40,22 +40,22 @@
             "max_attempts": 3
           }
         },
-        "biome_predicate": { "name": "byg:tropical_fungal_rainforest.*" }
+        "biome_predicate": { "name": "biomeswevegone:tropical_fungal_rainforest.*" }
       }
     },
     {
-      "name": "dtbyg:biome_predicate",
+      "name": "dtbwg:biome_predicate",
       "properties": {
         "only_world_gen": true,
         "gen_feature": {
-          "name": "dtbyg:huge_mushrooms",
+          "name": "dtbwg:huge_mushrooms",
           "properties": {
             "place_chance": 0.8,
             "max_count": 2,
             "max_attempts": 3
           }
         },
-        "biome_predicate": { "name": "byg:tropical_fungal_forest.*" }
+        "biome_predicate": { "name": "biomeswevegone:tropical_fungal_forest.*" }
       }
     }
   ]

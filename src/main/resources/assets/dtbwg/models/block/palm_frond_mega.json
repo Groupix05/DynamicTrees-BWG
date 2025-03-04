@@ -1,6 +1,6 @@
 {
-  "loader": "dtbyg:palm_fronds",
+  "loader": "dtbwg:palm_fronds",
   "textures": {
-    "frond": "dtbyg:block/palm_frond_mega"
+    "frond": "dtbwg:block/palm_frond_mega"
   }
 }

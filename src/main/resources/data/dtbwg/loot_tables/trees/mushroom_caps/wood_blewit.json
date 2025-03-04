@@ -24,11 +24,11 @@
                   }
                 }
               ],
-              "name": "byg:wood_blewit_mushroom_block"
+              "name": "biomeswevegone:wood_blewit_mushroom_block"
             },
             {
               "type": "minecraft:item",
-              "name": "byg:wood_blewit"
+              "name": "biomeswevegone:wood_blewit"
             }
           ]
         }

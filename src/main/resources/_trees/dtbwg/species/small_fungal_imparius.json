@@ -1,11 +1,11 @@
 {
-  "type": "dtbyg:woody_mushroom",
-  "family": "dtbyg:fungal_imparius",
+  "type": "dtbwg:woody_mushroom",
+  "family": "dtbwg:fungal_imparius",
   "tapering": 0,
   "signal_energy": 4,
   "growth_rate": 1.2,
   "soil_longevity": 1,
-  "cap_properties": "dtbyg:fungal_imparius",
+  "cap_properties": "dtbwg:fungal_imparius",
   "mushroom_shape_kit": {
     "name": "dynamictreesplus:bell",
     "properties": {
@@ -17,7 +17,7 @@
     }
   },
   "acceptable_soils": ["end_soil_like", "fungus_like"],
-  "acceptable_growth_blocks": ["byg:imparius_phylium", "dtbyg:rooty_imparius_phylium"],
+  "acceptable_growth_blocks": ["biomeswevegone:imparius_phylium", "dtbwg:rooty_imparius_phylium"],
   "accept_any_soil": false,
   "features" : [
     {

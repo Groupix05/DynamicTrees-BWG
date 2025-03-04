@@ -15,7 +15,7 @@
                   "chance": 0.5
                 }
               ],
-              "name": "byg:fungal_imparius_filament_block"
+              "name": "biomeswevegone:fungal_imparius_filament_block"
             },
             {
               "type": "minecraft:item",
@@ -34,11 +34,11 @@
                   }
                 }
               ],
-              "name": "byg:fungal_imparius_block"
+              "name": "biomeswevegone:fungal_imparius_block"
             },
             {
               "type": "minecraft:item",
-              "name": "byg:fungal_imparius"
+              "name": "biomeswevegone:fungal_imparius"
             }
           ]
         }

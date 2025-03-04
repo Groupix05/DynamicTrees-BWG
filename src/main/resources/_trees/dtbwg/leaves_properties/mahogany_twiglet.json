@@ -1,11 +1,11 @@
 {
-  "primitive_leaves": "byg:mahogany_leaves",
-  "cell_kit": "dtbyg:sparse",
+  "primitive_leaves": "biomeswevegone:mahogany_leaves",
+  "cell_kit": "dtbwg:sparse",
   "can_grow_on_ground": true,
   "model_overrides": {
-    "leaves": "byg:block/mahogany/leaves"
+    "leaves": "biomeswevegone:block/mahogany/leaves"
   },
   "texture_overrides": {
-    "leaves": "byg:block/mahogany/leaves"
+    "leaves": "biomeswevegone:block/mahogany/leaves"
   }
 }

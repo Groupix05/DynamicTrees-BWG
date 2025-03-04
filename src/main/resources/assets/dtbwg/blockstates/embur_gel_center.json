@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "byg:block/embur_gel_block"
+      "model": "biomeswevegone:block/embur_gel_block"
     }
   }
 }

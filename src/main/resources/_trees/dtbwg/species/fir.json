@@ -1,20 +1,20 @@
 {
-  "family": "dtbyg:fir",
+  "family": "dtbwg:fir",
   "tapering": 0.25,
   "signal_energy": 18.0,
   "up_probability": 4,
   "lowest_branch_height": 5,
   "growth_rate": 0.9,
   "growth_logic_kit": "conifer",
-  "leaves_properties": "dtbyg:fir",
+  "leaves_properties": "dtbwg:fir",
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
   },
   "perfect_biomes": { "type": "coniferous" },
-  "primitive_sapling": "byg:fir_sapling",
-  "mega_species": "dtbyg:mega_fir",
+  "primitive_sapling": "biomeswevegone:fir_sapling",
+  "mega_species": "dtbwg:mega_fir",
   "features" : [
     "conifer_topper"
   ]

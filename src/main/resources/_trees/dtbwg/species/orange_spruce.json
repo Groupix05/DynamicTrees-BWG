@@ -4,7 +4,7 @@
   "signal_energy": 16.0,
   "growth_rate": 0.8,
   "growth_logic_kit": "conifer",
-  "leaves_properties": "dtbyg:orange_spruce",
+  "leaves_properties": "dtbwg:orange_spruce",
   "generate_seed": true,
   "generate_sapling": true,
   "environment_factors": {
@@ -14,10 +14,10 @@
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "byg:.*taiga.*"
+    "name": "biomeswevegone:.*taiga.*"
   },
-  "primitive_sapling": "byg:orange_spruce_sapling",
-  "mega_species": "dtbyg:mega_yellow_spruce",
+  "primitive_sapling": "biomeswevegone:orange_spruce_sapling",
+  "mega_species": "dtbwg:mega_yellow_spruce",
   "features" : [
     "conifer_topper",
     "podzol"

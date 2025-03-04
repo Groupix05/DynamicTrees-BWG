@@ -1,7 +1,0 @@
-{
-  "loader": "dynamictrees:branch",
-  "textures": {
-    "bark": "byg:block/cika/stripped_log",
-    "rings": "byg:block/cika/stripped_log_top"
-  }
-}

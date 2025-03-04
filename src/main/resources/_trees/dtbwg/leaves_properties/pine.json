@@ -1,12 +1,12 @@
 {
-  "primitive_leaves": "byg:pine_leaves",
+  "primitive_leaves": "biomeswevegone:pine_leaves",
   "cell_kit": "dynamictrees:conifer",
   "smother": 20,
   "light_requirement": 11,
   "model_overrides": {
-    "leaves": "byg:block/pine/leaves"
+    "leaves": "biomeswevegone:block/pine/leaves"
   },
   "texture_overrides": {
-    "leaves": "byg:block/pine/leaves"
+    "leaves": "biomeswevegone:block/pine/leaves"
   }
 }

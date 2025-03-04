@@ -24,11 +24,11 @@
                   }
                 }
               ],
-              "name": "byg:embur_gel_block"
+              "name": "biomeswevegone:embur_gel_block"
             },
             {
               "type": "minecraft:item",
-              "name": "byg:embur_gel_ball"
+              "name": "biomeswevegone:embur_gel_ball"
             }
           ]
         }

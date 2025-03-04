@@ -13,14 +13,14 @@
             "energy_divisor": 5
         }
     },
-  "leaves_properties": "dtbyg:orange_spruce",
+  "leaves_properties": "dtbwg:orange_spruce",
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
   },
   "world_gen_leaf_map_height": 70,
-  "perfect_biomes": { "name": "byg:.*giant_taiga.*" },
+  "perfect_biomes": { "name": "biomeswevegone:.*giant_taiga.*" },
   "features" : [
     "conifer_topper",
     {

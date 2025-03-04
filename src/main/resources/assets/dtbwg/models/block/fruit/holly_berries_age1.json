@@ -1,7 +1,7 @@
 {
-	"parent": "dtbyg:block/fruit/generic/berry_age1",
+	"parent": "dtbwg:block/fruit/generic/berry_age1",
 	"textures": {
-		"particle": "dtbyg:block/holly_berries",
-		"apple": "dtbyg:block/holly_berries"
+		"particle": "dtbwg:block/holly_berries",
+		"apple": "dtbwg:block/holly_berries"
 	}
 }

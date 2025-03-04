@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "byg:block/imparius_mushroom_block"
+      "model": "biomeswevegone:block/imparius_mushroom_block"
     }
   }
 }

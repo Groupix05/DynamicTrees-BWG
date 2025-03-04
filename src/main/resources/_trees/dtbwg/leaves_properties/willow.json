@@ -1,10 +1,10 @@
 {
-  "primitive_leaves": "byg:willow_leaves",
-  "cell_kit": "dtbyg:willow",
+  "primitive_leaves": "biomeswevegone:willow_leaves",
+  "cell_kit": "dtbwg:willow",
   "model_overrides": {
-    "leaves": "byg:block/willow/leaves"
+    "leaves": "biomeswevegone:block/willow/leaves"
   },
   "texture_overrides": {
-    "leaves": "byg:block/willow/leaves"
+    "leaves": "biomeswevegone:block/willow/leaves"
   }
 }

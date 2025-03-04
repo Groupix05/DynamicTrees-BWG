@@ -1,8 +1,8 @@
 {
   "type": "spreadable",
-  "primitive_soil": "byg:blue_netherrack",
+  "primitive_soil": "biomeswevegone:blue_netherrack",
   "acceptable_soils": [ "nether_like" ],
 
   "spread_item": "bone_meal",
-  "spreadable_soils": [ "dtbyg:embur_nylium" ]
+  "spreadable_soils": [ "dtbwg:embur_nylium" ]
 }

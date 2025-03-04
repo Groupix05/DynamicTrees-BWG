@@ -1,12 +1,12 @@
 {
-  "family": "dtbyg:jacaranda",
+  "family": "dtbwg:jacaranda",
   "tapering": 0.15,
   "signal_energy": 16.0,
   "up_probability": 2,
   "lowest_branch_height": 6,
   "growth_rate": 1.2,
-  "leaves_properties": "dtbyg:jacaranda",
-  "growth_logic_kit": "dtbyg:maple",
+  "leaves_properties": "dtbwg:jacaranda",
+  "growth_logic_kit": "dtbwg:maple",
   "environment_factors": {
     "cold": 0.75,
     "snowy": 0.5,
@@ -15,8 +15,8 @@
   "perfect_biomes": {
     "name": ".*jacaranda.*"
   },
-  "mega_species": "dtbyg:mega_jacaranda",
-  "primitive_sapling": "byg:jacaranda_sapling",
+  "mega_species": "dtbwg:mega_jacaranda",
+  "primitive_sapling": "biomeswevegone:jacaranda_sapling",
   "features": [
     "bottom_flare",
     {
@@ -30,7 +30,7 @@
     {
       "name": "alt_leaves",
       "properties": {
-        "alternative_leaves": "dtbyg:flowering_jacaranda",
+        "alternative_leaves": "dtbwg:flowering_jacaranda",
         "place_chance": 0.33
       }
     }

@@ -1,11 +1,11 @@
 {
   "type": "dynamictreesplus:mushroom",
-  "family": "dtbyg:soul_shroom",
+  "family": "dtbwg:soul_shroom",
   "tapering": 0,
   "signal_energy": 6,
   "growth_rate": 1.2,
   "soil_longevity": 3,
-  "cap_properties": "dtbyg:soul_shroom",
+  "cap_properties": "dtbwg:soul_shroom",
   "cap_thickness_multiplier": 0.5,
   "mushroom_shape_kit": {
     "name": "dynamictreesplus:bell",
@@ -15,19 +15,19 @@
       "pointed_tip_max_age": 8
     }
   },
-  "primitive_sapling": "byg:soul_shroom",
+  "primitive_sapling": "biomeswevegone:soul_shroom",
   "acceptable_soils": ["fungus_like"],
   "accept_any_soil": false,
   "world_gen_acceptable_soils": ["nether_like"],
-  "sapling_shape": "dtbyg:soul_shroom",
+  "sapling_shape": "dtbwg:soul_shroom",
   "features" : [
     "bottom_flare",
     {
-      "name": "dtbyg:mushroom_vines",
+      "name": "dtbwg:mushroom_vines",
       "properties": {
         "max_length": 6,
-        "block": "byg:soul_shroom_spore",
-        "tip_block": "byg:soul_shroom_spore_end"
+        "block": "biomeswevegone:soul_shroom_spore",
+        "tip_block": "biomeswevegone:soul_shroom_spore_end"
       }
     }
   ]

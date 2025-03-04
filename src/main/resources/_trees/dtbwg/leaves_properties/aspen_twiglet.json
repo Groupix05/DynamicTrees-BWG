@@ -1,11 +1,11 @@
 {
-  "primitive_leaves": "byg:aspen_leaves",
-  "cell_kit": "dtbyg:sparse",
+  "primitive_leaves": "biomeswevegone:aspen_leaves",
+  "cell_kit": "dtbwg:sparse",
   "can_grow_on_ground": true,
   "model_overrides": {
-    "leaves": "byg:block/aspen/leaves"
+    "leaves": "biomeswevegone:block/aspen/leaves"
   },
   "texture_overrides": {
-    "leaves": "byg:block/aspen/leaves"
+    "leaves": "biomeswevegone:block/aspen/leaves"
   }
 }

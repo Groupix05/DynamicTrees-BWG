@@ -1,17 +1,17 @@
 {
-  "family": "dtbyg:mahogany",
+  "family": "dtbwg:mahogany",
   "tapering": 0.25,
   "signal_energy": 28.0,
   "up_probability": 3,
   "lowest_branch_height": 5,
   "growth_rate": 0.8,
   "growth_logic_kit": {
-    "name": "dtbyg:variate_height",
+    "name": "dtbwg:variate_height",
     "properties": {
       "height_variation": 4
     }
   },
-  "leaves_properties": "dtbyg:mahogany",
+  "leaves_properties": "dtbwg:mahogany",
   "environment_factors" : {
     "cold": 0.75,
     "dry": 0.5
@@ -42,22 +42,22 @@
             "max_attempts": 3
           }
         },
-        "biome_predicate": { "name": "byg:tropical_fungal_rainforest.*" }
+        "biome_predicate": { "name": "biomeswevegone:tropical_fungal_rainforest.*" }
       }
     },
     {
-      "name": "dtbyg:biome_predicate",
+      "name": "dtbwg:biome_predicate",
       "properties": {
         "only_world_gen": true,
         "gen_feature": {
-          "name": "dtbyg:huge_mushrooms",
+          "name": "dtbwg:huge_mushrooms",
           "properties": {
             "place_chance": 0.8,
             "max_count": 2,
             "max_attempts": 3
           }
         },
-        "biome_predicate": { "name": "byg:tropical_fungal_forest.*" }
+        "biome_predicate": { "name": "biomeswevegone:tropical_fungal_forest.*" }
       }
     }
   ]

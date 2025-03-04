@@ -7,7 +7,7 @@
   "growth_rate": 1.1,
   "soil_longevity": 20,
   "leaves_properties": "oak",
-  "growth_logic_kit": "dtbyg:ebony",
+  "growth_logic_kit": "dtbwg:ebony",
   "environment_factors": {
     "cold": 0.9,
     "hot": 0.75,
@@ -17,7 +17,7 @@
     "name": ".*woodlands"
   },
   "features": [
-    "dtbyg:big_bottom_flare",
+    "dtbwg:big_bottom_flare",
     {
       "name": "roots",
       "properties": {
@@ -31,14 +31,14 @@
       "properties": {
         "only_world_gen": true,
         "gen_feature": {
-          "name": "dtbyg:huge_mushrooms",
+          "name": "dtbwg:huge_mushrooms",
           "properties": {
             "place_chance": 0.6,
             "max_count": 2,
             "max_attempts": 2
           }
         },
-        "biome_predicate": { "name": "byg:temperate_rainforest" }
+        "biome_predicate": { "name": "biomeswevegone:temperate_rainforest" }
       }
     }
   ]

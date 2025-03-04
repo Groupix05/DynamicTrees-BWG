@@ -1,0 +1,5 @@
+{
+  "primitive_soil": "biomeswevegone:sandy_farmland",
+  "acceptable_soils": [ "dirt_like", "sand_like" ],
+  "substitute_soil" : "dtbwg:sandy_dirt"
+}

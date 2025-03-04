@@ -1,5 +1,5 @@
 {
-  "primitive_leaves": "byg:firecracker_leaves",
-  "cell_kit": "dtbyg:sparse",
+  "primitive_leaves": "biomeswevegone:firecracker_leaves",
+  "cell_kit": "dtbwg:sparse",
   "can_grow_on_ground": true
 }

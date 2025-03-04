@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "byg:shulkren_wart_block"
+          "name": "biomeswevegone:shulkren_wart_block"
         }
       ],
       "conditions": [

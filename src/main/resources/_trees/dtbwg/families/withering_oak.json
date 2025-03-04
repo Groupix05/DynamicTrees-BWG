@@ -1,7 +1,7 @@
 {
-  "common_leaves": "dtbyg:withering_oak",
-  "common_species": "dtbyg:withering_oak",
-  "primitive_log": "byg:withering_oak_log",
+  "common_leaves": "dtbwg:withering_oak",
+  "common_species": "dtbwg:withering_oak",
+  "primitive_log": "biomeswevegone:withering_oak_log",
   "generate_stripped_branch": false,
   "fire_proof": true,
   "max_branch_radius": 24,

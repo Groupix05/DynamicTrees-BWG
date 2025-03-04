@@ -5,8 +5,8 @@
   "up_probability": 2,
   "lowest_branch_height": 6,
   "growth_rate": 0.8,
-  "leaves_properties": "dtbyg:canopy_dark_oak",
-  "growth_logic_kit": "dtbyg:maple",
+  "leaves_properties": "dtbwg:canopy_dark_oak",
+  "growth_logic_kit": "dtbwg:maple",
   "environment_factors": {
     "cold": 1.1,
     "hot": 0.2,
@@ -22,14 +22,14 @@
       "properties": {
         "only_world_gen": true,
         "gen_feature": {
-          "name": "dtbyg:huge_mushrooms",
+          "name": "dtbwg:huge_mushrooms",
           "properties": {
             "place_chance": 0.6,
             "max_count": 2,
             "max_attempts": 2
           }
         },
-        "biome_predicate": { "names": ["byg:ebony_woods", "byg:.*ancient_forest"] }
+        "biome_predicate": { "names": ["biomeswevegone:ebony_woods", "biomeswevegone:.*ancient_forest"] }
       }
     }
   ]

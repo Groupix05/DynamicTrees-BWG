@@ -1,7 +1,0 @@
-{
-  "loader": "dynamictrees:branch",
-  "textures": {
-    "bark": "byg:block/witch_hazel/log",
-    "rings": "byg:block/witch_hazel/log_top"
-  }
-}

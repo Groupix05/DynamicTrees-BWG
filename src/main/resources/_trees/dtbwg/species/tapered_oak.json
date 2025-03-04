@@ -5,13 +5,13 @@
   "up_probability": 6,
   "lowest_branch_height": 6,
   "growth_rate": 0.9,
-  "growth_logic_kit": "dtbyg:tapered",
-  "leaves_properties": "dtbyg:tapered_oak",
+  "growth_logic_kit": "dtbwg:tapered",
+  "leaves_properties": "dtbwg:tapered_oak",
   "environment_factors" : {
     "hot": 0.75,
     "dry": 0.50
   },
-  "common_override": { "name": "byg:.*deciduous.*" },
+  "common_override": { "name": "biomeswevegone:.*deciduous.*" },
   "perfect_biomes": { "type": "forest" },
   "features" : [
     "conifer_topper",

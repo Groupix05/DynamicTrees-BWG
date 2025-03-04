@@ -1,4 +1,4 @@
 {
-  "primitive_soil": "byg:overgrown_dacite",
+  "primitive_soil": "biomeswevegone:overgrown_dacite",
   "acceptable_soils": [ "dirt_like" ]
 }

@@ -1,6 +1,6 @@
 {
-  "primitive_leaves": "byg:indigo_jacaranda_leaves",
-  "cell_kit": "dtbyg:willow",
+  "primitive_leaves": "biomeswevegone:indigo_jacaranda_leaves",
+  "cell_kit": "dtbwg:willow",
 
   "type": "scruffy",
   "scruffy_leaf_chance": 0.5,

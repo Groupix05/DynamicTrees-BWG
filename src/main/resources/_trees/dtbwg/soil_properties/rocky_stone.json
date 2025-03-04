@@ -1,4 +1,4 @@
 {
-  "primitive_soil": "byg:rocky_stone",
+  "primitive_soil": "biomeswevegone:rocky_stone",
   "acceptable_soils": [ "stone_like" ]
 }

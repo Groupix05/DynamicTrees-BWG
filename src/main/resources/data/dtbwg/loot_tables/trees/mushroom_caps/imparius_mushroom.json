@@ -24,11 +24,11 @@
                   }
                 }
               ],
-              "name": "byg:imparius_mushroom_block"
+              "name": "biomeswevegone:imparius_mushroom_block"
             },
             {
               "type": "minecraft:item",
-              "name": "byg:imparius_mushroom"
+              "name": "biomeswevegone:imparius_mushroom"
             }
           ]
         }

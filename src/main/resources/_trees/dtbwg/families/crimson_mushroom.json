@@ -1,8 +1,8 @@
 {
   "only_if_loaded": "dynamictreesplus",
-  "type": "dtbyg:warty_mushroom",
-  "common_cap": "dtbyg:crimson_mushroom",
-  "common_species": "dtbyg:crimson_mushroom",
+  "type": "dtbwg:warty_mushroom",
+  "common_cap": "dtbwg:crimson_mushroom",
+  "common_species": "dtbwg:crimson_mushroom",
   "primitive_log": "crimson_stem",
   "primitive_stripped_log": "stripped_crimson_stem",
   "max_branch_radius": 24,

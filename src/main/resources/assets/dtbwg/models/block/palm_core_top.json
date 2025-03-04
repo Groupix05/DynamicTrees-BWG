@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "dtbyg:block/palm_base",
-    "frond": "dtbyg:block/palm_frond"
+    "particle": "dtbwg:block/palm_base",
+    "frond": "dtbwg:block/palm_frond"
   },
   "ambientocclusion": false,
   "elements": [

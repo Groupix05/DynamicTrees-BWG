@@ -13,7 +13,7 @@
             "energy_divisor": 5
         }
     },
-  "leaves_properties": "dtbyg:yellow_spruce",
+  "leaves_properties": "dtbwg:yellow_spruce",
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,
@@ -21,7 +21,7 @@
   },
   "common_override": { "name": "minecraft:.*giant_tree_taiga.*" },
   "perfect_biomes": { "name": "minecraft:.*giant_tree_taiga.*" },
-  "mega_species": "dtbyg:giga_yellow_spruce",
+  "mega_species": "dtbwg:giga_yellow_spruce",
   "features" : [
     "conifer_topper",
     {

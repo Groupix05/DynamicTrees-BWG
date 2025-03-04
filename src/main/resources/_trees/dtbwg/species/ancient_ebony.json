@@ -1,5 +1,5 @@
 {
-  "family": "dtbyg:ebony",
+  "family": "dtbwg:ebony",
   "tapering": 0.4,
   "signal_energy": 18.0,
   "up_probability": 2,
@@ -7,8 +7,8 @@
   "growth_rate": 0.8,
   "soil_longevity": 6,
   "max_branch_radius": 24,
-  "leaves_properties": "dtbyg:ancient_ebony",
-  "growth_logic_kit": "dtbyg:ancient",
+  "leaves_properties": "dtbwg:ancient_ebony",
+  "growth_logic_kit": "dtbwg:ancient",
   "environment_factors": {
     "cold": 0.9,
     "hot": 0.9,
@@ -23,7 +23,7 @@
     "mound",
     "roots",
     {
-      "name": "dtbyg:huge_mushrooms",
+      "name": "dtbwg:huge_mushrooms",
       "properties": {
         "place_chance": 0.8,
         "max_count": 2,
@@ -37,7 +37,7 @@
         "gen_feature": {
           "name": "shroomlight",
           "properties": {
-            "shroomlight": "byg:pollen_block",
+            "shroomlight": "biomeswevegone:pollen_block",
             "vanilla_grow_chance": 0
           }
         },

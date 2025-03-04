@@ -1,13 +1,13 @@
 {
-  "family": "dtbyg:jacaranda",
+  "family": "dtbwg:jacaranda",
   "tapering": 0.2,
   "signal_energy": 32.0,
   "up_probability": 2,
   "lowest_branch_height": 12,
   "growth_rate": 1.2,
   "max_branch_radius": 24,
-  "leaves_properties": "dtbyg:indigo_jacaranda",
-  "growth_logic_kit": "dtbyg:maple",
+  "leaves_properties": "dtbwg:indigo_jacaranda",
+  "growth_logic_kit": "dtbwg:maple",
   "environment_factors": {
     "cold": 0.75,
     "snowy": 0.5,
@@ -16,7 +16,7 @@
   "perfect_biomes": {
     "name": ".*jacaranda.*"
   },
-  "primitive_sapling": "byg:indigo_jacaranda_sapling",
+  "primitive_sapling": "biomeswevegone:indigo_jacaranda_sapling",
   "features": [
     "bottom_flare",
     {
@@ -30,7 +30,7 @@
     {
       "name": "alt_leaves",
       "properties": {
-        "alternative_leaves": "dtbyg:flowering_indigo_jacaranda",
+        "alternative_leaves": "dtbwg:flowering_indigo_jacaranda",
         "place_chance": 0.33
       }
     }
