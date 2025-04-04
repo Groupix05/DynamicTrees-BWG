@@ -1,0 +1,8 @@
+{
+  "primitive_leaves": "biomeswevegone:orange_spruce_leaves",
+  "smother": 3,
+  "cell_kit": "dynamictrees:conifer",
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/orange_spruce_leaves"
+  }
+}

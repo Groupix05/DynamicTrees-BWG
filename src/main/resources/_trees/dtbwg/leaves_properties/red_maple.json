@@ -1,7 +1,0 @@
-{
-  "type": "scruffy",
-  "primitive_leaves": "biomeswevegone:red_maple_leaves",
-  "texture_overrides": {
-    "leaves": "biomeswevegone:block/maple_leaves_red"
-  }
-}

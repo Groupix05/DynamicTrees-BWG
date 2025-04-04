@@ -1,0 +1,10 @@
+{
+  "primitive_leaves": "biomeswevegone:mahogany_leaves",
+  "cell_kit": "acacia",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/mahogany_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/mahogany/leaves"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "primitive_leaves": "biomeswevegone:palo_verde_leaves",
+  "cell_kit": "acacia",
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/palo_verde/leaves"
+  }
+}

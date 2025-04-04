@@ -1,0 +1,8 @@
+{
+  "primitive_leaves": "biomeswevegone:silver_maple_leaves",
+  "cell_kit": "dynamictrees:dark_oak",
+  "smother": 3,
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/silver_maple_leaves"
+  }
+}

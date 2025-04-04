@@ -1,0 +1,14 @@
+{
+  "primitive_leaves": "biomeswevegone:jacaranda_leaves",
+  "cell_kit": "dtbwg:willow",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/jacaranda_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/jacaranda/leaves"
+  },
+
+  "type": "scruffy",
+  "scruffy_leaf_chance": 0.5,
+  "scruffy_max_hydro": 2
+}

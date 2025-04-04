@@ -5,6 +5,9 @@
   "primitive_stripped_log": "biomeswevegone:stripped_palo_verde_log",
   "max_branch_radius": 8,
   "texture_overrides": {
-    "stripped_branch_top": "biomeswevegone:block/stripped_palo_verde_top"
+    "branch": "biomeswevegone:block/palo_verde/log",
+    "branch_top": "biomeswevegone:block/palo_verde/log_top",
+    "stripped_branch": "biomeswevegone:block/palo_verde/stripped_log",
+    "stripped_branch_top": "biomeswevegone:block/palo_verde/stripped_log_top"
   }
 }
