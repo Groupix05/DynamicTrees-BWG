@@ -1,0 +1,11 @@
+{
+  "type": "scruffy",
+  "primitive_leaves": "biomeswevegone:white_mangrove_leaves",
+  "cell_kit": "acacia",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/white_mangrove_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/white_mangrove/leaves"
+  }
+}

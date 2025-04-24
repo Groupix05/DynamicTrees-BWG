@@ -1,0 +1,12 @@
+{
+  "type": "scruffy",
+  "scruffy_leaf_chance": 0.33,
+  "primitive_leaves": "biomeswevegone:witch_hazel_leaves",
+  "cell_kit": "dtbwg:sparse",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/witch_hazel_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/witch_hazel/leaves"
+  }
+}

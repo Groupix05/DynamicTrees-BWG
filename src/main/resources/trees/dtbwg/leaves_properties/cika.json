@@ -1,0 +1,12 @@
+{
+  "primitive_leaves": "biomeswevegone:cika_leaves",
+  "cell_kit": "dynamictrees:conifer",
+  "smother": 32,
+  "light_requirement": 6,
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/cika_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/cika/leaves"
+  }
+}

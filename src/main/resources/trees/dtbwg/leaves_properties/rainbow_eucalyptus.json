@@ -1,0 +1,10 @@
+{
+  "primitive_leaves": "biomeswevegone:rainbow_eucalyptus_leaves",
+  "cell_kit": "acacia",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/rainbow_eucalyptus_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/rainbow_eucalyptus/leaves"
+  }
+}

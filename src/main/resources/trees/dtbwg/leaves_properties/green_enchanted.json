@@ -1,0 +1,10 @@
+{
+  "primitive_leaves": "biomeswevegone:green_enchanted_leaves",
+  "cell_kit": "acacia",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/green_enchanted_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/green_enchanted/leaves"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "scruffy",
+  "scruffy_leaf_chance": 0.66,
+  "scruffy_max_hydro": 1,
+  "primitive_leaves": "biomeswevegone:ebony_leaves",
+  "smother": 8,
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/ebony_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/ebony/leaves"
+  }
+}

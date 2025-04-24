@@ -1,0 +1,9 @@
+{
+  "type": "scruffy",
+  "scruffy_leaf_chance": 0.66,
+  "scruffy_max_hydro": 1,
+  "primitive_leaves": "biomeswevegone:brown_oak_leaves",
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/brown_oak_leaves"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "scruffy",
+  "primitive_leaves": "biomeswevegone:red_oak_leaves",
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/red_oak_leaves"
+  }
+}
