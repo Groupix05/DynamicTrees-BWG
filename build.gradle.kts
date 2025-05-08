@@ -104,11 +104,11 @@ dependencies {
     implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:$dtVersion"))
     implementation(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
 
-    runtimeOnly(fg.deobf("com.github.glitchfiend:TerraBlender-forge:1.20.1-3.0.1.7"))
-    runtimeOnly(fg.deobf("corgitaco.corgilib:Corgilib-Forge:1.20.1-4.0.3.3"))
-    runtimeOnly(fg.deobf("dev.corgitaco:Oh-The-Trees-Youll-Grow-forge:1.20.1-1.3.4"))
-    runtimeOnly(fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.7"))
-    implementation(fg.deobf("curse.maven:oh-the-biomes-weve-gone-1070751:6099955"))
+    runtimeOnly(fg.deobf("com.github.glitchfiend:TerraBlender-forge:1.20.1-3.0.1.10"))
+    implementation(fg.deobf("corgitaco.corgilib:Corgilib-Forge:1.20.1-4.0.3.3"))
+    implementation(fg.deobf("dev.corgitaco:Oh-The-Trees-Youll-Grow-forge:1.20.1-1.3.4"))//crash with 1.3.5 and higher
+    runtimeOnly(fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.7.1.2"))
+    implementation(fg.deobf("curse.maven:oh-the-biomes-weve-gone-1070751:6416899"))
 
     runtimeOnly(fg.deobf("curse.maven:jade-324717:5072729"))
     runtimeOnly(fg.deobf("curse.maven:jei-238222:5101366"))

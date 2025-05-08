@@ -16,7 +16,7 @@
     "magical": 1.1
   },
   "perfect_biomes": {
-    "name": ".*ancient.*"
+    "name": "biomeswevegone:forgotten_forest"
   },
   "features": [
     "bottom_flare",

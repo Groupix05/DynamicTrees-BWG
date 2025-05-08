@@ -1,19 +1,30 @@
 package maxhyper.dtbwg.init;
 
 import com.ferreusveritas.dynamictrees.api.registry.RegistryHandler;
+import com.ferreusveritas.dynamictrees.api.cell.CellKit;
 import com.ferreusveritas.dynamictrees.api.registry.TypeRegistryEvent;
+import com.ferreusveritas.dynamictrees.api.worldgen.FeatureCanceller;
+import com.ferreusveritas.dynamictrees.growthlogic.GrowthLogicKit;
 import com.ferreusveritas.dynamictrees.init.DTConfigs;
 import com.ferreusveritas.dynamictrees.systems.BranchConnectables;
+import com.ferreusveritas.dynamictrees.systems.genfeature.GenFeature;
 import com.ferreusveritas.dynamictrees.tree.family.Family;
+import com.ferreusveritas.dynamictrees.tree.species.Species;
 import maxhyper.dtbwg.DynamicTreesBWG;
 import maxhyper.dtbwg.blocks.DynamicWitchHazelBranch;
 import maxhyper.dtbwg.trees.DiagonalPalmFamily;
 import maxhyper.dtbwg.trees.ImbuedLogFamily;
+import maxhyper.dtbwg.cancellers.BWGTreeFeatureCanceller;
+import maxhyper.dtbwg.genfeatures.DTBWGGenFeatures;
+import maxhyper.dtbwg.cells.DTBWGCellKits;
+import maxhyper.dtbwg.growthlogic.DTBWGGrowthLogicKits;
+import maxhyper.dtbwg.trees.*;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.potionstudios.biomeswevegone.world.level.block.BWGBlocks;
+import dev.corgitaco.ohthetreesyoullgrow.world.level.levelgen.feature.configurations.TreeFromStructureNBTConfig;
 
 import java.util.function.Supplier;
 
@@ -69,31 +80,31 @@ public class DTBWGRegistries {
         }
     }
 //
-//    @SubscribeEvent
-//    public static void onGenFeatureRegistry (final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<GenFeature> event) {
-//        dtbwgGenFeatures.register(event.getRegistry());
-//    }
-//
-//    @SubscribeEvent
-//    public static void onCellKitRegistry (final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<CellKit> event) {
-//        dtbwgCellKits.register(event.getRegistry());
-//    }
-//
-//    @SubscribeEvent
-//    public static void onGrowthLogicKitRegistry (final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<GrowthLogicKit> event) {
-//        dtbwgGrowthLogicKits.register(event.getRegistry());
-//    }
-//
-//    @SubscribeEvent
-//    public static void registerSpeciesTypes (final TypeRegistryEvent<Species> event) {
-//        event.registerType(DynamicTreesBWG.location("poplar"), PoplarSpecies.TYPE);
-//        event.registerType(DynamicTreesBWG.location("twiglet"), TwigletSpecies.TYPE);
-//        event.registerType(DynamicTreesBWG.location("generates_underwater"), GenUnderwaterSpecies.TYPE);
-//        event.registerType(DynamicTreesBWG.location("generates_on_extra_soil"), GenOnExtraSoilSpecies.TYPE);
-//        event.registerType(DynamicTreesBWG.location("mangrove"), MangroveSpecies.TYPE);
-//        event.registerType(DynamicTreesBWG.location("lament"), LamentSpecies.TYPE);
-//        event.registerType(DynamicTreesBWG.location("woody_mushroom"), WoodyHugeMushroomSpecies.TYPE);
-//    }
+    @SubscribeEvent
+    public static void onGenFeatureRegistry (final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<GenFeature> event) {
+        DTBWGGenFeatures.register(event.getRegistry());
+    }
+
+    @SubscribeEvent
+    public static void onCellKitRegistry (final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<CellKit> event) {
+        DTBWGCellKits.register(event.getRegistry());
+    }
+
+    @SubscribeEvent
+    public static void onGrowthLogicKitRegistry (final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<GrowthLogicKit> event) {
+        DTBWGGrowthLogicKits.register(event.getRegistry());
+    }
+
+    @SubscribeEvent
+    public static void registerSpeciesTypes (final TypeRegistryEvent<Species> event) {
+        event.registerType(DynamicTreesBWG.location("poplar"), PoplarSpecies.TYPE);
+        event.registerType(DynamicTreesBWG.location("twiglet"), TwigletSpecies.TYPE);
+        event.registerType(DynamicTreesBWG.location("generates_underwater"), GenUnderwaterSpecies.TYPE);
+        event.registerType(DynamicTreesBWG.location("generates_on_extra_soil"), GenOnExtraSoilSpecies.TYPE);
+        event.registerType(DynamicTreesBWG.location("mangrove"), MangroveSpecies.TYPE);
+        event.registerType(DynamicTreesBWG.location("lament"), LamentSpecies.TYPE);
+        event.registerType(DynamicTreesBWG.location("woody_mushroom"), WoodyHugeMushroomSpecies.TYPE);
+    }
 
     @SubscribeEvent
     public static void registerFamilyTypes (final TypeRegistryEvent<Family> event) {
@@ -115,16 +126,16 @@ public class DTBWGRegistries {
 //        biomeswevegoneMushroomShapeKits.register(event.getRegistry());
 //    }
 //
-//    public static final FeatureCanceller biomeswevegone_TREE_CANCELLER = new biomeswevegoneTreeFeatureCanceller<>(DynamicTreesBWG.location("tree"), TreeFromStructureNBTConfig.class);
+    public static final FeatureCanceller biomeswevegone_TREE_CANCELLER = new BWGTreeFeatureCanceller<>(DynamicTreesBWG.location("tree"), TreeFromStructureNBTConfig.class);
 //    public static final FeatureCanceller biomeswevegone_FUNGUS_CANCELLER = new TreeFeatureCanceller<>(DynamicTreesBWG.location("fungus"), biomeswevegoneMushroomConfig.class);
 //    public static final FeatureCanceller GIANT_FLOWER_CANCELLER = new TreeFeatureCanceller<>(DynamicTreesBWG.location("giant_flower"), GiantFlowerConfig.class);
 //
-//    @SubscribeEvent
-//    public static void onFeatureCancellerRegistry(final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<FeatureCanceller> event) {
-//        event.getRegistry().registerAll(biomeswevegone_TREE_CANCELLER);
+    @SubscribeEvent
+    public static void onFeatureCancellerRegistry(final com.ferreusveritas.dynamictrees.api.registry.RegistryEvent<FeatureCanceller> event) {
+        event.getRegistry().registerAll(biomeswevegone_TREE_CANCELLER);
 //        event.getRegistry().registerAll(biomeswevegone_FUNGUS_CANCELLER);
 //        event.getRegistry().registerAll(GIANT_FLOWER_CANCELLER);
-//    }
+    }
 
 //    public static void onBiomeLoading(final BiomeLoadingEvent event){
 //        VegetationReplacement.OnBiomeLoadingEvent(event);
