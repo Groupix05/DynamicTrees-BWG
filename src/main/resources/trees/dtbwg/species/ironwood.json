@@ -1,0 +1,40 @@
+{
+  "family": "dtbwg:ironwood",
+  "tapering": 0.4,
+  "signal_energy": 22.0,
+  "up_probability": 1,
+  "lowest_branch_height": 6,
+  "growth_rate": 1,
+  "soil_longevity": 22,
+  "max_branch_radius": 8,
+  "generate_seed": true,
+  "generate_sapling": true,
+  "growth_logic_kit": "dtbwg:araucaria",
+  "leaves_properties": "dtbwg:ironwood",
+  "environment_factors" : {
+    "wet": 0.75,
+    "cold": 0.50
+  },
+  "common_override": { "name": "biomeswevegone:.*ironwood.*" },
+  "perfect_biomes": { "name": "biomeswevegone:.*ironwood.*" },
+  "features": [
+    "mound",
+    "bottom_flare",
+    {
+      "name": "roots",
+      "properties": {
+        "min_trunk_radius": 8,
+        "levels": 3,
+        "scale_factor": 14
+      }
+    },
+    {
+      "name": "dtbwg:alt_leaves_with_heigth_limit",
+      "properties": {
+        "alternative_leaves": "dtbwg:flowering_ironwood",
+        "place_chance": 0.66,
+        "min_height": 100
+      }
+    }
+  ]
+}

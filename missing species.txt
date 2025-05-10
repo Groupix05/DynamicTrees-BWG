@@ -8,11 +8,10 @@ dtbwg:purple_allium_small
 dtbwg:rose
 white_sakura -> falling leaves
 yellow_sakura -> falling leaves
-DONE ancient_oak : lush_vines + vines
-DONE ancient_dark_oak : lush_vines + vines
-DONE ancient_birch : lush vines
-ironwood
-canopy_ironwood
-DONE mega_skyris : skyris vines
-DONE (now ancient silver) - Edit silver maple -> lush_vines + vines + leaves particules
+DONE (need to remake JoCodes) - ancient_oak : lush_vines + vines
+DONE (need to remake JoCodes) - ancient_dark_oak : lush_vines + vines
+DONE (need to remake JoCodes) - ancient_birch : lush vines
+DONE (need to remake JoCodes) - ironwood
+DONE (need to remake JoCodes) - mega_skyris : skyris vines
+DONE (need to remake JoCodes) - (now ancient silver) - Edit silver maple -> lush_vines + vines + leaves particules
 DONE - Edit joshua -> Yucca

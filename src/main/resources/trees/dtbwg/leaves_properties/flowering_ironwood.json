@@ -1,0 +1,7 @@
+{
+  "primitive_leaves": "biomeswevegone:flowering_ironwood_leaves",
+  "cell_kit": "dtbwg:willow",
+  "type": "scruffy",
+  "scruffy_leaf_chance": 0.5,
+  "scruffy_max_hydro": 2
+}

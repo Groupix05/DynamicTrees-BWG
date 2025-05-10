@@ -31,11 +31,6 @@ import java.util.List;
 
 public class LushVinesGenFeature extends GenFeature {
 
-    /**
-     * Vine Type - this tells the generator which side the vines generate on - ceiling for vines that grow from the
-     * ceiling downward like weeping vines, floor for vines that grow from the ground upward like twisting vines, and
-     * side for vines that grow on the side of blocks likes regular vines.
-     */
     protected final BooleanProperty[] sideVineStates = new BooleanProperty[]{null, null, VineBlock.NORTH, VineBlock.SOUTH, VineBlock.WEST, VineBlock.EAST};
 
     public static final ConfigurationProperty<Integer> MAX_LENGTH = ConfigurationProperty.integer("max_length");
