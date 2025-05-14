@@ -17,13 +17,12 @@
   },
   "primitive_saplings": "biomeswevegone:ironwood_sapling",
   "features" : [
-    "mound",
     {
       "name": "dtbwg:alt_leaves_with_heigth_limit",
       "properties": {
         "alternative_leaves": "dtbwg:flowering_ironwood",
         "place_chance": 0.7,
-        "min_height": 100
+        "min_height": 120
       }
     }
   ]

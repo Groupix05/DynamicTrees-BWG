@@ -2,7 +2,7 @@ new species :
 DONE - dtbwg:white_allium
 DONE - dtbwg:pink_allium
 DONE - dtbwg:allium
-dtbwg:rose
+dtbwg:rose -> 1 in forgoten_forest
 DONE - white_sakura -> falling leaves
 DONE - yellow_sakura -> falling leaves
 DONE - ancient_oak : lush_vines + vines
@@ -13,3 +13,9 @@ DONE - mega_skyris : skyris vines
 DONE - (now ancient silver) - Edit silver maple -> lush_vines + vines + leaves particules
 DONE - Edit joshua -> Yucca
 DONE - mega_palm
+
+TODO :
+ironwood doesnt spawn on top of the plateau
+yucca fruit texture broken
+missing mushrooms on ancient trees
+change perfect biomes in every species
