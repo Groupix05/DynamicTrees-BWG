@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "biomeswevegone:block/redwood/log",
+    "rings": "biomeswevegone:block/redwood/log_top"
+  }
+}

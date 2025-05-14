@@ -1,0 +1,10 @@
+{
+  "primitive_leaves": "biomeswevegone:allium_petal_block",
+  "cell_kit": "dtbwg:allium",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/allium_petal_block"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/allium_petal_block"
+  }
+}

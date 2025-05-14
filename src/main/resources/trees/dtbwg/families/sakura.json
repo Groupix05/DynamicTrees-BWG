@@ -1,0 +1,13 @@
+{
+  "common_leaves": "dtbwg:white_sakura",
+  "common_species": "dtbwg:white_sakura",
+  "primitive_log": "biomeswevegone:sakura_log",
+  "primitive_stripped_log": "biomeswevegone:stripped_sakura_log",
+  "max_branch_radius": 12,
+  "texture_overrides": {
+    "branch": "biomeswevegone:block/sakura/log",
+    "branch_top": "biomeswevegone:block/sakura/log_top",
+    "stripped_branch": "biomeswevegone:block/sakura/stripped_log",
+    "stripped_branch_top": "biomeswevegone:block/sakura/stripped_log_top"
+  }
+}

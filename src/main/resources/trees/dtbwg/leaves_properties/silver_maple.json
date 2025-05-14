@@ -3,5 +3,6 @@
   "primitive_leaves": "biomeswevegone:silver_maple_leaves",
   "texture_overrides": {
     "leaves": "biomeswevegone:block/silver_maple_leaves"
-  }
+  },
+  "has_tick_particles": true
 }

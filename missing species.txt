@@ -1,17 +1,15 @@
 new species :
-dtbwg:white_allium
-dtbwg:pink_allium
-dtbwg:purple_allium
-dtbwg:white_allium_small
-dtbwg:pink_allium_small
-dtbwg:purple_allium_small
+DONE - dtbwg:white_allium
+DONE - dtbwg:pink_allium
+DONE - dtbwg:allium
 dtbwg:rose
-white_sakura -> falling leaves
-yellow_sakura -> falling leaves
-DONE (need to remake JoCodes) - ancient_oak : lush_vines + vines
-DONE (need to remake JoCodes) - ancient_dark_oak : lush_vines + vines
-DONE (need to remake JoCodes) - ancient_birch : lush vines
-DONE (need to remake JoCodes) - ironwood
-DONE (need to remake JoCodes) - mega_skyris : skyris vines
-DONE (need to remake JoCodes) - (now ancient silver) - Edit silver maple -> lush_vines + vines + leaves particules
+DONE - white_sakura -> falling leaves
+DONE - yellow_sakura -> falling leaves
+DONE - ancient_oak : lush_vines + vines
+DONE - ancient_dark_oak : lush_vines + vines
+DONE - ancient_birch : lush vines
+DONE - ironwood
+DONE - mega_skyris : skyris vines
+DONE - (now ancient silver) - Edit silver maple -> lush_vines + vines + leaves particules
 DONE - Edit joshua -> Yucca
+DONE - mega_palm

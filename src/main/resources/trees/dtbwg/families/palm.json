@@ -6,7 +6,7 @@
   "primitive_stripped_log": "biomeswevegone:stripped_palm_log",
   "primary_thickness": 3,
   "secondary_thickness": 4,
-  "max_branch_radius": 16,
+  "max_branch_radius": 24,
   "texture_overrides": {
     "branch": "biomeswevegone:block/palm/log",
     "branch_top": "biomeswevegone:block/palm/log_top",

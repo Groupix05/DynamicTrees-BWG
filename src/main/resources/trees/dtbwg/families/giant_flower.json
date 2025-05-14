@@ -1,0 +1,13 @@
+{
+  "common_leaves": "dtbwg:allium",
+  "common_species": "dtbwg:allium",
+  "primitive_log": "biomeswevegone:florus_stem",
+  "primitive_stripped_log": "biomeswevegone:stripped_florus_stem",
+  "max_branch_radius": 8,
+  "texture_overrides": {
+    "branch": "biomeswevegone:block/florus/stem",
+    "branch_top": "biomeswevegone:block/florus/stem_top",
+    "stripped_branch": "biomeswevegone:block/florus/stripped_stem",
+    "stripped_branch_top": "biomeswevegone:block/florus/stripped_stem_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "biomeswevegone:block/skyris/log",
+    "rings": "biomeswevegone:block/skyris/log_top"
+  }
+}

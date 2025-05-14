@@ -1,0 +1,11 @@
+{
+  "primitive_leaves": "biomeswevegone:white_sakura_leaves",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/white_sakura_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/white_sakura_leaves"
+  },
+  "smother": 5,
+  "has_tick_particles": true
+}

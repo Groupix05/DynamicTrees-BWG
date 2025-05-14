@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "biomeswevegone:block/palm/stripped_log",
+    "rings": "biomeswevegone:block/palm/stripped_log_top"
+  }
+}
