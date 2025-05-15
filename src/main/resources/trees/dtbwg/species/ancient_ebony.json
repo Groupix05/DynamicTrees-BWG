@@ -43,6 +43,12 @@
         },
         "biome_predicate": { "name": ".*flowering.*" }
       }
+    },
+    {
+      "name": "dtbwg:branch_sprouts",
+      "properties": {
+        "sprout_block": "dtbwg:shelf_fungi"
+      }
     }
   ]
 }

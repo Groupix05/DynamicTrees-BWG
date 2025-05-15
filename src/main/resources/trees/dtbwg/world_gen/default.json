@@ -471,8 +471,8 @@
           "dynamictrees:tall_birch": 1
         }
       },
-      "density": [ 0.4 ],
-      "chance": 0.2
+      "density": [ 1.0 ],
+      "chance": 0.5
     }
   },
   {
@@ -592,9 +592,9 @@
           "dtbwg:tall_blue_spruce": 1
         }
       },
-      "density": [ 0.6 ],
-      "chance": 1.0,
-      "forestness": 0.8
+      "density": [ 0.5 ],
+      "chance": 0.8,
+      "forestness": 0.5
     }
   },
   {
@@ -706,11 +706,12 @@
     "apply": {
       "species": {
         "random": {
-          "dtbwg:palo_verde": 1,
+          "dtbwg:palo_verde": 4,
+          "dynamictreesplus:pillar_cactus": 6,
           "dynamictreesplus:pipe_cactus": 1
         }
       },
-      "density": [ 0.5 ],
+      "density": [ 0.3 ],
       "chance": 0.5
     }
   },
@@ -721,7 +722,8 @@
       "species": {
         "random": {
           "dtbwg:yucca": 1,
-          "dynamictreesplus:pipe_cactus": 3
+          "dynamictreesplus:pillar_cactus": 3,
+          "dynamictreesplus:pipe_cactus": 1
         }
       },
       "density": [ 0.5 ],
@@ -735,7 +737,8 @@
       "species": {
         "random": {
           "dtbwg:palo_verde": 1,
-          "dynamictreesplus:pipe_cactus": 3
+          "dynamictreesplus:pillar_cactus": 2,
+          "dynamictreesplus:pipe_cactus": 1
         }
       },
       "density": [ 0.5 ],
@@ -746,8 +749,13 @@
     "only_if_loaded": "dynamictreesplus",
     "select": "biomeswevegone:windswept_desert",
     "apply": {
-      "species": "dynamictreesplus:pillar_cactus",
-      "density": [ 1.0 ],
+      "species": {
+        "random": {
+          "dynamictreesplus:pillar_cactus": 2,
+          "dynamictreesplus:pipe_cactus": 1
+        }
+      },
+      "density": [ 0.8 ],
       "chance": 0.1
     }
   }

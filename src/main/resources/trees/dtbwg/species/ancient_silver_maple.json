@@ -47,6 +47,12 @@
         "max_length": 8,
         "berries_chance": 3
       }
+    },
+    {
+      "name": "dtbwg:branch_sprouts",
+      "properties": {
+        "sprout_block": "dtbwg:shelf_fungi"
+      }
     }
   ]
 }

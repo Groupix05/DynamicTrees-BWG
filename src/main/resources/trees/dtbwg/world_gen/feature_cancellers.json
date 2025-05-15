@@ -14,5 +14,14 @@
       "types": [ "dtbwg:tree", "tree" ],
       "namespaces": ["biomeswevegone", "corgilib", "ohthetreesyoullgrow"]
     }
+  },
+  {
+    "only_if_loaded": "dynamictreesplus",
+    "__comment": "Cancel standard cactus features from the bwg desert and badlands.",
+    "select": { "tag": "#(minecraft:is_badlands)|(forge:is_desert)" },
+    "cancellers": {
+      "type": "dynamictreesplus:cactus",
+      "namespace": ["biomeswevegone", "corgilib", "ohthetreesyoullgrow"]
+    }
   }
 ]

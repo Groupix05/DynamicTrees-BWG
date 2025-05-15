@@ -52,6 +52,8 @@ public class DTBWGRegistries {
 //
     public static Supplier<DynamicWitchHazelBranch> WITCH_HAZEL_BRANCH = RegistryHandler.addBlock(DynamicTreesBWG.location("witch_hazel_side_branch"), ()->new DynamicWitchHazelBranch(BWGBlocks.WITCH_HAZEL_BRANCH.get()));
 
+    public static Supplier<DynamicWitchHazelBranch> SHELF_FUNGI = RegistryHandler.addBlock(DynamicTreesBWG.location("shelf_fungi"), ()->new DynamicWitchHazelBranch(BWGBlocks.SHELF_FUNGI.get()));
+
 //    public static void setup() {
 //        biomeswevegoneConstants.ENABLE_CACTI = false;
 //

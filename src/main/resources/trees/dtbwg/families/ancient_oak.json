@@ -1,7 +1,8 @@
 {
     "common_leaves": "oak",
-    "common_species": "oak",
+    "common_species": "dtbwg:ancient_oak",
     "primitive_log": "oak_log",
     "primitive_stripped_log": "stripped_oak_log",
-    "max_branch_radius": 24
+    "max_branch_radius": 24,
+    "generate_surface_root": true
 }

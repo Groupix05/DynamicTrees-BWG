@@ -1,4 +1,4 @@
-new species :
+SPECIES :
 DONE - dtbwg:white_allium
 DONE - dtbwg:pink_allium
 DONE - dtbwg:allium
@@ -15,7 +15,11 @@ DONE - Edit joshua -> Yucca
 DONE - mega_palm
 
 TODO :
-ironwood doesnt spawn on top of the plateau
-yucca fruit texture broken
-missing mushrooms on ancient trees
+DONE - yucca fruit texture broken
+DONE - missing mushrooms on ancient trees
 change perfect biomes in every species
+add back mushrooms with dt+
+
+ISSUES :
+ironwood doesnt spawn on top of the plateau
+Araucaria growth logic is broken
