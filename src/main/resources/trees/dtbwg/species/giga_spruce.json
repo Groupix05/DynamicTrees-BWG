@@ -8,11 +8,11 @@
   "soil_longevity": 32,
   "max_branch_radius": 24,
   "growth_logic_kit": {
-        "name": "conifer",
-        "properties": {
-            "energy_divisor": 5
-        }
-    },
+    "name": "conifer",
+    "properties": {
+      "energy_divisor": 5
+    }
+  },
   "leaves_properties": "spruce",
   "environment_factors" : {
     "hot": 0.50,
@@ -20,8 +20,8 @@
     "wet": 0.75
   },
   "world_gen_leaf_map_height": 70,
-  "common_override": { "name": "biomeswevegone:dover_mountains" },
-  "perfect_biomes": { "name": "biomeswevegone:dover_mountains" },
+  "common_override": { "name": "biomeswevegone:dacite_ridges" },
+  "perfect_biomes": { "name": "biomeswevegone:dacite_ridges" },
   "features" : [
     "conifer_topper",
     {

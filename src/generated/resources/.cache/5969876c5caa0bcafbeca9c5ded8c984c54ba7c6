@@ -1,4 +1,5 @@
-// 1.20.1	2025-05-15T18:58:05.620863396	dtbwg DT Item Tags
-94e89377082c6a5700cba2af14a4374b56b86eb6 data/dynamictrees/tags/items/branches_that_burn.json
-5c94309f2ad589e9d888dfc7a5ff3b13fcd2d630 data/dynamictrees/tags/items/fungus_caps.json
-9e9464142cbd2d8d2a8c614184d72595abb7a5b5 data/dynamictrees/tags/items/seeds.json
+// 1.20.1	2025-05-17T19:02:32.97929084	dtbwg DT Item Tags
+685c72054e017cd3a53b4b95cb2ed7e2a535c27d data/dynamictrees/tags/items/branches_that_burn.json
+07d5e61a7612c5057cfd7dd222215d4a52b89846 data/dynamictrees/tags/items/fungus_branches.json
+e6421e70c728403eb3373004a1909a777c50c677 data/dynamictrees/tags/items/fungus_caps.json
+c2bb5db712a4bf29923426ac62ec2eef2f4b7692 data/dynamictrees/tags/items/seeds.json

@@ -1,0 +1,9 @@
+{
+  "parent": "dynamictrees:block/smartmodel/rooty/aerial_roots_radius5",
+  "textures": {
+    "end": "biomeswevegone:block/white_mangrove/log_top",
+    "overlay": "biomeswevegone:block/white_mangrove/log",
+    "overlay_end": "biomeswevegone:block/white_mangrove/log",
+    "side": "biomeswevegone:block/white_mangrove/log"
+  }
+}

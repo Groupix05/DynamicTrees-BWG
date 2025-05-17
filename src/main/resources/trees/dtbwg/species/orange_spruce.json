@@ -14,7 +14,7 @@
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "biomeswevegone:.*taiga.*"
+    "name": "biomeswevegone:.*crimson_tundra.*"
   },
   "primitive_sapling": "biomeswevegone:orange_spruce_sapling",
   "mega_species": "dtbwg:mega_yellow_spruce",

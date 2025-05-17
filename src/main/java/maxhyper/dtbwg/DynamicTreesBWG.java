@@ -11,6 +11,8 @@ import com.ferreusveritas.dynamictrees.tree.family.Family;
 import com.ferreusveritas.dynamictrees.tree.species.Species;
 import com.ferreusveritas.dynamictreesplus.block.mushroom.CapProperties;
 import maxhyper.dtbwg.init.DTBWGClient;
+import maxhyper.dtbwg.init.DTBWGRegistries;
+import maxhyper.dtbwg.init.SideBranchPlaceEventHandler;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.data.event.GatherDataEvent;
@@ -30,19 +32,19 @@ public class DynamicTreesBWG
         eventBus.addListener(this::commonSetup);
         eventBus.addListener(this::clientSetup);
         eventBus.addListener(this::gatherData);
-        //VegetationReplacement.register(eventBus);
+//        VegetationReplacement.register(eventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
-        //MinecraftForge.EVENT_BUS.register(SideBranchPlaceEventHandler.class);
+        MinecraftForge.EVENT_BUS.register(SideBranchPlaceEventHandler.class);
 
-        //MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, dtbwgRegistries::onBiomeLoading);
+        //MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, DTBWGRegistries::onBiomeLoading);
 
         RegistryHandler.setup(MOD_ID);
-        //dtbwgRegistries.setup();
+        DTBWGRegistries.setup();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        //dtbwgRegistries.setupBlocks();
+        DTBWGRegistries.setupBlocks();
     }
 
     private void clientSetup(final FMLClientSetupEvent event) {

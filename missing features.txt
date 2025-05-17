@@ -17,9 +17,18 @@ DONE - mega_palm
 TODO :
 DONE - yucca fruit texture broken
 DONE - missing mushrooms on ancient trees
-change perfect biomes in every species
-add back mushrooms with dt+
+~DONE - change perfect biomes in every species (need to change type with tag)
+DONE - add back mushrooms with dt+
+DONE - Remove unused species
 
 ISSUES :
-ironwood doesnt spawn on top of the plateau
+DONE - flowers destroy big trunk
+DONE - Green mushroom block is not connected with white mushroom tree branch
+ironwood doesnt spawn on top of the plateau (because the plateau spawn after trees)
+trees doesnt spawn on fragment jungle plateau (because the plateau spawn after trees)
 Araucaria growth logic is broken
+Mushrooms growth logic are broken
+Mushrooms doesnt spawn
+Vanilla cactus are not cancelled in deserts
+Mushrooms models are broken
+WAS REPLACED WITH mega_spruce - giga_spruce jocode is broken

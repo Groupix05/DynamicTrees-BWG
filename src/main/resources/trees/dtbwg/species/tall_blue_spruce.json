@@ -21,7 +21,7 @@
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "biomeswevegone:blue_taiga.*"
+    "name": "biomeswevegone:frosted_taiga.*"
   },
   "features" : [
     "conifer_topper",

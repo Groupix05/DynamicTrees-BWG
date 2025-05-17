@@ -1,0 +1,21 @@
+{
+  "type": "mangrove",
+  "common_leaves": "dtbwg:white_mangrove",
+  "common_species": "dtbwg:white_mangrove",
+  "primitive_log": "biomeswevegone:white_mangrove_log",
+  "primitive_stripped_log": "biomeswevegone:stripped_white_mangrove_log",
+  "max_branch_radius": 8,
+  "texture_overrides": {
+    "branch": "biomeswevegone:block/white_mangrove/log",
+    "branch_top": "biomeswevegone:block/white_mangrove/log_top",
+    "stripped_branch": "biomeswevegone:block/white_mangrove/stripped_log",
+    "stripped_branch_top": "biomeswevegone:block/white_mangrove/stripped_log_top",
+    "roots_side": "biomeswevegone:block/white_mangrove/log",
+    "roots_top": "biomeswevegone:block/white_mangrove/log_top"
+  },
+  "default_soil": "dtbwg:white_mangrove_aerial_roots",
+  "primitive_root": "biomeswevegone:white_mangrove_log",
+  "primitive_filled_root": "biomeswevegone:white_mangrove_log",
+  "primitive_covered_root": "moss_block",
+  "root_system_acceptable_soils": ["dirt_like", "mud_like", "sand_like", "clay_like"]
+}

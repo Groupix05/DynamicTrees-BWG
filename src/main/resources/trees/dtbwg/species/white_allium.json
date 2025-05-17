@@ -14,5 +14,6 @@
   "perfect_biomes": {
     "name": "biomeswevegone:allium.*"
   },
-  "primitive_sapling": "biomeswevegone:white_tall_allium"
+  "primitive_sapling": "biomeswevegone:white_tall_allium",
+  "seed_name": "dtbwg:white_allium_seed"
 }

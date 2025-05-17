@@ -14,7 +14,7 @@
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "biomeswevegone:blue_taiga.*"
+    "name": "biomeswevegone:frosted_taiga.*"
   },
   "primitive_sapling": "biomeswevegone:blue_spruce_sapling",
   "mega_species": "dtbwg:mega_blue_spruce",

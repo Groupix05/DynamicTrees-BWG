@@ -1,8 +1,0 @@
-{
-  "primitive_leaves": "biomeswevegone:red_oak_leaves",
-  "cell_kit": "dtbwg:sparse",
-  "can_grow_on_ground": true,
-  "texture_overrides": {
-    "leaves": "biomeswevegone:block/red_oak_leaves"
-  }
-}

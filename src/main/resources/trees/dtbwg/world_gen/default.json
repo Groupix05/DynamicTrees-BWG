@@ -266,7 +266,7 @@
           "dtbwg:holly": 4,
           "dtbwg:mega_holly": 2,
           "dtbwg:tall_spruce": 1,
-          "dtbwg:giga_spruce": 3
+          "mega_spruce": 3
         }
       },
       "density": [ 0.8 ],
@@ -687,7 +687,18 @@
 
   {
     "only_if_loaded": "dynamictreesplus",
-    "select": { "names_or" : [ "biomeswevegone:ebony_woods","biomeswevegone:enchanted_tangle","biomeswevegone:forgotten_forest","biomeswevegone:jacaranda_jungle","biomeswevegone:tropical_rainforest","biomeswevegone:weeping_witch_forest"] },
+    "select": [
+      {
+        "OR": [
+          {"name": "biomeswevegone:ebony_woods"},
+          {"name": "biomeswevegone:enchanted_tangle"},
+          {"name": "biomeswevegone:forgotten_forest"},
+          {"name": "biomeswevegone:jacaranda_jungle"},
+          {"name": "biomeswevegone:tropical_rainforest"},
+          {"name": "biomeswevegone:weeping_witch_forest"}
+        ]
+      }
+    ],
     "apply": {
       "species": {
         "method": "splice_before",
