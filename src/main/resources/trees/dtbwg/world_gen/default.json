@@ -687,23 +687,12 @@
 
   {
     "only_if_loaded": "dynamictreesplus",
-    "select": [
-      {
-        "OR": [
-          {"name": "biomeswevegone:ebony_woods"},
-          {"name": "biomeswevegone:enchanted_tangle"},
-          {"name": "biomeswevegone:forgotten_forest"},
-          {"name": "biomeswevegone:jacaranda_jungle"},
-          {"name": "biomeswevegone:tropical_rainforest"},
-          {"name": "biomeswevegone:weeping_witch_forest"}
-        ]
-      }
-    ],
+    "select": { "name" : "biomeswevegone:(ebony_woods|enchanted_tangle|forgotten_forest|jacaranda_jungle|tropical_rainforest|weeping_witch_forest)"},
     "apply": {
       "species": {
         "method": "splice_before",
         "random": {
-          "...": 24,
+          "...": 64,
           "dtbwg:green_mushroom": 4,
           "dtbwg:wood_blewit": 1,
           "dtbwg:weeping_milkcap": 1

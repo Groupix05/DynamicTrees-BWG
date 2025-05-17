@@ -17,18 +17,22 @@ DONE - mega_palm
 TODO :
 DONE - yucca fruit texture broken
 DONE - missing mushrooms on ancient trees
-~DONE - change perfect biomes in every species (need to change type with tag)
+DONE - change perfect biomes in every species
 DONE - add back mushrooms with dt+
 DONE - Remove unused species
 
 ISSUES :
+WAS REPLACED WITH mega_spruce - giga_spruce jocode is broken (in dacite_ridges)
 DONE - flowers destroy big trunk
 DONE - Green mushroom block is not connected with white mushroom tree branch
-ironwood doesnt spawn on top of the plateau (because the plateau spawn after trees)
-trees doesnt spawn on fragment jungle plateau (because the plateau spawn after trees)
+DONE - Mushrooms dont spawn
+Allium trees dont have their unique seeds (they use the same seed instead of multiple)
+ironwood doesnt spawn on top of the plateau (because the plateau spawn after the trees)
+trees doesnt spawn on fragment jungle plateau (because the plateau spawn after the trees)
 Araucaria growth logic is broken
 Mushrooms growth logic are broken
-Mushrooms doesnt spawn
 Vanilla cactus are not cancelled in deserts
 Mushrooms models are broken
-WAS REPLACED WITH mega_spruce - giga_spruce jocode is broken
+
+/!\ INFO /!\
+When running "runData", remove the folder generated/resources/data/dtbwg/loot_tables/trees/mushroom_caps, this loot table already exist in the main. To fix this issue, multiple family for mushrooms is required
