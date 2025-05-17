@@ -16,7 +16,7 @@
             "height_variation": 5
         }
     },
-    "perfect_biomes": { "types": [ "forest", "overworld" ] },
+    "perfect_biomes": { "tags": [ "#minecraft:is_forest", "#minecraft:is_overworld" ] },
     "primitive_sapling": "biomeswevegone:blue_enchanted_sapling",
     "features": [
         {

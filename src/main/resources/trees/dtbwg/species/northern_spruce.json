@@ -17,7 +17,7 @@
     "hot": 0.50,
     "wet": 0.75
   },
-  "perfect_biomes": { "type": "coniferous" },
+  "perfect_biomes": { "tag": "#forge:is_coniferous" },
   "mega_species": "mega_spruce",
   "features" : [
     "conifer_topper"

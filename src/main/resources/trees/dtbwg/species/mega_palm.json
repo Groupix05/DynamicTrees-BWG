@@ -15,6 +15,6 @@
     "dry": 1.1
   },
   "transformable": false,
-  "perfect_biomes": { "type": "beach" },
+  "perfect_biomes": { "tag": "#minecraft:is_beach" },
   "acceptable_soils": [ "dirt_like", "sand_like" ]
 }

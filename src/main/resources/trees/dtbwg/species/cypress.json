@@ -15,7 +15,7 @@
     "hot": 0.7,
     "dry": 0.5
   },
-  "perfect_biomes": { "types": [ "swamp", "overworld" ] },
+  "perfect_biomes": { "tags": [ "#forge:is_swamp", "#minecraft:is_overworld" ] },
   "primitive_sapling": "biomeswevegone:cypress_sapling",
   "acceptable_soils": [ "water_like", "dirt_like" ],
   "world_gen_acceptable_soils": [ "mud_like" ],

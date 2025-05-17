@@ -17,7 +17,7 @@
     "dry": 0.5
   },
   "perfect_biomes": {
-    "type": "jungle"
+    "tag": "#minecraft:is_jungle"
   },
   "features": [
     {
