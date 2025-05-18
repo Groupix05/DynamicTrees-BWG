@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "biomeswevegone:block/shelf_fungi",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "biomeswevegone:block/shelf_fungi"
+    },
+    "facing=south": {
+      "model": "biomeswevegone:block/shelf_fungi",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "biomeswevegone:block/shelf_fungi",
+      "y": 270
+    }
+  }
+}

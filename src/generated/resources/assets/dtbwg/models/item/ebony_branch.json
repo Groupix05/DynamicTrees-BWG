@@ -1,0 +1,7 @@
+{
+  "parent": "dynamictrees:item/branch",
+  "textures": {
+    "bark": "biomeswevegone:block/ebony/log",
+    "rings": "biomeswevegone:block/ebony/log_top"
+  }
+}

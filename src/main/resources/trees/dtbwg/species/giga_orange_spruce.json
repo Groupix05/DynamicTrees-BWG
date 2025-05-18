@@ -20,7 +20,7 @@
     "wet": 0.75
   },
   "world_gen_leaf_map_height": 70,
-  "perfect_biomes": { "name": "biomeswevegone:.*giant_taiga.*" },
+  "perfect_biomes": { "name": "biomeswevegone:.*crimson_tundra.*" },
   "features" : [
     "conifer_topper",
     {

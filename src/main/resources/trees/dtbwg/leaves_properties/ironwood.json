@@ -1,0 +1,13 @@
+{
+  "primitive_leaves": "biomeswevegone:ironwood_leaves",
+  "cell_kit": "dtbwg:willow",
+  "type": "scruffy",
+  "scruffy_leaf_chance": 0.5,
+  "scruffy_max_hydro": 2,
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/ironwood_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/ironwood/leaves"
+  }
+}

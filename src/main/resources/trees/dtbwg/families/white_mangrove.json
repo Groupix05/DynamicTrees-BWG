@@ -9,7 +9,9 @@
     "branch": "biomeswevegone:block/white_mangrove/log",
     "branch_top": "biomeswevegone:block/white_mangrove/log_top",
     "stripped_branch": "biomeswevegone:block/white_mangrove/stripped_log",
-    "stripped_branch_top": "biomeswevegone:block/white_mangrove/stripped_log_top"
+    "stripped_branch_top": "biomeswevegone:block/white_mangrove/stripped_log_top",
+    "roots_side": "biomeswevegone:block/white_mangrove/log",
+    "roots_top": "biomeswevegone:block/white_mangrove/log_top"
   },
   "default_soil": "dtbwg:white_mangrove_aerial_roots",
   "primitive_root": "biomeswevegone:white_mangrove_log",

@@ -1,0 +1,11 @@
+{
+  "type": "solid",
+  "primitive_leaves": "biomeswevegone:pink_allium_petal_block",
+  "cell_kit": "dtbwg:allium",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/pink_allium_petal_block"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/pink_allium_petal_block"
+  }
+}

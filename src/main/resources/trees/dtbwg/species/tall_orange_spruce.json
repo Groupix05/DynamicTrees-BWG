@@ -21,7 +21,7 @@
     "forest": 0.9
   },
   "perfect_biomes": {
-    "name": "biomeswevegone:.*taiga.*"
+    "name": "biomeswevegone:.*crimson_tundra.*"
   },
   "features" : [
     "conifer_topper",

@@ -15,7 +15,7 @@
   },
   "mega_species": "dtbwg:mega_mahogany",
   "perfect_biomes": {
-    "type": "jungle"
+    "tag": "#minecraft:is_jungle"
   },
   "primitive_saplings": [
     "biomeswevegone:mahogany_sapling"

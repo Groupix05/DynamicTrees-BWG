@@ -11,7 +11,7 @@
     "hot": 0.50,
     "wet": 0.75
   },
-  "perfect_biomes": { "type": "coniferous" },
+  "perfect_biomes": { "tag": "#forge:is_coniferous" },
   "primitive_sapling": "biomeswevegone:pine_sapling",
   "mega_species": "dtbwg:mega_pine",
   "features" : [

@@ -1,0 +1,29 @@
+{
+  "family": "dtbwg:ironwood",
+  "tapering": 0.1,
+  "signal_energy": 20.0,
+  "up_probability": 0.8,
+  "lowest_branch_height": 13,
+  "growth_rate": 0.6,
+  "soil_longevity": 10,
+  "max_branch_radius": 10,
+  "leaves_properties": "dtbwg:ironwood",
+  "environment_factors": {
+    "cold": 0.75,
+    "forest": 0.9
+  },
+  "perfect_biomes": {
+    "name": "biomeswevegone:.*ironwood.*"
+  },
+  "primitive_saplings": "biomeswevegone:ironwood_sapling",
+  "features" : [
+    {
+      "name": "dtbwg:alt_leaves_with_heigth_limit",
+      "properties": {
+        "alternative_leaves": "dtbwg:flowering_ironwood",
+        "place_chance": 0.7,
+        "min_height": 120
+      }
+    }
+  ]
+}

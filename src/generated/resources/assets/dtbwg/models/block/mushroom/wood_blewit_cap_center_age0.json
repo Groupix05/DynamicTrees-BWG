@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "minecraft:block/mushroom_block_inside",
+    "side": "biomeswevegone:block/wood_blewit_mushroom_block",
+    "top": "biomeswevegone:block/wood_blewit_mushroom_block"
+  }
+}

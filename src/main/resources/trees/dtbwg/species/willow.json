@@ -10,7 +10,7 @@
     "snowy": 0.75,
     "dry": 0.5
   },
-  "perfect_biomes": { "type": "swamp" },
+  "perfect_biomes": { "tag": "#forge:is_swamp" },
   "primitive_sapling": "biomeswevegone:willow_sapling",
   "acceptable_soils": ["dirt_like", "water_like"],
   "mega_species": "dtbwg:mega_willow",

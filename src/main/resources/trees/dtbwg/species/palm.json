@@ -15,7 +15,7 @@
   },
   "mega_species": "dtbwg:mega_palm",
   "transformable": false,
-  "perfect_biomes": { "type": "beach" },
+  "perfect_biomes": { "tag": "#minecraft:is_beach" },
   "primitive_sapling": "biomeswevegone:palm_sapling",
   "acceptable_soils": [ "dirt_like", "sand_like" ]
 }

@@ -21,7 +21,7 @@
   },
   "mega_species": "dtbwg:mega_rainbow_eucalyptus",
   "perfect_biomes": {
-    "type": "jungle"
+    "tag": "#minecraft:is_jungle"
   },
   "primitive_saplings": [
     "biomeswevegone:rainbow_eucalyptus_sapling"

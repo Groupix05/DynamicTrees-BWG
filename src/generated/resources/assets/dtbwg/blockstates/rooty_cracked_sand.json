@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "biomeswevegone:block/cracked_sand"
+      }
+    },
+    {
+      "apply": {
+        "model": "dynamictrees:block/roots"
+      }
+    }
+  ]
+}

@@ -1,8 +1,0 @@
-{
-  "primitive_leaves": "biomeswevegone:yellow_spruce_leaves",
-  "smother": 3,
-  "cell_kit": "dynamictrees:conifer",
-  "texture_overrides": {
-    "leaves": "biomeswevegone:block/yellow_spruce_leaves"
-  }
-}

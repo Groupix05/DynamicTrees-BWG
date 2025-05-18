@@ -4,7 +4,24 @@
     "select": { "name": "biomeswevegone.*" },
     "cancellers": {
       "types": [ "dtbwg:tree", "tree" ],
-      "namespaces": ["biomeswevegone", "corgilib", "minecraft"]
+      "namespaces": ["biomeswevegone", "corgilib", "minecraft", "ohthetreesyoullgrow"]
+    }
+  },
+  {
+    "__comment": "Cancel palm tree features.",
+    "select": { "tag": "is_beach" },
+    "cancellers": {
+      "types": [ "dtbwg:tree", "tree" ],
+      "namespaces": ["biomeswevegone", "corgilib", "ohthetreesyoullgrow"]
+    }
+  },
+  {
+    "__comment": "Cancel standard cactus features from bwg desert and badlands.",
+    "only_if_loaded": "dynamictreesplus",
+    "select": { "tag": "#(minecraft:is_badlands)|(forge:is_desert)" },
+    "cancellers": {
+      "type": "dynamictreesplus:cactus",
+      "namespace": ["biomeswevegone", "corgilib", "ohthetreesyoullgrow", "minecraft"]
     }
   }
 ]

@@ -19,6 +19,7 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
 
 import java.util.LinkedList;
@@ -48,7 +49,7 @@ public class BranchSproutsGenFeature extends GenFeature {
                 .with(FRUITING_RADIUS, 8)
                 .with(PLACE_CHANCE, 0.05f)
                 .with(MAX_COUNT, 16)
-                .with(MIN_RADIUS, 3);
+                .with(MIN_RADIUS, 8);
     }
 
     @Override
@@ -58,7 +59,7 @@ public class BranchSproutsGenFeature extends GenFeature {
         final BlockState blockState = world.getBlockState(rootPos.above());
         final BranchBlock branch = TreeHelper.getBranch(blockState);
 
-        if (branch != null && branch.getRadius(blockState) >= configuration.get(FRUITING_RADIUS)) {
+        if (branch != null && branch.getRadius(blockState) >= configuration.get(MIN_RADIUS)) {
             int count = 1 + world.getRandom().nextInt(configuration.get(MAX_COUNT));
             placeSprouts(count, configuration, world, rootPos);
         }
@@ -74,7 +75,7 @@ public class BranchSproutsGenFeature extends GenFeature {
         final BlockState blockState = world.getBlockState(rootPos.above());
         final BranchBlock branch = TreeHelper.getBranch(blockState);
 
-        if (branch != null && branch.getRadius(blockState) >= configuration.get(FRUITING_RADIUS) && context.natural()) {
+        if (branch != null && branch.getRadius(blockState) >= configuration.get(MIN_RADIUS) && context.natural()) {
             if (world.getRandom().nextFloat() < configuration.get(PLACE_CHANCE)) {
                 placeSprouts(1, configuration, world, rootPos);
             }

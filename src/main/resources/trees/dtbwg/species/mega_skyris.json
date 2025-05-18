@@ -1,0 +1,62 @@
+{
+  "family": "dtbwg:skyris",
+  "tapering": 0.5,
+  "signal_energy": 30.0,
+  "up_probability": 9,
+  "lowest_branch_height": 14,
+  "growth_rate": 1,
+  "soil_longevity": 20,
+  "max_branch_radius": 14,
+  "leaves_properties": "dtbwg:skyris",
+  "environment_factors" : {
+    "hot": 0.5,
+    "dry": 0.75
+  },
+  "perfect_biomes": {
+    "name": "biomeswevegone:.*skyris.*"
+  },
+  "primitive_saplings": [
+    "biomeswevegone:skyris_sapling",
+    {
+      "sapling_item": "biomeswevegone:green_apple",
+      "can_craft_seed_to_sapling": false
+    }
+  ],
+  "fruits": [
+    "dtbwg:green_apple"
+  ],
+  "features" : [
+    {
+      "name": "roots",
+      "properties": {
+        "level_limit": 6,
+        "scale_factor": 23
+      }
+    },
+    {
+      "name": "alt_leaves",
+      "properties": {
+        "alternative_leaves": "dtbwg:flowering_skyris",
+        "place_chance": 0.25
+      }
+    },
+    {
+      "name": "fruit",
+      "properties": {
+        "fruit": "dtbwg:green_apple"
+      }
+    },
+    {
+      "name": "vines",
+      "properties": {
+        "quantity": 16,
+        "max_length": 16,
+        "block": "biomeswevegone:skyris_vine"
+      }
+    },
+    "conifer_topper",
+    "bottom_flare",
+    "mound",
+    "clear_volume"
+  ]
+}

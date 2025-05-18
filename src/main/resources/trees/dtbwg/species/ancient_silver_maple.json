@@ -17,7 +17,7 @@
     "magical": 1.1
   },
   "perfect_biomes": {
-    "name": ".*ancient.*"
+    "name": "biomeswevegone:forgotten_forest"
   },
   "features": [
     "bottom_flare",
@@ -32,17 +32,26 @@
       }
     },
     {
-      "name": "biome_predicate",
+      "name": "vines",
       "properties": {
-        "only_world_gen": true,
-        "gen_feature": {
-          "name": "shroomlight",
-          "properties": {
-            "shroomlight": "biomeswevegone:pollen_block",
-            "vanilla_grow_chance": 0
-          }
-        },
-        "biome_predicate": { "name": ".*flowering.*" }
+        "quantity": 24,
+        "max_length": 16
+      }
+    },
+    {
+      "name": "dtbwg:lush_vines",
+      "properties": {
+        "block": "cave_vines_plant",
+        "tip_block": "cave_vines",
+        "quantity": 5,
+        "max_length": 8,
+        "berries_chance": 3
+      }
+    },
+    {
+      "name": "dtbwg:branch_sprouts",
+      "properties": {
+        "sprout_block": "dtbwg:shelf_fungi"
       }
     }
   ]

@@ -10,7 +10,7 @@
     "wet": 0.75,
     "cold": 0.75
   },
-  "perfect_biomes": { "types": [ "desert", "overworld" ] },
+  "perfect_biomes": { "tags": [ "#forge:is_desert", "#minecraft:is_overworld" ] },
   "primitive_saplings": [
     "biomeswevegone:yucca_sapling",
     {

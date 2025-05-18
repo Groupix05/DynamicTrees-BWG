@@ -1,0 +1,19 @@
+{
+  "family": "dtbwg:giant_flower",
+  "tapering": 0.8,
+  "signal_energy": 12.0,
+  "growth_rate": 0.8,
+  "leaves_properties": "dtbwg:white_allium",
+  "growth_logic_kit": "palm",
+  "environment_factors": {
+    "cold": 1.1,
+    "hot": 0.2,
+    "dry": 0.4,
+    "forest": 0.9
+  },
+  "perfect_biomes": {
+    "name": "biomeswevegone:allium.*"
+  },
+  "primitive_sapling": "biomeswevegone:white_tall_allium",
+  "seed_name": "dtbwg:white_allium_seed"
+}

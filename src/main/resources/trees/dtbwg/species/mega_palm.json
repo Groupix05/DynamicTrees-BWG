@@ -1,11 +1,11 @@
 {
   "type": "palm",
   "family": "dtbwg:palm",
-  "tapering": 0.4,
+  "tapering": 0.3,
   "signal_energy": 20.0,
-  "growth_rate": 1.2,
-  "soil_longevity": 4,
-  "lowest_branch_height": 5,
+  "growth_rate": 0.9,
+  "soil_longevity": 6,
+  "lowest_branch_height": 6,
   "max_branch_radius": 12,
   "growth_logic_kit": "dtbwg:diagonal_palm",
   "leaves_properties": "dtbwg:palm",
@@ -15,6 +15,6 @@
     "dry": 1.1
   },
   "transformable": false,
-  "perfect_biomes": { "type": "beach" },
+  "perfect_biomes": { "tag": "#minecraft:is_beach" },
   "acceptable_soils": [ "dirt_like", "sand_like" ]
 }

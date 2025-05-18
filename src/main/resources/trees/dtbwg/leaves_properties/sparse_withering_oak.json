@@ -1,9 +1,0 @@
-{
-  "type": "scruffy",
-  "scruffy_leaf_chance": 0.33,
-  "primitive_leaves": "biomeswevegone:withering_oak_leaves",
-  "cell_kit": "dtbwg:sparse",
-  "light_requirement": 0,
-  "fire_spread": 0,
-  "flammability": 0
-}

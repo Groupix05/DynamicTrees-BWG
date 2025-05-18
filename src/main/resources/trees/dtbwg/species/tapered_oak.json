@@ -11,8 +11,8 @@
     "hot": 0.75,
     "dry": 0.50
   },
-  "common_override": { "name": "biomeswevegone:.*deciduous.*" },
-  "perfect_biomes": { "type": "forest" },
+  "common_override": { "name": "biomeswevegone:fragment_jungle" },
+  "perfect_biomes": { "tag": "#minecraft:is_forest" },
   "features" : [
     "conifer_topper",
     {
