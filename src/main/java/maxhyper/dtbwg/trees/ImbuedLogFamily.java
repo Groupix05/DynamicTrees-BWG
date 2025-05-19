@@ -18,6 +18,7 @@ import net.minecraft.world.level.block.Block;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Optional;
+import java.util.function.BiConsumer;
 import java.util.function.Supplier;
 
 public class ImbuedLogFamily extends Family {
@@ -77,6 +78,25 @@ public class ImbuedLogFamily extends Family {
     public void generateStateData(DTBlockStateProvider provider) {
         super.generateStateData(provider);
         (this.imbuedBranchStateGenerator.get()).generate(provider, this);
+    }
+
+    public void addBranchTextures(BiConsumer<String, ResourceLocation> textureConsumer, ResourceLocation primitiveLogLocation, Block sourceBlock) {
+        Optional<Block> primImbued = getPrimitiveImbuedLog();
+        if (primImbued.isPresent() && primImbued.get() == sourceBlock){
+            ResourceLocation bark = primitiveLogLocation;
+            ResourceLocation rings = ResourceLocationUtils.suffix(primitiveLogLocation, "_top");
+            if (this.textureOverrides.containsKey("imbued_branch")) {
+                bark = this.textureOverrides.get("imbued_branch");
+            }
+
+            if (this.textureOverrides.containsKey("imbued_branch_top")) {
+                rings = this.textureOverrides.get("imbued_branch_top");
+            }
+            textureConsumer.accept("bark", bark);
+            textureConsumer.accept("rings", rings);
+            return;
+        }
+        super.addBranchTextures(textureConsumer, primitiveLogLocation, sourceBlock);
     }
 
     public static class ImbuedBranchStateGenerator extends BranchStateGenerator{

@@ -50,8 +50,8 @@ public class AlternativeBranchGenFeature extends GenFeature {
     public GenFeatureConfiguration createDefaultConfiguration() {
         return super.createDefaultConfiguration()
                 .with(ALT_BRANCH_BLOCK, Blocks.AIR)
-                .with(PLACE_CHANCE, 0.02f)
-                .with(WORLDGEN_PLACE_CHANCE, 0.1f)
+                .with(PLACE_CHANCE, 0.04f)
+                .with(WORLDGEN_PLACE_CHANCE, 0.2f)
                 .with(MIN_RADIUS, 4)
                 .with(FRUITING_RADIUS, 6);
     }

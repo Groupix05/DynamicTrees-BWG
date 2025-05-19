@@ -4,13 +4,15 @@
   "common_species": "dtbwg:green_enchanted",
   "primitive_log": "biomeswevegone:green_enchanted_log",
   "primitive_stripped_log": "biomeswevegone:stripped_green_enchanted_log",
-  "primitive_imbued_log": "biomeswevegone:imbued_green_enchanted_log",
+  "primitive_imbued_log": "biomeswevegone:imbued_green_enchanted_wood",
   "max_branch_radius": 24,
   "conifer_variants": true,
   "texture_overrides": {
     "branch": "biomeswevegone:block/green_enchanted/log",
     "branch_top": "biomeswevegone:block/green_enchanted/log_top",
     "stripped_branch": "biomeswevegone:block/green_enchanted/stripped_log",
-    "stripped_branch_top": "biomeswevegone:block/green_enchanted/stripped_log_top"
+    "stripped_branch_top": "biomeswevegone:block/green_enchanted/stripped_log_top",
+    "imbued_branch": "biomeswevegone:block/green_enchanted/imbued_wood",
+    "imbued_branch_top": "biomeswevegone:block/green_enchanted/log_top"
   }
 }
