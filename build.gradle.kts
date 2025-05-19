@@ -153,7 +153,7 @@ curseforge {
     apiKey = property("curseApiKey")
 
     project {
-        id = "562143"
+        id = "1269211"
 
         addGameVersion(mcVersion)
 
@@ -167,7 +167,7 @@ curseforge {
             relations {
                 requiredDependency("dynamictrees")
                 requiredDependency("oh-the-biomes-youve-gone")
-                optionalDependency("dynamictreesplus")
+                requiredDependency("dynamictreesplus")
             }
         }
     }

@@ -101,11 +101,11 @@ public class AlternativeLeavesWithHeightLimitGenFeature extends GenFeature {
         if (originalLeaves != null && altLeaves != null) {
             if (worldgen || world.getRandom().nextFloat() < configuration.get(PLACE_CHANCE)) {
                 if (state.getBlock() == originalLeaves) {
-                    return altLeaves.properties.getDynamicLeavesState(state.getValue(LeavesBlock.DISTANCE));
+                    return altLeaves.getProperties().getDynamicLeavesState(state.getValue(LeavesBlock.DISTANCE));
                 }
             } else {
                 if (state.getBlock() == altLeaves) {
-                    return originalLeaves.properties.getDynamicLeavesState(state.getValue(LeavesBlock.DISTANCE));
+                    return originalLeaves.getProperties().getDynamicLeavesState(state.getValue(LeavesBlock.DISTANCE));
                 }
             }
         }

@@ -22,7 +22,7 @@
       "properties": {
         "alternative_leaves": "dtbwg:flowering_ironwood",
         "place_chance": 0.7,
-        "min_height": 120
+        "min_height": 100
       }
     }
   ],
