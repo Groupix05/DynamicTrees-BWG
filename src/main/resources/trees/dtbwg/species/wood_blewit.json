@@ -18,5 +18,8 @@
   "acceptable_soils": ["fungus_like"],
   "features" : [
     "bottom_flare"
-  ]
+  ],
+  "model_overrides": {
+    "sapling": "dtbwg:block/saplings/mushroom_round_short"
+  }
 }

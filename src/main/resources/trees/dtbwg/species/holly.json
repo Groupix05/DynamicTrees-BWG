@@ -14,11 +14,7 @@
   },
   "perfect_biomes": { "name": ".*dacite_ridges.*" },
   "primitive_saplings": [
-    "biomeswevegone:holly_sapling",
-    {
-      "sapling_item": "biomeswevegone:holly_berries",
-      "can_craft_seed_to_sapling": false
-    }
+    "biomeswevegone:holly_sapling"
   ],
   "mega_species": "dtbwg:mega_holly",
   "fruits": [

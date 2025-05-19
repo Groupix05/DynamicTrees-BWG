@@ -20,5 +20,8 @@
   "sapling_shape": "dtbwg:tall_flat_mushroom",
   "features" : [
     "bottom_flare"
-  ]
+  ],
+  "model_overrides": {
+    "sapling": "dtbwg:block/saplings/mushroom_flat_tall"
+  }
 }

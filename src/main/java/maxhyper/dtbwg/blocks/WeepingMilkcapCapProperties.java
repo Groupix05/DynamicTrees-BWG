@@ -98,7 +98,7 @@ public class WeepingMilkcapCapProperties extends CapProperties {
 
                     for (Direction dir : Direction.Plane.HORIZONTAL) {
                         float dot = (float) (dir.getNormal().getX() * centerDirection.x + dir.getNormal().getZ() * centerDirection.z);
-                        if (dot >= 0.0F) {
+                        if (dot >= 0) {
                             dirs[negativeFactor ? dir.ordinal() : dir.getOpposite().ordinal()] = true;
                         }
                     }
