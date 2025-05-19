@@ -4,6 +4,8 @@
   "primitive_log": "biomeswevegone:florus_stem",
   "primitive_stripped_log": "biomeswevegone:stripped_florus_stem",
   "max_branch_radius": 8,
+  "primary_thickness": 3,
+  "secondary_thickness": 4,
   "texture_overrides": {
     "branch": "biomeswevegone:block/florus/stem",
     "branch_top": "biomeswevegone:block/florus/stem_top",

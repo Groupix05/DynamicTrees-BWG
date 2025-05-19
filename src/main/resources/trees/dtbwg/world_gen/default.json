@@ -327,10 +327,11 @@
     "apply": {
       "species": {
         "random": {
-          "dtbwg:ancient_ebony" : 1,
-          "dtbwg:ancient_silver_maple": 1,
-          "dtbwg:ancient_dark_oak": 2,
-          "dtbwg:ancient_oak": 2
+          "dtbwg:ancient_ebony" : 2,
+          "dtbwg:ancient_silver_maple": 2,
+          "dtbwg:ancient_dark_oak": 4,
+          "dtbwg:ancient_oak": 4,
+          "dtbwg:rose": 1
         }
       },
       "density": 0.8,

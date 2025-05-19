@@ -1,0 +1,11 @@
+{
+  "primitive_leaves": "biomeswevegone:rose_petal_block",
+  "cell_kit": "dtbwg:rose",
+  "sound": "azalea",
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/rose_petal_block"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/rose_petal_block"
+  }
+}

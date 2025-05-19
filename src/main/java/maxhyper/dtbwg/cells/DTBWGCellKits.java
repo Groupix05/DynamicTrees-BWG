@@ -16,7 +16,7 @@ import net.minecraft.util.RandomSource;
 public class DTBWGCellKits {
 
     public static void register(final Registry<CellKit> registry) {
-        registry.registerAll(PALM, SPARSE, POPLAR, SMALL_DECIDUOUS, WILLOW, ROUND_CONIFER, SYTHIAN_FUNGUS, LAMENT, SKYRIS, ALLIUM);
+        registry.registerAll(PALM, SPARSE, POPLAR, SMALL_DECIDUOUS, WILLOW, ROUND_CONIFER, SYTHIAN_FUNGUS, LAMENT, SKYRIS, ALLIUM, ROSE);
     }
 
     public static final CellKit PALM = new CellKit(new ResourceLocation(DynamicTreesBWG.MOD_ID, "palm")) {
@@ -516,7 +516,51 @@ public class DTBWGCellKits {
 
         @Override
         public Cell getCellForBranch(int radius, int meta) {
-            return radius == 1 ? alliumBranch : CellNull.NULL_CELL;
+            return radius == 3 ? alliumBranch : CellNull.NULL_CELL;
+        }
+
+        @Override
+        public SimpleVoxmap getLeafCluster() {
+            return DTBWGLeafClusters.ALLIUM;
+        }
+
+        @Override
+        public CellSolver getCellSolver() {
+            return alliumSolver;
+        }
+
+        @Override
+        public int getDefaultHydration() {
+            return 4;
+        }
+
+    };
+
+    public static final CellKit ROSE = new CellKit(DynamicTreesBWG.location("rose")) {
+
+        private final Cell alliumBranch = new NormalCell(4);
+
+        private final Cell[] alliumLeafCells = {
+                CellNull.NULL_CELL,
+                new AlliumLeafCell(1),
+                new AlliumLeafCell(2),
+                new AlliumLeafCell(3),
+                new AlliumLeafCell(4),
+                new AlliumLeafCell(5),
+                new AlliumLeafCell(6),
+                new AlliumLeafCell(7)
+        };
+
+        private final CellKits.BasicSolver alliumSolver = new CellKits.BasicSolver(new short[]{0x0413, 0x0322, 0x0311, 0x0211});
+
+        @Override
+        public Cell getCellForLeaves(int hydro) {
+            return alliumLeafCells[hydro];
+        }
+
+        @Override
+        public Cell getCellForBranch(int radius, int meta) {
+            return radius == 3 ? alliumBranch : CellNull.NULL_CELL;
         }
 
         @Override
