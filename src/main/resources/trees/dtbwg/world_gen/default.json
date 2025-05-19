@@ -682,7 +682,9 @@
           "dtbwg:palm": 1,
           "dtbwg:mega_palm": 1
         }
-      }
+      },
+      "density": [ 1.0 ],
+      "chance": 1.0
     }
   },
 
