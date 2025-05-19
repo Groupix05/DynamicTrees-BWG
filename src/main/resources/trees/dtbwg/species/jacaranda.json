@@ -34,5 +34,8 @@
         "place_chance": 0.33
       }
     }
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Jacaranda Pod"
+  }
 }

@@ -23,5 +23,8 @@
   ],
   "model_overrides": {
     "sapling": "dtbwg:block/saplings/mushroom_flat_tall"
+  },
+  "lang_overrides": {
+    "seed": "Green Mushroom Cap"
   }
 }

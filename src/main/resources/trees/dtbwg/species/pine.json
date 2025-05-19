@@ -16,5 +16,8 @@
   "mega_species": "dtbwg:mega_pine",
   "features" : [
     "conifer_topper"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Pine Cone"
+  }
 }

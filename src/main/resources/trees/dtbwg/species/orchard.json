@@ -64,5 +64,8 @@
         "rotted_soil": "podzol"
       }
     }
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Orchard Apple Pip"
+  }
 }

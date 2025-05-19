@@ -31,5 +31,8 @@
         "quantity": 24
       }
     }
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "White Mangrove Propagule"
+  }
 }

@@ -21,5 +21,8 @@
   ],
   "model_overrides": {
     "sapling": "dtbwg:block/saplings/mushroom_round_short"
+  },
+  "lang_overrides": {
+    "seed": "Wood Blewit Cap"
   }
 }

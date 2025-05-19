@@ -36,5 +36,8 @@
         "place_chance": 0.33
       }
     }
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Indigo Jacaranda Pod"
+  }
 }

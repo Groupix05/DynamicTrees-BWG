@@ -17,5 +17,8 @@
   "primitive_sapling": "biomeswevegone:aspen_sapling",
   "features" : [
     "conifer_topper"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Aspen Catkin"
+  }
 }

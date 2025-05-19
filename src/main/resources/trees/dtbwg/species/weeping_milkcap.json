@@ -22,5 +22,8 @@
   "sapling_shape": "dtbwg:short_round_mushroom",
   "features" : [
     "bottom_flare"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Weeping Milkcap Cap"
+  }
 }

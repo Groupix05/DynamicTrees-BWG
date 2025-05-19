@@ -15,5 +15,8 @@
   "primitive_sapling": "biomeswevegone:zelkova_sapling",
   "features" : [
     "conifer_topper"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Zelkova Seeds"
+  }
 }

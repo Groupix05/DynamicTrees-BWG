@@ -18,6 +18,9 @@
   },
   "primitive_sapling": "biomeswevegone:yellow_sakura_sapling",
   "features" : [
-        "bee_nest"
-  ]
+    "bee_nest"
+  ],
+  "lang_overrides": {
+    "seed": "Yellow Sakura Pit"
+  }
 }

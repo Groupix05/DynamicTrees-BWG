@@ -9,9 +9,7 @@
   "max_branch_radius": 24,
   "leaves_properties": "dtbwg:ancient_oak",
   "growth_logic_kit": "dtbwg:ancient",
-  "seed": "dynamictrees:oak_seed",
-  "generate_seed": false,
-  "generate_sapling": false,
+  "seed": "dynamictrees:oak_seed"
   "environment_factors": {
     "cold": 0.9,
     "hot": 0.9,

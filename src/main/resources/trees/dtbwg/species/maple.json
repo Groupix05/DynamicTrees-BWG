@@ -27,5 +27,8 @@
     },
     "bottom_flare",
     "mound"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Maple Samara"
+  }
 }

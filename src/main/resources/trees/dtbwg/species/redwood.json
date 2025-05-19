@@ -41,5 +41,8 @@
       }
     },
     "bottom_flare"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Redwood Cone"
+  }
 }

@@ -28,5 +28,8 @@
         "scale_factor": 14
       }
     }
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Araucaria Cone"
+  }
 }

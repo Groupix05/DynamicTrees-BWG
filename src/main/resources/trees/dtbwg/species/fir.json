@@ -17,5 +17,8 @@
   "mega_species": "dtbwg:mega_fir",
   "features" : [
     "conifer_topper"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Fir Cone"
+  }
 }

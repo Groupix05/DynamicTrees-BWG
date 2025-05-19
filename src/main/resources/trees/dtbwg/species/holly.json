@@ -36,5 +36,8 @@
         "quantity": 6
       }
     }
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Holly Seeds"
+  }
 }

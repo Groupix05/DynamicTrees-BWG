@@ -19,5 +19,8 @@
   "primitive_sapling": "biomeswevegone:white_sakura_sapling",
   "features" : [
         "bee_nest"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "White Sakura Pit"
+  }
 }

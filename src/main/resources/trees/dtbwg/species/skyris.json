@@ -49,5 +49,8 @@
     "conifer_topper",
     "bottom_flare",
     "mound"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Green Apple Pip"
+  }
 }

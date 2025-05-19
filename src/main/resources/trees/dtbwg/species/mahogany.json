@@ -52,5 +52,8 @@
         "biome_predicate": { "name": "biomeswevegone:tropical_fungal_forest.*" }
       }
     }
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Mahogany Pod"
+  }
 }

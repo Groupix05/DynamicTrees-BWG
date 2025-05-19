@@ -34,5 +34,8 @@
       }
     },
     "clear_volume"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Cika Cone"
+  }
 }

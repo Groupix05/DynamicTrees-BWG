@@ -36,5 +36,8 @@
         "scale_factor": 19
       }
     }
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Cypress Cone"
+  }
 }

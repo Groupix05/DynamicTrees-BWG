@@ -54,5 +54,8 @@
         "sprout_block": "dtbwg:witch_hazel_side_branch"
       }
     }
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Witch Hazel Pod"
+  }
 }

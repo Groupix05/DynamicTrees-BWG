@@ -29,5 +29,8 @@
     },
     "bottom_flare",
     "mound"
-  ]
+  ],
+  "lang_overrides": {
+    "seed": "Silver Maple Samara"
+  }
 }
