@@ -59,6 +59,12 @@
       "properties": {
         "sprout_block": "dtbwg:shelf_fungi"
       }
+    },
+    {
+      "name": "undergrowth",
+      "properties": {
+        "undergrowth_species": "dynamictrees:oak_undergrowth"
+      }
     }
   ]
 }
