@@ -558,7 +558,7 @@
         "random": {
           "dtbwg:white_sakura": 1,
           "dtbwg:yellow_sakura": 1,
-          "dynamictrees:cherry": 1
+          "dtbwg:tall_cherry": 1
         }
       },
       "density": [ 0.6 ],
