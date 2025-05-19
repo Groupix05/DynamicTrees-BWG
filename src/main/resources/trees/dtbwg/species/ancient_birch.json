@@ -9,9 +9,6 @@
   "max_branch_radius": 24,
   "leaves_properties": "birch",
   "growth_logic_kit": "dtbwg:ancient",
-  "seed": "dynamictrees:birch_seed",
-  "generate_seed": false,
-  "generate_sapling": false,
   "environment_factors": {
     "cold": 0.9,
     "hot": 0.9,

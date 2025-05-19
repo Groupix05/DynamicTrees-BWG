@@ -1,7 +1,7 @@
-// 1.20.1	2025-05-19T00:07:54.5322091	Loot Tables
+// 1.20.1	2025-05-19T00:23:34.2977078	Loot Tables
 8c88c8a74b42e9e6b8223cdc6ec6f35ef3ab8752 data/dtbwg/loot_tables/blocks/allium_leaves.json
 c8fa2e65eef15787197e76bca3a77d2557efb40a data/dtbwg/loot_tables/blocks/ancient_ebony_leaves.json
-01822478c8723057dee497fc7ed6c74e5709eb5c data/dtbwg/loot_tables/blocks/ancient_oak_leaves.json
+6f3de234e3bb44f79c8b6bbf627bca383a4188cc data/dtbwg/loot_tables/blocks/ancient_oak_leaves.json
 892cafb7cce939ea0ab5fe7e4fe345055e6e571c data/dtbwg/loot_tables/blocks/ancient_silver_maple_leaves.json
 30c83e17f408633f3245152175e3a88727317d90 data/dtbwg/loot_tables/blocks/araucaria_leaves.json
 9b4a8ef9717406c4fa629273c983927167599226 data/dtbwg/loot_tables/blocks/aspen_leaves.json
@@ -233,6 +233,7 @@ a82279403a725ed69e2126a4d0bca74e0d3d99cd data/dtbwg/loot_tables/trees/voluntary/
 ee897f232ba52ffa12af74a7d641b6abf9a54998 data/dtbwg/loot_tables/trees/voluntary/witch_hazel.json
 c91c4cc7b20441c503051b6d361b6379f320e3ef data/dtbwg/loot_tables/trees/voluntary/wood_blewit.json
 5420edee38dc9f0d4571d9cf36a8cf64e3f331ee data/dtbwg/loot_tables/trees/voluntary/yellow_poplar.json
+138e09f571a183d4182a69069e039867e8a53da1 data/dtbwg/loot_tables/trees/voluntary/yellow_sakura.json
 244ad309d627b18c4908efff6f0e8bb6f7542d3c data/dtbwg/loot_tables/trees/voluntary/yellow_spruce.json
 8771c10d401ed0347b7789a8a51b066aac66de65 data/dtbwg/loot_tables/trees/voluntary/yucca.json
 3c6a84440ee0f670941670f7461df94a2bf3872f data/dtbwg/loot_tables/trees/voluntary/zelkova.json
