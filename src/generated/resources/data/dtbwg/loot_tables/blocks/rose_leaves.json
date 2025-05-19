@@ -37,7 +37,7 @@
                   ]
                 }
               ],
-              "name": "biomeswevegone:white_allium_petal_block"
+              "name": "biomeswevegone:rose_petal_block"
             },
             {
               "type": "dynamictrees:seed_item",
@@ -100,5 +100,5 @@
       ]
     }
   ],
-  "random_sequence": "dtbwg:blocks/white_allium_leaves"
+  "random_sequence": "dtbwg:blocks/rose_leaves"
 }
