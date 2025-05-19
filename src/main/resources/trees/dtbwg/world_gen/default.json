@@ -327,10 +327,10 @@
     "apply": {
       "species": {
         "random": {
-          "dtbwg:ancient_ebony" : 2,
-          "dtbwg:ancient_silver_maple": 2,
-          "dtbwg:ancient_dark_oak": 4,
-          "dtbwg:ancient_oak": 4,
+          "dtbwg:ancient_ebony" : 4,
+          "dtbwg:ancient_silver_maple": 4,
+          "dtbwg:ancient_dark_oak": 8,
+          "dtbwg:ancient_oak": 8,
           "dtbwg:rose": 1
         }
       },

@@ -11,7 +11,6 @@ import maxhyper.dtbwg.DynamicTreesBWG;
 import maxhyper.dtbwg.cells.cell.*;
 import net.minecraft.core.Direction;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.util.RandomSource;
 
 public class DTBWGCellKits {
 
@@ -538,44 +537,53 @@ public class DTBWGCellKits {
 
     public static final CellKit ROSE = new CellKit(DynamicTreesBWG.location("rose")) {
 
-        private final Cell alliumBranch = new NormalCell(4);
+        private final Cell roseBranch = new Cell() {
+            final int[] map = new int[]{0, 3, 8, 8, 8, 8};
 
-        private final Cell[] alliumLeafCells = {
-                CellNull.NULL_CELL,
-                new AlliumLeafCell(1),
-                new AlliumLeafCell(2),
-                new AlliumLeafCell(3),
-                new AlliumLeafCell(4),
-                new AlliumLeafCell(5),
-                new AlliumLeafCell(6),
-                new AlliumLeafCell(7)
+            public int getValue() {
+                return 8;
+            }
+
+            public int getValueFromSide(Direction side) {
+                return this.map[side.ordinal()];
+            }
         };
 
-        private final CellKits.BasicSolver alliumSolver = new CellKits.BasicSolver(new short[]{0x0413, 0x0322, 0x0311, 0x0211});
+        private final Cell[] roseLeafCells = {
+                CellNull.NULL_CELL,
+                new RoseLeafCell(1),
+                new RoseLeafCell(2),
+                new RoseLeafCell(3),
+                new RoseLeafCell(4),
+                new RoseLeafCell(5),
+                new RoseLeafCell(6),
+                new RoseLeafCell(7)
+        };
 
+        private final CellKits.BasicSolver roseSolver = new CellKits.BasicSolver(new short[]{0x0817, 0x0726, 0x0715, 0x0514, 0x0613, 0x0311, 0x0412, 0x0211});
         @Override
         public Cell getCellForLeaves(int hydro) {
-            return alliumLeafCells[hydro];
+            return roseLeafCells[hydro];
         }
 
         @Override
         public Cell getCellForBranch(int radius, int meta) {
-            return radius == 3 ? alliumBranch : CellNull.NULL_CELL;
+            return radius == 3 ? roseBranch : CellNull.NULL_CELL;
         }
 
         @Override
         public SimpleVoxmap getLeafCluster() {
-            return DTBWGLeafClusters.ALLIUM;
+            return DTBWGLeafClusters.ROSE;
         }
 
         @Override
         public CellSolver getCellSolver() {
-            return alliumSolver;
+            return roseSolver;
         }
 
         @Override
         public int getDefaultHydration() {
-            return 4;
+            return 7;
         }
 
     };
