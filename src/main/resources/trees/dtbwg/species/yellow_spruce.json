@@ -4,7 +4,7 @@
   "signal_energy": 16.0,
   "growth_rate": 0.8,
   "growth_logic_kit": "conifer",
-  "leaves_properties": "dtbwg:red_spruce",
+  "leaves_properties": "dtbwg:yellow_spruce",
   "generate_seed": true,
   "generate_sapling": true,
   "environment_factors": {
@@ -12,11 +12,8 @@
     "#forge:is_dry": 0.25,
     "#forge:is_wet": 0.75
   },
-  "perfect_biomes": {
-    "name": "biomeswevegone:crimson_tundra"
-  },
-  "primitive_sapling": "biomeswevegone:red_spruce_sapling",
-  "mega_species": "dtbwg:mega_red_spruce",
+  "primitive_sapling": "biomeswevegone:yellow_spruce_sapling",
+  "mega_species": "dtbwg:mega_yellow_spruce",
   "features" : [
     "conifer_topper",
     "podzol"

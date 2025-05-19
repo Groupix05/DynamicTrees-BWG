@@ -13,7 +13,7 @@
       "energy_divisor": 5
     }
   },
-  "leaves_properties": "dtbwg:orange_spruce",
+  "leaves_properties": "dtbwg:red_spruce",
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,

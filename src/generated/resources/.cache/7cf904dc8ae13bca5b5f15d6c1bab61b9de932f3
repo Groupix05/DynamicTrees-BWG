@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-18T21:04:40.3935121	Block States: dtbwg
+// 1.20.1	2025-05-18T23:56:37.6316038	Block States: dtbwg
 518ece7ddd6c906e13149206f48581853018a9c1 assets/dtbwg/blockstates/allium_leaves.json
 204870aea2582d8b3905141141faca073f84a230 assets/dtbwg/blockstates/allium_sapling.json
 27e403c9a98ab61aab991227014621a532cefc50 assets/dtbwg/blockstates/ancient_birch_branch.json
@@ -190,6 +190,8 @@ c8f94d5a6511229bc2436bbb06273fd6689970e1 assets/dtbwg/blockstates/witch_hazel_le
 4364d2b5387b23139a2d5542694db1aa04898580 assets/dtbwg/blockstates/yellow_poplar_leaves.json
 7fe85420dc326c9aef11a6634536e95a8406fcf9 assets/dtbwg/blockstates/yellow_poplar_sapling.json
 e8afb5fd2ae7e205ce4ed0f60dae632b16146695 assets/dtbwg/blockstates/yellow_sakura_leaves.json
+8b7d9373c78f525e6d0487db79d6d397515678d0 assets/dtbwg/blockstates/yellow_spruce_leaves.json
+6cbd1039b946e7f271ecab62632a3cb801dc34d6 assets/dtbwg/blockstates/yellow_spruce_sapling.json
 cbf4ad8e013e2013132adbc1584193e7a032e9a5 assets/dtbwg/blockstates/yucca_leaves.json
 68a523302699c6048d3df524f7f0bba3684e9d81 assets/dtbwg/blockstates/yucca_sapling.json
 0cf5192fb3cdf9bab7842e0b8f0c566285fb0d31 assets/dtbwg/blockstates/zelkova_branch.json
@@ -285,6 +287,7 @@ b9d16b4a6efe24c993465a5cbf938f95a1400101 assets/dtbwg/models/block/saplings/whit
 6771d636109c6599a7bac801d0b579537335019a assets/dtbwg/models/block/saplings/witch_hazel.json
 883ec9bbb3af0abce55674e46461503be2b8a65e assets/dtbwg/models/block/saplings/wood_blewit.json
 16c8503c525ad79dfdf614fdd2bf831ad9f1a1ad assets/dtbwg/models/block/saplings/yellow_poplar.json
+c48ccd8240c0b3907565d999d9495c3994dc699b assets/dtbwg/models/block/saplings/yellow_spruce.json
 c39ad8c771a2f5efb6cdea42f298688979ecd787 assets/dtbwg/models/block/saplings/yucca.json
 0203b7c023b4a9a1b5030fa7dce2b8748fb7f5ea assets/dtbwg/models/block/saplings/zelkova.json
 c5dfd4c69caf49dac14f943decef8a19e5cebe56 assets/dtbwg/models/block/skyris_branch.json

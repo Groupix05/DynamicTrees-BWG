@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-18T21:04:40.3905114	Item Models: dtbwg
+// 1.20.1	2025-05-18T23:56:37.6290831	Item Models: dtbwg
 6f971763ba50d2ce6169d35b6833d98e90daec53 assets/dtbwg/models/item/allium_seed.json
 db79ec38d12dd317f4c231d88df9e2d6d00ed589 assets/dtbwg/models/item/ancient_birch_branch.json
 976835ce375471464f989727e4ae09df143f6b64 assets/dtbwg/models/item/araucaria_seed.json
@@ -67,6 +67,7 @@ ee17ca7b8d8e6cfd0356f8a95382eac75937df4b assets/dtbwg/models/item/white_mangrove
 0970671ad46d432cd619710a90c52ebaac955d7b assets/dtbwg/models/item/witch_hazel_seed.json
 c91784c875f3918623b6ae620b50a0fc82bf4a3b assets/dtbwg/models/item/wood_blewit_seed.json
 fcad24a552a411d7e9d9228410f44d9eb4f5bacb assets/dtbwg/models/item/yellow_poplar_seed.json
+096cdf4637610f894fef8bb79c40ef2ae3e94eda assets/dtbwg/models/item/yellow_spruce_seed.json
 fc24caf62eeaa646e35fdc71954dae5790b84e2e assets/dtbwg/models/item/yucca_seed.json
 aef116e775a01615cc6493d577dac4879bf3e897 assets/dtbwg/models/item/zelkova_branch.json
 c22766946e0b942e83000dc1ebac6312e1285235 assets/dtbwg/models/item/zelkova_seed.json

@@ -13,14 +13,13 @@
       "energy_divisor": 5
     }
   },
-  "leaves_properties": "dtbwg:orange_spruce",
+  "leaves_properties": "dtbwg:yellow_spruce",
   "environment_factors" : {
     "hot": 0.50,
     "dry": 0.25,
     "wet": 0.75
   },
   "world_gen_leaf_map_height": 70,
-  "perfect_biomes": { "name": "biomeswevegone:.*crimson_tundra.*" },
   "features" : [
     "conifer_topper",
     {
