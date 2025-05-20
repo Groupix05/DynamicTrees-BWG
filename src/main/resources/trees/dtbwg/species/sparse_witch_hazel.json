@@ -25,21 +25,6 @@
         "scale_factor": 24
       }
     },
-    "mound",
-    {
-      "name": "biome_predicate",
-      "properties": {
-        "only_world_gen": true,
-        "gen_feature": {
-          "name": "dtbwg:huge_mushrooms",
-          "properties": {
-            "place_chance": 0.6,
-            "max_count": 2,
-            "max_attempts": 2
-          }
-        },
-        "biome_predicate": { "names": ["biomeswevegone:ebony_woods", "biomeswevegone:.*ancient_forest"] }
-      }
-    }
+    "mound"
   ]
 }

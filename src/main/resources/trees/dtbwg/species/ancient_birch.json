@@ -30,14 +30,6 @@
       }
     },
     {
-      "name": "dtbwg:huge_mushrooms",
-      "properties": {
-        "place_chance": 0.8,
-        "max_count": 2,
-        "max_attempts": 3
-      }
-    },
-    {
       "name": "dtbwg:lush_vines",
       "properties": {
         "block": "cave_vines_plant",

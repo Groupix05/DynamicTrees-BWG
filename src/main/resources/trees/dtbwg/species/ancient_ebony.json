@@ -23,28 +23,6 @@
     "mound",
     "roots",
     {
-      "name": "dtbwg:huge_mushrooms",
-      "properties": {
-        "place_chance": 0.8,
-        "max_count": 2,
-        "max_attempts": 3
-      }
-    },
-    {
-      "name": "biome_predicate",
-      "properties": {
-        "only_world_gen": true,
-        "gen_feature": {
-          "name": "shroomlight",
-          "properties": {
-            "shroomlight": "biomeswevegone:pollen_block",
-            "vanilla_grow_chance": 0
-          }
-        },
-        "biome_predicate": { "name": ".*flowering.*" }
-      }
-    },
-    {
       "name": "dtbwg:branch_sprouts",
       "properties": {
         "sprout_block": "dtbwg:shelf_fungi"

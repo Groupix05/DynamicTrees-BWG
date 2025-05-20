@@ -15,6 +15,8 @@
   "acceptable_soils": ["dirt_like", "water_like"],
   "mega_species": "dtbwg:mega_willow",
   "features": [
+    "bottom_flare",
+    "mound",
     {
       "name": "roots",
       "properties": {
@@ -23,23 +25,6 @@
         "scale_factor": 14
       }
     },
-    {
-      "name": "biome_predicate",
-      "properties": {
-        "only_world_gen": true,
-        "gen_feature": {
-          "name": "dtbwg:huge_mushrooms",
-          "properties": {
-            "place_chance": 0.2,
-            "max_count": 1,
-            "max_attempts": 3
-          }
-        },
-        "biome_predicate": { "name": "biomeswevegone:glowshroom_bayou" }
-      }
-    },
-    "mound",
-    "bottom_flare",
     {
       "name": "vines",
       "properties": {

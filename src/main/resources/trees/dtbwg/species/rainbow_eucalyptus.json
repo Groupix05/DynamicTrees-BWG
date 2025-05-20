@@ -27,37 +27,7 @@
     "biomeswevegone:rainbow_eucalyptus_sapling"
   ],
   "features": [
-    "bee_nest",
-    {
-      "name": "biome_predicate",
-      "properties": {
-        "only_world_gen": true,
-        "gen_feature": {
-          "name": "huge_mushrooms",
-          "properties": {
-            "place_chance": 0.8,
-            "max_count": 2,
-            "max_attempts": 3
-          }
-        },
-        "biome_predicate": { "name": "biomeswevegone:tropical_fungal_rainforest.*" }
-      }
-    },
-    {
-      "name": "dtbwg:biome_predicate",
-      "properties": {
-        "only_world_gen": true,
-        "gen_feature": {
-          "name": "dtbwg:huge_mushrooms",
-          "properties": {
-            "place_chance": 0.8,
-            "max_count": 2,
-            "max_attempts": 3
-          }
-        },
-        "biome_predicate": { "name": "biomeswevegone:tropical_fungal_forest.*" }
-      }
-    }
+    "bee_nest"
   ],
   "lang_overrides": {
     "seed": "Rainbow Eucalyptus Capsule"
