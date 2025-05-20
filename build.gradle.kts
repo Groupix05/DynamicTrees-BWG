@@ -184,6 +184,7 @@ modrinth {
     token.set(property("modrinthToken"))
     projectId.set(modrinthId)
     versionNumber.set("$mcVersion-$modVersion")
+    versionName.set("$modName $mcVersion-$modVersion")
     versionType.set(optionalProperty("versionType") ?: "release")
     uploadFile.set(tasks.jar.get())
     gameVersions.add(mcVersion)
