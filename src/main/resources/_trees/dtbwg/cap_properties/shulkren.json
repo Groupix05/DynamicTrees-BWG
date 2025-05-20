@@ -1,7 +1,0 @@
-{
-  "type": "dtbwg:warty_cap",
-  "primitive_cap": "biomeswevegone:shulkren_wart_block",
-  "material_color": "COLOR_PURPLE",
-
-  "shroomlight_block": "biomeswevegone:purple_shroomlight"
-}

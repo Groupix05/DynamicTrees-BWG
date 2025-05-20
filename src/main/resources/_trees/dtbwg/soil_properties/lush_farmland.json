@@ -1,5 +1,0 @@
-{
-  "primitive_soil": "biomeswevegone:lush_farmland",
-  "acceptable_soils": [ "dirt_like" ],
-  "substitute_soil" : "dtbwg:lush_dirt"
-}
