@@ -49,6 +49,7 @@ val modId = property("modId")
 val modVersion = property("modVersion")
 val mcVersion = property("mcVersion")
 val dtVersion = property("dynamicTreesVersion")
+val modrinthId = property("modrinthId")
 
 version = "$mcVersion-$modVersion"
 group = property("group")
@@ -102,7 +103,8 @@ dependencies {
     minecraft("net.minecraftforge:forge:${mcVersion}-${property("forgeVersion")}")
 
     implementation(fg.deobf("com.ferreusveritas.dynamictrees:DynamicTrees-$mcVersion:$dtVersion"))
-    implementation(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
+    //implementation(fg.deobf("com.ferreusveritas.dynamictreesplus:DynamicTreesPlus-$mcVersion:${property("dynamicTreesPlusVersion")}"))
+    implementation(fg.deobf("curse.maven:dynamictreesplus-478155:6540795"))
 
     runtimeOnly(fg.deobf("com.github.glitchfiend:TerraBlender-forge:1.20.1-3.0.1.10"))
     implementation(fg.deobf("corgitaco.corgilib:Corgilib-Forge:1.20.1-4.0.3.3"))
@@ -170,6 +172,24 @@ curseforge {
                 requiredDependency("dynamictreesplus")
             }
         }
+    }
+}
+
+modrinth {
+    if (!project.hasProperty("modrinthToken")) {
+        project.logger.warn("Token for Modrinth not detected; uploading will be disabled.")
+        return@modrinth
+    }
+
+    token.set(property("modrinthToken"))
+    projectId.set(modrinthId)
+    versionNumber.set("$mcVersion-$modVersion")
+    versionType.set(optionalProperty("versionType") ?: "release")
+    uploadFile.set(tasks.jar.get())
+    gameVersions.add(mcVersion)
+    changelog.set(changelogFile.readText())
+    dependencies {
+        required.project("vdjF5PL5", "qaO9Dqpu", "NTi7d3Xc")
     }
 }
 
