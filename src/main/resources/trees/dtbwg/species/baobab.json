@@ -26,7 +26,18 @@
     "dtbwg:baobab_fruit"
   ],
   "features" : [
-    "mound",
+    {
+      "name": "clear_volume",
+      "properties": {
+        "height": 20
+      }
+    },
+    {
+      "name": "mound",
+      "properties": {
+        "offset": false
+      }
+    },
     {
       "name": "fruit",
       "properties": {
