@@ -673,12 +673,12 @@
     }
   },
   {
-    "select": { "tag" : "#minecraft:is_beach" },
+    "select": { "tags" : ["#minecraft:is_beach", "!#forge:is_snowy"] },
     "apply": {
       "species": {
         "method": "splice_before",
         "random": {
-          "...": 24,
+          "...": 48,
           "dtbwg:palm": 1,
           "dtbwg:mega_palm": 1
         }
@@ -739,9 +739,10 @@
     "apply": {
       "species": {
         "random": {
-          "dtbwg:palo_verde": 1,
-          "dynamictreesplus:pillar_cactus": 2,
-          "dynamictreesplus:pipe_cactus": 1
+          "dtbwg:palo_verde": 2,
+          "dynamictreesplus:pillar_cactus": 4,
+          "dynamictreesplus:pipe_cactus": 2,
+          "dynamictreesplus:saguaro_cactus": 1
         }
       },
       "density": [ 0.5 ],
@@ -752,12 +753,7 @@
     "only_if_loaded": "dynamictreesplus",
     "select": "biomeswevegone:windswept_desert",
     "apply": {
-      "species": {
-        "random": {
-          "dynamictreesplus:pillar_cactus": 2,
-          "dynamictreesplus:pipe_cactus": 1
-        }
-      },
+      "species": "dynamictreesplus:pipe_cactus",
       "density": [ 0.8 ],
       "chance": 0.1
     }
