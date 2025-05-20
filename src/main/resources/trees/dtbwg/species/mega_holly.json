@@ -21,24 +21,21 @@
     "wet": 0.75
   },
   "perfect_biomes": { "name": ".*dacite_ridges.*" },
-  "fruits": [
-    "dtbwg:holly_berries"
-  ],
   "features" : [
-    "conifer_topper",
+    "clear_volume",
+    "bottom_flare",
     {
       "name": "mound",
       "properties": {
         "mound_cutoff_radius": 999
       }
     },
-    "clear_volume",
     "podzol",
-    "bottom_flare",
     {
-      "name": "fruit",
+      "name": "alt_leaves",
       "properties": {
-        "fruit": "dtbwg:holly_berries"
+        "alternative_leaves": "dtbwg:holly_berry",
+        "place_chance": 0.1
       }
     }
   ]

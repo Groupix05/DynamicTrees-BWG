@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-19T00:23:34.2977078	Loot Tables
+// 1.20.1	2025-05-20T14:43:07.8190141	Loot Tables
 8c88c8a74b42e9e6b8223cdc6ec6f35ef3ab8752 data/dtbwg/loot_tables/blocks/allium_leaves.json
 c8fa2e65eef15787197e76bca3a77d2557efb40a data/dtbwg/loot_tables/blocks/ancient_ebony_leaves.json
 6f3de234e3bb44f79c8b6bbf627bca383a4188cc data/dtbwg/loot_tables/blocks/ancient_oak_leaves.json
@@ -16,7 +16,7 @@ f2537a848749a4c35bb24dbe75183cd17b915872 data/dtbwg/loot_tables/blocks/blue_ench
 c82ed76c269a0d2eb674fedac9befcb5dbbb108d data/dtbwg/loot_tables/blocks/cypress_leaves.json
 bd821ca3f69d4b8fdb9808e5ff4a473e6853dddd data/dtbwg/loot_tables/blocks/dark_oak_twiglet_leaves.json
 6e1b930b82cc6c512d4105a8a977434c8440ebe8 data/dtbwg/loot_tables/blocks/ebony_leaves.json
-7adcb1976ab1f3283106cd6f52bdfa9bbd00447f data/dtbwg/loot_tables/blocks/firecracker_leaves.json
+df37f2c47748589a29e9576f331f056d937b9550 data/dtbwg/loot_tables/blocks/firecracker_leaves.json
 0f7d70e89b63d34cce5db6e05b5a7765c03d9672 data/dtbwg/loot_tables/blocks/firecracker_twiglet_leaves.json
 f88524f8f7139cbdfa6c4b2daa87cb380b84c43b data/dtbwg/loot_tables/blocks/fir_leaves.json
 442c8d42424756219eb22c71265d2135d52fbd73 data/dtbwg/loot_tables/blocks/flowering_indigo_jacaranda_leaves.json
@@ -29,6 +29,7 @@ a6c78e27c5847e4c3a30cf4b9194c0c6e9d3f3bc data/dtbwg/loot_tables/blocks/flowering
 303b714c622231fa3b3a96e8a4fdc20510c8b463 data/dtbwg/loot_tables/blocks/green_apple_skyris_leaves.json
 cd8a930ca61842c1a74bdbb789f0658766264306 data/dtbwg/loot_tables/blocks/green_enchanted_leaves.json
 0879c47d9a6aff69f35fd5bccc42cac3cdd5c189 data/dtbwg/loot_tables/blocks/green_mushroom_cap.json
+d88e08dfd1ffe610521a7fcaeb78f12bb482db94 data/dtbwg/loot_tables/blocks/holly_berry_leaves.json
 28698258b977714233d8fa1a29133096c51c6ddd data/dtbwg/loot_tables/blocks/holly_leaves.json
 efbbaa4a7612bf7c7138d6c160b3572287931e4d data/dtbwg/loot_tables/blocks/indigo_jacaranda_leaves.json
 7861fede095a3c6f044abaf9904a2d2be84e6d68 data/dtbwg/loot_tables/blocks/ironwood_leaves.json
@@ -152,6 +153,7 @@ ae54aef6d92631b3f0fb0f3998bbe7cd33705a70 data/dtbwg/loot_tables/trees/leaves/flo
 130cea64157f4f4a885543740c92fd7144d0c226 data/dtbwg/loot_tables/trees/leaves/green_apple_skyris.json
 49e167011ef04f1c591dc232af55e60700377a02 data/dtbwg/loot_tables/trees/leaves/green_enchanted.json
 10086fafaf9508404771f25e4d87135dda8827a9 data/dtbwg/loot_tables/trees/leaves/holly.json
+141717a525b3226ae468239816a0bc913998b5e8 data/dtbwg/loot_tables/trees/leaves/holly_berry.json
 23a660e6097779f9a109950859b2666d3b5e02a3 data/dtbwg/loot_tables/trees/leaves/indigo_jacaranda.json
 0f11f7081209bcbfe89f80d41224f7bb38260eb7 data/dtbwg/loot_tables/trees/leaves/ironwood.json
 59ffb7521da6be0ad0cffae2c71bdaf44dc68f8c data/dtbwg/loot_tables/trees/leaves/jacaranda.json

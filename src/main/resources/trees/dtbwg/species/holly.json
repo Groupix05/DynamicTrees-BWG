@@ -17,23 +17,12 @@
     "biomeswevegone:holly_sapling"
   ],
   "mega_species": "dtbwg:mega_holly",
-  "fruits": [
-    "dtbwg:holly_berries"
-  ],
   "features" : [
-    "conifer_topper",
     {
       "name": "alt_leaves",
       "properties": {
         "alternative_leaves": "dtbwg:holly_berry",
-        "place_chance": 0
-      }
-    },
-    {
-      "name": "fruit",
-      "properties": {
-        "fruit": "dtbwg:holly_berries",
-        "quantity": 6
+        "place_chance": 0.1
       }
     }
   ],

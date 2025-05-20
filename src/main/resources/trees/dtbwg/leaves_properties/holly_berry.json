@@ -1,0 +1,11 @@
+{
+  "primitive_leaves": "biomeswevegone:holly_berry_leaves",
+  "cell_kit": "dtbwg:round_conifer",
+  "smother": 9,
+  "model_overrides": {
+    "leaves": "biomeswevegone:block/holly_berry_leaves"
+  },
+  "texture_overrides": {
+    "leaves": "biomeswevegone:block/holly_berry_leaves"
+  }
+}

@@ -1,4 +1,4 @@
-// 1.20.1	2025-05-19T00:23:34.2938067	Block States: dtbwg
+// 1.20.1	2025-05-20T14:43:07.8136389	Block States: dtbwg
 518ece7ddd6c906e13149206f48581853018a9c1 assets/dtbwg/blockstates/allium_leaves.json
 204870aea2582d8b3905141141faca073f84a230 assets/dtbwg/blockstates/allium_sapling.json
 1932eaa3a25daf517d6c6d0d36691af7815e3920 assets/dtbwg/blockstates/ancient_ebony_leaves.json
@@ -52,6 +52,7 @@ f811da7c236646f2ee3c0f16807a2bf3a3c08f3a assets/dtbwg/blockstates/green_enchante
 315787154842499f19d44d26cc0d7b463a459831 assets/dtbwg/blockstates/green_mushroom_cap.json
 3f0012048bc0d77b10a6a263b410cc63550a83f8 assets/dtbwg/blockstates/green_mushroom_cap_center.json
 049ab8a35fdf1c6290a80ee8a6a61baf6d064809 assets/dtbwg/blockstates/green_mushroom_sapling.json
+6b99afea3dec9fe858f6d6387b2a284ce747a817 assets/dtbwg/blockstates/holly_berry_leaves.json
 608ad176101e0c9cf7714a4a79d067613d07154a assets/dtbwg/blockstates/holly_branch.json
 840195c9d782f1d67c379724f74689635f488c1f assets/dtbwg/blockstates/holly_leaves.json
 8d4c0b193770cd86dbf022ec82279b7b81fba5f4 assets/dtbwg/blockstates/holly_sapling.json
