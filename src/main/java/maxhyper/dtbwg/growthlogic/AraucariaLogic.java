@@ -36,7 +36,7 @@ public class AraucariaLogic extends VariateHeightLogic {
     @Override
     public int[] populateDirectionProbabilityMap(GrowthLogicKitConfiguration configuration, DirectionManipulationContext context) {
         final GrowSignal signal = context.signal();
-        final int[] probMap = context.probMap();
+        final int[] probMap = super.populateDirectionProbabilityMap(configuration, context);
 
         //Alter probability map for direction change
         float energy = context.species().getEnergy(context.level(), signal.rootPos);
@@ -54,7 +54,6 @@ public class AraucariaLogic extends VariateHeightLogic {
                 probMap[Direction.UP.ordinal()] *= 10;
             }
         }
-
 
         return probMap;
     }
@@ -75,6 +74,6 @@ public class AraucariaLogic extends VariateHeightLogic {
 
     @Override
     public int getLowestBranchHeight(GrowthLogicKitConfiguration configuration, PositionalSpeciesContext context) {
-        return super.getLowestBranchHeight(configuration, context) + (int)getHashedVariation(context.level(), context.pos(), configuration.get(LOWEST_BRANCH_VARIATION));
+        return super.getLowestBranchHeight(configuration, context) + getHashedVariation(context.level(), context.pos(), configuration.get(LOWEST_BRANCH_VARIATION));
     }
 }
